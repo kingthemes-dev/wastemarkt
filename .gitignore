@@ -1,0 +1,13 @@
+# WordPress standard
+*.log
+*.sql
+wp-config.php
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/cache/
+node_modules/
+.env
+.DS_Store
+.idea/
+.vscode/
+
