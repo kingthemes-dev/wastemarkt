@@ -1,0 +1,15 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"title": "Store Listings",
+	"name": "rtcl/store-listing",
+	"category": "rtcl-store-single-block",
+	"description": "Store Listing block description",
+	"keywords": [
+	  "listing",
+	  "store",
+	  "store listings"
+	 ],
+	"apiVersion": 2,
+	"textdomain": "rtcl-elementor-builder"
+  }
+  

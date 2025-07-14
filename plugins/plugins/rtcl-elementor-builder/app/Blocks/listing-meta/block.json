@@ -1,0 +1,14 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"title": "Meta",
+	"name": "rtcl/listing-meta",
+	"category": "rtcl-single-block",
+	"description": "Listing meta block description",
+	"keywords": [
+		"listing",
+		"meta",
+		"listing meta"
+	],
+	"apiVersion": 2,
+	"textdomain": "rtcl-elementor-builder"
+}

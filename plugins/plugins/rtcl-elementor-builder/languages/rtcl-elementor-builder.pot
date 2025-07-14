@@ -1,0 +1,4664 @@
+# Copyright (C) 2023 RadiusTheme
+# This file is distributed under the same license as the Classified Listing – Gutenberg & Elementor Archive & Single Page Builder Addon plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Classified Listing – Gutenberg & Elementor Archive & Single Page Builder Addon 2.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/rtcl-elementor-builder\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-12-28T06:09:44+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.8.1\n"
+"X-Domain: rtcl-elementor-builder\n"
+
+#. Plugin Name of the plugin
+msgid "Classified Listing – Gutenberg & Elementor Archive & Single Page Builder Addon"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://radiustheme.com/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Provides RTCL Gutenberg & Elementor Archive And Single Page Builder."
+msgstr ""
+
+#. Author of the plugin
+msgid "RadiusTheme"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "www.radiustheme.com"
+msgstr ""
+
+#: app/Blocks/ArchiveListingAjax.php:34
+#: app/Blocks/ArchiveListingAjax.php:55
+#: app/Blocks/ArchiveListingAjax.php:119
+#: app/Blocks/ArchiveListingAjax.php:145
+#: app/Blocks/RelatedListingAjax.php:178
+#: app/Blocks/SingleListingAjax.php:34
+#: app/Blocks/SingleListingAjax.php:56
+#: app/Blocks/SingleListingAjax.php:93
+#: app/Blocks/StoreAjax.php:22
+msgid "Session Expired!!"
+msgstr ""
+
+#: app/Blocks/ArchiveListingAjax.php:186
+#: app/Blocks/RelatedListingAjax.php:97
+#: templates/blocks/listing-single/listing-image.php:43
+#: templates/elementor/single/image.php:35
+msgid "Sold Out"
+msgstr ""
+
+#: app/Blocks/ArchiveListingAjax.php:201
+#: app/Blocks/RelatedListingAjax.php:112
+#: templates/blocks/listing-archive/listing-archive/grid/style-1.php:81
+#: templates/blocks/listing-archive/listing-archive/grid/style-2.php:80
+#: templates/blocks/listing-archive/listing-archive/grid/style-3.php:212
+#: templates/blocks/listing-archive/listing-archive/grid/style-4.php:81
+#: templates/blocks/listing-archive/listing-archive/grid/style-5.php:204
+#: templates/blocks/listing-archive/listing-archive/list/style-1.php:89
+#: templates/blocks/listing-archive/listing-archive/list/style-1.php:91
+#: templates/blocks/listing-archive/listing-archive/list/style-2.php:83
+#: templates/blocks/listing-archive/listing-archive/list/style-3.php:80
+#: templates/blocks/listing-archive/listing-archive/list/style-4.php:186
+#: templates/blocks/listing-archive/listing-archive/list/style-5.php:181
+#: templates/blocks/listing-single/related-listing/grid/style-1.php:74
+#: templates/blocks/listing-single/related-listing/grid/style-2.php:73
+#: templates/blocks/listing-single/related-listing/grid/style-3.php:216
+#: templates/blocks/listing-single/related-listing/grid/style-4.php:75
+#: templates/blocks/listing-single/related-listing/grid/style-5.php:204
+#: templates/elementor/listing-archive/grid/style-1.php:80
+#: templates/elementor/listing-archive/grid/style-2.php:80
+#: templates/elementor/listing-archive/grid/style-3.php:215
+#: templates/elementor/listing-archive/grid/style-4.php:80
+#: templates/elementor/listing-archive/grid/style-5.php:206
+#: templates/elementor/listing-archive/list/style-1.php:88
+#: templates/elementor/listing-archive/list/style-1.php:90
+#: templates/elementor/listing-archive/list/style-2.php:83
+#: templates/elementor/listing-archive/list/style-3.php:82
+#: templates/elementor/listing-archive/list/style-4.php:185
+#: templates/elementor/listing-archive/list/style-5.php:180
+#: templates/elementor/single/related-listing/grid/style-1.php:74
+#: templates/elementor/single/related-listing/grid/style-2.php:74
+#: templates/elementor/single/related-listing/grid/style-3.php:218
+#: templates/elementor/single/related-listing/grid/style-4.php:76
+#: templates/elementor/single/related-listing/grid/style-5.php:206
+msgid "Compare"
+msgstr ""
+
+#: app/Blocks/ArchiveListingAjax.php:211
+#: app/Blocks/RelatedListingAjax.php:122
+#: templates/blocks/listing-archive/listing-archive/grid/style-1.php:57
+#: templates/blocks/listing-archive/listing-archive/grid/style-2.php:56
+#: templates/blocks/listing-archive/listing-archive/grid/style-3.php:188
+#: templates/blocks/listing-archive/listing-archive/grid/style-4.php:57
+#: templates/blocks/listing-archive/listing-archive/grid/style-5.php:184
+#: templates/blocks/listing-archive/listing-archive/list/style-1.php:63
+#: templates/blocks/listing-archive/listing-archive/list/style-1.php:65
+#: templates/blocks/listing-archive/listing-archive/list/style-2.php:59
+#: templates/blocks/listing-archive/listing-archive/list/style-3.php:56
+#: templates/blocks/listing-archive/listing-archive/list/style-4.php:167
+#: templates/blocks/listing-archive/listing-archive/list/style-5.php:162
+#: templates/blocks/listing-single/related-listing/grid/style-1.php:50
+#: templates/blocks/listing-single/related-listing/grid/style-2.php:49
+#: templates/blocks/listing-single/related-listing/grid/style-3.php:192
+#: templates/blocks/listing-single/related-listing/grid/style-4.php:51
+#: templates/blocks/listing-single/related-listing/grid/style-5.php:184
+#: templates/elementor/listing-archive/grid/style-1.php:56
+#: templates/elementor/listing-archive/grid/style-2.php:56
+#: templates/elementor/listing-archive/grid/style-3.php:189
+#: templates/elementor/listing-archive/grid/style-4.php:56
+#: templates/elementor/listing-archive/grid/style-5.php:184
+#: templates/elementor/listing-archive/list/style-1.php:62
+#: templates/elementor/listing-archive/list/style-1.php:64
+#: templates/elementor/listing-archive/list/style-2.php:59
+#: templates/elementor/listing-archive/list/style-3.php:56
+#: templates/elementor/listing-archive/list/style-4.php:166
+#: templates/elementor/listing-archive/list/style-5.php:161
+#: templates/elementor/single/related-listing/grid/style-1.php:50
+#: templates/elementor/single/related-listing/grid/style-2.php:49
+#: templates/elementor/single/related-listing/grid/style-3.php:193
+#: templates/elementor/single/related-listing/grid/style-4.php:51
+#: templates/elementor/single/related-listing/grid/style-5.php:184
+msgid "Quick View"
+msgstr ""
+
+#: app/Blocks/SingleListingAjax.php:40
+#: app/Widgets/WidgetSettings/ListingCustomFieldsSettings.php:40
+msgid "All Group"
+msgstr ""
+
+#: app/Blocks/SingleListingAjax.php:333
+#: templates/blocks/listing-single/listing-review.php:114
+#: templates/elementor/single/review.php:112
+msgid "There are no reviews yet."
+msgstr ""
+
+#. translators: %s: Listing Litle
+#: app/Blocks/SingleListingAjax.php:347
+#: templates/blocks/listing-single/listing-review.php:129
+#: templates/elementor/single/review.php:126
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr ""
+
+#. translators: %s: Autor Name
+#: app/Blocks/SingleListingAjax.php:349
+#: templates/blocks/listing-single/listing-review.php:131
+#: templates/elementor/single/review.php:128
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: app/Blocks/SingleListingAjax.php:354
+#: templates/blocks/listing-single/listing-review.php:136
+#: templates/elementor/single/review.php:133
+msgid "Name"
+msgstr ""
+
+#: app/Blocks/SingleListingAjax.php:356
+#: templates/blocks/listing-single/listing-review.php:138
+#: templates/elementor/single/review.php:135
+msgid "Email"
+msgstr ""
+
+#: app/Blocks/SingleListingAjax.php:359
+#: templates/blocks/listing-single/listing-review.php:141
+#: templates/elementor/single/review.php:138
+msgid "Submit"
+msgstr ""
+
+#. translators: %s: Account page url
+#: app/Blocks/SingleListingAjax.php:367
+#: templates/blocks/listing-single/listing-review.php:149
+#: templates/elementor/single/review.php:146
+msgid "You must be <a href=\"%s\">logged in</a> to post a review."
+msgstr ""
+
+#: app/Blocks/SingleListingAjax.php:371
+#: templates/blocks/listing-single/listing-review.php:153
+#: templates/elementor/single/review.php:149
+msgid "Review title"
+msgstr ""
+
+#: app/Blocks/SingleListingAjax.php:386
+#: templates/blocks/listing-single/listing-review.php:168
+#: templates/elementor/single/review.php:161
+msgid "Your review"
+msgstr ""
+
+#: app/Blocks/StoreAjax.php:76
+#: templates/blocks/store-single/opening.php:44
+#: templates/elementor/store-single/details-modal.php:61
+#: templates/elementor/store-single/opening.php:41
+msgid "Closed"
+msgstr ""
+
+#: app/Blocks/StoreAjax.php:82
+#: templates/blocks/store-single/opening.php:50
+#: templates/elementor/store-single/details-modal.php:67
+#: templates/elementor/store-single/opening.php:47
+msgid "Permanently Close"
+msgstr ""
+
+#: app/Blocks/StoreAjax.php:85
+#: templates/blocks/store-single/opening.php:53
+#: templates/elementor/store-single/details-modal.php:70
+#: templates/elementor/store-single/opening.php:50
+msgid "Always Open"
+msgstr ""
+
+#: app/Controllers/AdminNotices.php:113
+msgid "and"
+msgstr ""
+
+#: app/Controllers/Ajax/ELProAjax.php:49
+msgid "Template Settings"
+msgstr ""
+
+#: app/Controllers/Ajax/ELProAjax.php:54
+msgid "Session Expired..."
+msgstr ""
+
+#: app/Controllers/Ajax/ELProAjax.php:83
+#: app/Controllers/Ajax/ELProAjax.php:84
+msgid "Template name"
+msgstr ""
+
+#: app/Controllers/Ajax/ELProAjax.php:85
+msgid "This field is required"
+msgstr ""
+
+#: app/Controllers/Ajax/ELProAjax.php:88
+msgid "Template Type"
+msgstr ""
+
+#: app/Controllers/Ajax/ELProAjax.php:100
+#: app/Controllers/Builder/TemplateBuilder.php:93
+msgid "Editor Type"
+msgstr ""
+
+#: app/Controllers/Ajax/ELProAjax.php:103
+msgid "Elementor"
+msgstr ""
+
+#: app/Controllers/Ajax/ELProAjax.php:105
+msgid "Gutenberg"
+msgstr ""
+
+#: app/Controllers/Ajax/ELProAjax.php:111
+msgid "Set Default Template"
+msgstr ""
+
+#: app/Controllers/Ajax/ELProAjax.php:117
+msgid "Save"
+msgstr ""
+
+#: app/Controllers/BlockController.php:112
+#: app/Controllers/ElementorController.php:110
+msgid "Single Listing"
+msgstr ""
+
+#: app/Controllers/BlockController.php:119
+#: app/Controllers/ElementorController.php:116
+#: app/Widgets/ListingArchive.php:42
+msgid "Archive Listing"
+msgstr ""
+
+#: app/Controllers/BlockController.php:126
+#: app/Controllers/ElementorController.php:122
+msgid "Store Single"
+msgstr ""
+
+#: app/Controllers/BlockController.php:138
+#: app/Controllers/BlockController.php:152
+msgid "CL Block Pattern"
+msgstr ""
+
+#: app/Controllers/BlockController.php:153
+msgid "Description of CL block pattern."
+msgstr ""
+
+#: app/Controllers/Builder/TemplateBuilder.php:170
+msgctxt "Post Type General Name"
+msgid "Template Builder"
+msgstr ""
+
+#: app/Controllers/Builder/TemplateBuilder.php:171
+msgctxt "Post Type Singular Name"
+msgid "Template Builder"
+msgstr ""
+
+#: app/Controllers/Builder/TemplateBuilder.php:172
+#: app/Controllers/Builder/TemplateBuilder.php:173
+#: app/Controllers/Builder/TemplateBuilder.php:177
+#: app/Controllers/Builder/TemplateBuilder.php:200
+msgid "Template Builder"
+msgstr ""
+
+#: app/Controllers/Builder/TemplateBuilder.php:174
+msgid "Template Archives"
+msgstr ""
+
+#: app/Controllers/Builder/TemplateBuilder.php:175
+msgid "Template Attributes"
+msgstr ""
+
+#: app/Controllers/Builder/TemplateBuilder.php:176
+msgid "Parent Item:"
+msgstr ""
+
+#: app/Controllers/Builder/TemplateBuilder.php:178
+msgid "Add New Template"
+msgstr ""
+
+#: app/Controllers/Builder/TemplateBuilder.php:179
+msgid "Add New"
+msgstr ""
+
+#: app/Controllers/Builder/TemplateBuilder.php:180
+msgid "New Template"
+msgstr ""
+
+#: app/Controllers/Builder/TemplateBuilder.php:181
+msgid "Edit Template"
+msgstr ""
+
+#: app/Controllers/Builder/TemplateBuilder.php:182
+msgid "Update Template"
+msgstr ""
+
+#: app/Controllers/Builder/TemplateBuilder.php:183
+msgid "View Template"
+msgstr ""
+
+#: app/Controllers/Builder/TemplateBuilder.php:184
+msgid "View Templates"
+msgstr ""
+
+#: app/Controllers/Builder/TemplateBuilder.php:185
+msgid "Search Templates"
+msgstr ""
+
+#: app/Controllers/Builder/TemplateBuilder.php:186
+msgid "Not found"
+msgstr ""
+
+#: app/Controllers/Builder/TemplateBuilder.php:187
+msgid "Not found in Trash"
+msgstr ""
+
+#: app/Controllers/Builder/TemplateBuilder.php:188
+msgid "Featured Image"
+msgstr ""
+
+#: app/Controllers/Builder/TemplateBuilder.php:189
+msgid "Set featured image"
+msgstr ""
+
+#: app/Controllers/Builder/TemplateBuilder.php:190
+msgid "Remove featured image"
+msgstr ""
+
+#: app/Controllers/Builder/TemplateBuilder.php:191
+msgid "Use as featured image"
+msgstr ""
+
+#: app/Controllers/Builder/TemplateBuilder.php:192
+msgid "Insert into Template"
+msgstr ""
+
+#: app/Controllers/Builder/TemplateBuilder.php:193
+msgid "Uploaded to this Template"
+msgstr ""
+
+#: app/Controllers/Builder/TemplateBuilder.php:194
+msgid "Templates list"
+msgstr ""
+
+#: app/Controllers/Builder/TemplateBuilder.php:195
+msgid "Templates list navigation"
+msgstr ""
+
+#: app/Controllers/Builder/TemplateBuilder.php:196
+msgid "Filter from list"
+msgstr ""
+
+#: app/Controllers/Builder/TemplateBuilder.php:201
+msgid "Classified listing Template"
+msgstr ""
+
+#: app/Controllers/Builder/TemplateBuilder.php:251
+msgid "All"
+msgstr ""
+
+#: app/Controllers/Builder/TemplateBuilder.php:252
+msgid "Defaults"
+msgstr ""
+
+#: app/Controllers/Builder/TemplateBuilder.php:312
+msgid "Edit With Gutenberg"
+msgstr ""
+
+#: app/Controllers/Hooks/ActionHooks.php:45
+msgid "See all timings"
+msgstr ""
+
+#: app/Controllers/Hooks/FilterHooks.php:65
+msgid "Elementor Builder plugin license key"
+msgstr ""
+
+#: app/Traits/ELTempleateBuilderTraits.php:57
+msgid "Single"
+msgstr ""
+
+#: app/Traits/ELTempleateBuilderTraits.php:58
+msgid "Archive"
+msgstr ""
+
+#: app/Traits/ELTempleateBuilderTraits.php:61
+msgid "Store single"
+msgstr ""
+
+#: app/Traits/Singleton.php:50
+#: app/Traits/Singleton.php:57
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: app/Widgets/Classima/FeaturesList.php:34
+msgid "Features List"
+msgstr ""
+
+#: app/Widgets/ListingActions.php:39
+msgid "Actions & Social Share"
+msgstr ""
+
+#: app/Widgets/ListingBadge.php:34
+msgid "Listing Badge"
+msgstr ""
+
+#: app/Widgets/ListingBooking.php:37
+msgid "Listing Booking"
+msgstr ""
+
+#: app/Widgets/ListingBusinessHours.php:39
+msgid "Business Hours"
+msgstr ""
+
+#: app/Widgets/ListingCustomFields.php:34
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:435
+#: src/blocks/listing-archive/inspector.js:802
+#: src/blocks/store-listing/inspector.js:604
+#: src/blocks/store-listing/inspector.js:977
+msgid "Custom Fields"
+msgstr ""
+
+#: app/Widgets/ListingDescription.php:37
+msgid "Listing Description"
+msgstr ""
+
+#: app/Widgets/ListingImage.php:39
+msgid "Listing Image"
+msgstr ""
+
+#: app/Widgets/ListingMap.php:39
+msgid "Listing Map"
+msgstr ""
+
+#: app/Widgets/ListingMeta.php:34
+msgid "Listing Meta"
+msgstr ""
+
+#: app/Widgets/ListingPageHeader.php:39
+msgid "Page Header"
+msgstr ""
+
+#: app/Widgets/ListingPrice.php:35
+msgid "Listing Price"
+msgstr ""
+
+#: app/Widgets/ListingReview.php:34
+msgid "Listing Review"
+msgstr ""
+
+#: app/Widgets/ListingSellerInformation.php:40
+msgid "Seller Information"
+msgstr ""
+
+#: app/Widgets/ListingSocialProfiles.php:34
+msgid "Social Profiles"
+msgstr ""
+
+#: app/Widgets/ListingTitle.php:39
+msgid "Listing Title"
+msgstr ""
+
+#: app/Widgets/ListingVideo.php:34
+msgid "Listing Video"
+msgstr ""
+
+#: app/Widgets/RelatedListings.php:41
+msgid "Related Listings"
+msgstr ""
+
+#: app/Widgets/StoreBanner.php:26
+msgid "Store Banner"
+msgstr ""
+
+#: app/Widgets/StoreContactInfo.php:28
+msgid "Store Contact Info"
+msgstr ""
+
+#: app/Widgets/StoreDescription.php:26
+msgid "Store Description"
+msgstr ""
+
+#: app/Widgets/StoreListings.php:34
+msgid "Store Listings"
+msgstr ""
+
+#: app/Widgets/StoreName.php:26
+msgid "Store Name"
+msgstr ""
+
+#: app/Widgets/StoreOpeningHours.php:26
+msgid "Store Opening Hours"
+msgstr ""
+
+#: app/Widgets/StoreSlogan.php:26
+msgid "Store Slogan"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/FeaturesListSettings.php:56
+#: app/Widgets/WidgetSettings/ListingActionsSettings.php:64
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:275
+#: src/blocks/related-listing/inspector.js:222
+#: src/blocks/store-banner/inspector.js:118
+#: src/blocks/store-listing/inspector.js:444
+msgid "Content Visibility"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/FeaturesListSettings.php:61
+#: app/Widgets/WidgetSettings/ListingPageHeaderSettings.php:67
+#: assets/blocks/main.js:1
+#: src/blocks/custom-fields/inspector.js:117
+#: src/blocks/listing-features/inspector.js:68
+msgid "Show Title"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/FeaturesListSettings.php:62
+#: app/Widgets/WidgetSettings/ListingActionsSettings.php:70
+#: app/Widgets/WidgetSettings/ListingActionsSettings.php:79
+#: app/Widgets/WidgetSettings/ListingActionsSettings.php:88
+#: app/Widgets/WidgetSettings/ListingActionsSettings.php:97
+#: app/Widgets/WidgetSettings/ListingCustomFieldsSettings.php:91
+#: app/Widgets/WidgetSettings/ListingDescriptionSettings.php:51
+#: app/Widgets/WidgetSettings/ListingImageSettings.php:65
+#: app/Widgets/WidgetSettings/ListingImageSettings.php:74
+#: app/Widgets/WidgetSettings/ListingImageSettings.php:83
+#: app/Widgets/WidgetSettings/ListingImageSettings.php:92
+#: app/Widgets/WidgetSettings/ListingImageSettings.php:101
+#: app/Widgets/WidgetSettings/ListingImageSettings.php:110
+#: app/Widgets/WidgetSettings/ListingImageSettings.php:119
+#: app/Widgets/WidgetSettings/ListingMetaSettings.php:111
+#: app/Widgets/WidgetSettings/ListingMetaSettings.php:120
+#: app/Widgets/WidgetSettings/ListingMetaSettings.php:129
+#: app/Widgets/WidgetSettings/ListingMetaSettings.php:138
+#: app/Widgets/WidgetSettings/ListingMetaSettings.php:147
+#: app/Widgets/WidgetSettings/ListingMetaSettings.php:156
+#: app/Widgets/WidgetSettings/ListingPageHeaderSettings.php:68
+#: app/Widgets/WidgetSettings/ListingPageHeaderSettings.php:77
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:69
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:89
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:107
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:124
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:134
+msgid "On"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/FeaturesListSettings.php:63
+#: app/Widgets/WidgetSettings/ListingActionsSettings.php:71
+#: app/Widgets/WidgetSettings/ListingActionsSettings.php:80
+#: app/Widgets/WidgetSettings/ListingActionsSettings.php:89
+#: app/Widgets/WidgetSettings/ListingActionsSettings.php:98
+#: app/Widgets/WidgetSettings/ListingCustomFieldsSettings.php:92
+#: app/Widgets/WidgetSettings/ListingDescriptionSettings.php:52
+#: app/Widgets/WidgetSettings/ListingImageSettings.php:66
+#: app/Widgets/WidgetSettings/ListingImageSettings.php:75
+#: app/Widgets/WidgetSettings/ListingImageSettings.php:84
+#: app/Widgets/WidgetSettings/ListingImageSettings.php:93
+#: app/Widgets/WidgetSettings/ListingImageSettings.php:102
+#: app/Widgets/WidgetSettings/ListingImageSettings.php:111
+#: app/Widgets/WidgetSettings/ListingImageSettings.php:120
+#: app/Widgets/WidgetSettings/ListingMetaSettings.php:112
+#: app/Widgets/WidgetSettings/ListingMetaSettings.php:121
+#: app/Widgets/WidgetSettings/ListingMetaSettings.php:130
+#: app/Widgets/WidgetSettings/ListingMetaSettings.php:139
+#: app/Widgets/WidgetSettings/ListingMetaSettings.php:148
+#: app/Widgets/WidgetSettings/ListingMetaSettings.php:157
+#: app/Widgets/WidgetSettings/ListingPageHeaderSettings.php:69
+#: app/Widgets/WidgetSettings/ListingPageHeaderSettings.php:78
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:70
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:90
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:108
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:125
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:135
+msgid "Off"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/FeaturesListSettings.php:65
+msgid "Switch to Show Title"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/FeaturesListSettings.php:70
+msgid "Items Gap"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/FeaturesListSettings.php:79
+#: assets/blocks/main.js:1
+#: src/blocks/listing-features/inspector.js:85
+msgid "List Column"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingActionsSettings.php:69
+#: assets/blocks/main.js:1
+#: src/blocks/listing-actions/inspector.js:83
+msgid "Show Favourites"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingActionsSettings.php:78
+#: assets/blocks/main.js:1
+#: src/blocks/listing-actions/inspector.js:88
+msgid "Show Report Abuse"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingActionsSettings.php:87
+#: assets/blocks/main.js:1
+#: src/blocks/listing-actions/inspector.js:93
+msgid "Show Social Share"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingActionsSettings.php:96
+#: assets/blocks/main.js:1
+#: src/blocks/listing-actions/inspector.js:98
+msgid "Inline Style"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingActionsSettings.php:121
+#: assets/blocks/main.js:1
+#: src/blocks/listing-actions/inspector.js:107
+msgid "Action"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingActionsSettings.php:127
+#: app/Widgets/WidgetSettings/ListingBookingSettings.php:165
+#: app/Widgets/WidgetSettings/ListingBookingSettings.php:288
+#: app/Widgets/WidgetSettings/ListingBookingSettings.php:403
+#: app/Widgets/WidgetSettings/ListingBusinessHoursSettings.php:128
+#: app/Widgets/WidgetSettings/ListingDescriptionSettings.php:131
+#: app/Widgets/WidgetSettings/ListingMetaSettings.php:69
+#: app/Widgets/WidgetSettings/ListingPageHeaderSettings.php:189
+#: app/Widgets/WidgetSettings/ListingPageHeaderSettings.php:234
+#: app/Widgets/WidgetSettings/ListingPriceSettings.php:134
+#: app/Widgets/WidgetSettings/ListingPriceSettings.php:204
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:306
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:418
+#: app/Widgets/WidgetSettings/ListingSellerInfoSettings.php:223
+#: app/Widgets/WidgetSettings/ListingTitleSettings.php:119
+#: app/Widgets/WidgetSettings/StoreContactInfoSettings.php:124
+#: app/Widgets/WidgetSettings/StoreContactInfoSettings.php:259
+#: app/Widgets/WidgetSettings/StoreDescriptionSettings.php:53
+#: app/Widgets/WidgetSettings/StoreOpeningHoursSettings.php:73
+#: assets/blocks/main.js:1
+#: src/blocks/business-hours/inspector.js:98
+#: src/blocks/custom-fields/inspector.js:154
+#: src/blocks/listing-actions/inspector.js:109
+#: src/blocks/listing-archive/inspector.js:690
+#: src/blocks/listing-booking/inspector.js:143
+#: src/blocks/listing-booking/inspector.js:222
+#: src/blocks/listing-booking/inspector.js:278
+#: src/blocks/listing-description/inspector.js:83
+#: src/blocks/listing-description/inspector.js:111
+#: src/blocks/listing-features/inspector.js:102
+#: src/blocks/listing-features/inspector.js:126
+#: src/blocks/listing-filter/inspector.js:230
+#: src/blocks/listing-filter/inspector.js:261
+#: src/blocks/listing-map/inspector.js:92
+#: src/blocks/listing-meta/inspector.js:120
+#: src/blocks/listing-page-header/inspector.js:133
+#: src/blocks/listing-page-header/inspector.js:172
+#: src/blocks/listing-price/inspector.js:106
+#: src/blocks/listing-price/inspector.js:134
+#: src/blocks/listing-review/inspector.js:231
+#: src/blocks/listing-review/inspector.js:397
+#: src/blocks/listing-title/inspector.js:94
+#: src/blocks/related-listing/inspector.js:532
+#: src/blocks/seller-information/inspector.js:160
+#: src/blocks/store-contact-info/inspector.js:106
+#: src/blocks/store-contact-info/inspector.js:165
+#: src/blocks/store-description/inspector.js:92
+#: src/blocks/store-listing/inspector.js:865
+#: src/blocks/store-name/inspector.js:94
+#: src/blocks/store-opening/inspector.js:75
+#: src/blocks/store-slogan/inspector.js:92
+msgid "Typography"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingActionsSettings.php:133
+#: app/Widgets/WidgetSettings/ListingActionsSettings.php:217
+#: app/Widgets/WidgetSettings/ListingActionsSettings.php:242
+#: app/Widgets/WidgetSettings/ListingBookingSettings.php:171
+#: app/Widgets/WidgetSettings/ListingBookingSettings.php:408
+#: app/Widgets/WidgetSettings/ListingDescriptionSettings.php:101
+#: app/Widgets/WidgetSettings/ListingDescriptionSettings.php:137
+#: app/Widgets/WidgetSettings/ListingMetaSettings.php:76
+#: app/Widgets/WidgetSettings/ListingPageHeaderSettings.php:195
+#: app/Widgets/WidgetSettings/ListingPriceSettings.php:149
+#: app/Widgets/WidgetSettings/ListingPriceSettings.php:210
+#: app/Widgets/WidgetSettings/ListingTitleSettings.php:125
+#: app/Widgets/WidgetSettings/StoreDescriptionSettings.php:59
+#: app/Widgets/WidgetSettings/StoreOpeningHoursSettings.php:79
+#: assets/blocks/main.js:1
+#: src/blocks/custom-fields/inspector.js:160
+#: src/blocks/listing-actions/inspector.js:115
+#: src/blocks/listing-actions/inspector.js:204
+#: src/blocks/listing-archive/inspector.js:656
+#: src/blocks/listing-archive/inspector.js:696
+#: src/blocks/listing-archive/inspector.js:751
+#: src/blocks/listing-archive/inspector.js:777
+#: src/blocks/listing-booking/inspector.js:149
+#: src/blocks/listing-booking/inspector.js:284
+#: src/blocks/listing-description/inspector.js:90
+#: src/blocks/listing-description/inspector.js:118
+#: src/blocks/listing-filter/inspector.js:241
+#: src/blocks/listing-filter/inspector.js:272
+#: src/blocks/listing-page-header/inspector.js:140
+#: src/blocks/listing-page-header/inspector.js:179
+#: src/blocks/listing-price/inspector.js:113
+#: src/blocks/listing-price/inspector.js:141
+#: src/blocks/listing-title/inspector.js:101
+#: src/blocks/related-listing/inspector.js:510
+#: src/blocks/related-listing/inspector.js:538
+#: src/blocks/related-listing/inspector.js:594
+#: src/blocks/related-listing/inspector.js:620
+#: src/blocks/store-description/inspector.js:99
+#: src/blocks/store-listing/inspector.js:831
+#: src/blocks/store-listing/inspector.js:871
+#: src/blocks/store-listing/inspector.js:926
+#: src/blocks/store-listing/inspector.js:952
+#: src/blocks/store-name/inspector.js:101
+#: src/blocks/store-opening/inspector.js:101
+#: src/blocks/store-slogan/inspector.js:99
+msgid "Color"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingActionsSettings.php:142
+#: assets/blocks/main.js:1
+#: src/blocks/listing-actions/inspector.js:120
+#: src/blocks/social-profiles/inspector.js:163
+msgid "Alignment"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingActionsSettings.php:152
+#: app/Widgets/WidgetSettings/ListingBookingSettings.php:121
+#: app/Widgets/WidgetSettings/ListingBookingSettings.php:247
+#: app/Widgets/WidgetSettings/ListingBookingSettings.php:329
+#: app/Widgets/WidgetSettings/ListingCustomFieldsSettings.php:168
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:201
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:451
+#: app/Widgets/WidgetSettings/ListingSellerInfoSettings.php:166
+#: app/Widgets/WidgetSettings/StoreContactInfoSettings.php:302
+#: app/Widgets/WidgetSettings/StoreContactInfoSettings.php:334
+#: app/Widgets/WidgetSettings/StoreOpeningHoursSettings.php:102
+#: assets/blocks/main.js:1
+#: src/components/AdvancedControl.js:173
+msgid "Border"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingActionsSettings.php:176
+#: app/Widgets/WidgetSettings/ListingActionsSettings.php:274
+#: app/Widgets/WidgetSettings/ListingBookingSettings.php:112
+#: app/Widgets/WidgetSettings/ListingBookingSettings.php:293
+#: app/Widgets/WidgetSettings/ListingBusinessHoursSettings.php:201
+#: app/Widgets/WidgetSettings/ListingCustomFieldsSettings.php:192
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:252
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:294
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:406
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:608
+#: app/Widgets/WidgetSettings/ListingSellerInfoSettings.php:190
+#: app/Widgets/WidgetSettings/StoreContactInfoSettings.php:129
+#: assets/blocks/main.js:1
+#: src/blocks/business-hours/inspector.js:153
+#: src/blocks/custom-fields/inspector.js:199
+#: src/blocks/listing-actions/inspector.js:135
+#: src/blocks/listing-badge/inspector.js:125
+#: src/blocks/listing-booking/inspector.js:112
+#: src/blocks/listing-filter/inspector.js:247
+#: src/blocks/listing-filter/inspector.js:278
+#: src/blocks/listing-review/inspector.js:186
+#: src/blocks/listing-review/inspector.js:275
+#: src/blocks/seller-information/inspector.js:140
+#: src/blocks/store-contact-info/inspector.js:122
+#: src/components/AdvancedControl.js:97
+msgid "Padding"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingActionsSettings.php:202
+msgid "Social"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingActionsSettings.php:212
+#: app/Widgets/WidgetSettings/ListingBookingSettings.php:308
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:317
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:429
+#: app/Widgets/WidgetSettings/StoreContactInfoSettings.php:282
+#: assets/blocks/main.js:1
+#: src/globals/Constants.js:85
+#: src/globals/Constants.js:95
+msgid "Normal"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingActionsSettings.php:225
+#: app/Widgets/WidgetSettings/ListingActionsSettings.php:250
+msgid "Backgound Color"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingActionsSettings.php:237
+#: app/Widgets/WidgetSettings/ListingBookingSettings.php:348
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:349
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:460
+#: app/Widgets/WidgetSettings/StoreContactInfoSettings.php:314
+msgid "Hover"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingActionsSettings.php:264
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:262
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:618
+#: app/Widgets/WidgetSettings/StoreContactInfoSettings.php:139
+#: assets/blocks/main.js:1
+#: src/blocks/custom-fields/inspector.js:165
+#: src/blocks/listing-actions/inspector.js:148
+#: src/blocks/listing-archive/inspector.js:703
+#: src/blocks/listing-archive/inspector.js:1169
+#: src/blocks/listing-features/inspector.js:113
+#: src/blocks/listing-features/inspector.js:169
+#: src/blocks/listing-filter/inspector.js:288
+#: src/blocks/listing-map/inspector.js:103
+#: src/blocks/listing-meta/inspector.js:150
+#: src/blocks/listing-review/inspector.js:176
+#: src/blocks/listing-review/inspector.js:285
+#: src/blocks/related-listing/inspector.js:545
+#: src/blocks/store-contact-info/inspector.js:112
+#: src/blocks/store-listing/inspector.js:878
+#: src/blocks/store-listing/inspector.js:1344
+#: src/components/AdvancedControl.js:89
+msgid "Margin"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingActionsSettings.php:285
+msgid "Social Size"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingActionsSettings.php:294
+#: assets/blocks/main.js:1
+#: src/components/Typography.js:50
+msgid "Font Size"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingActionsSettings.php:303
+#: assets/blocks/main.js:1
+#: src/blocks/listing-actions/inspector.js:177
+msgid "Icon Gap"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingArchiveSettings.php:88
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:227
+#: src/blocks/store-listing/inspector.js:284
+msgid "Layout"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingArchiveSettings.php:95
+msgid "Default View"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingArchiveSettings.php:110
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:238
+#: src/blocks/store-listing/inspector.js:295
+msgid "List Style"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingArchiveSettings.php:181
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:251
+#: src/blocks/store-listing/inspector.js:308
+msgid "Grid Style"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingArchiveSettings.php:251
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:263
+#: src/blocks/store-listing/inspector.js:320
+msgid "Grid Column"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingBookingSettings.php:65
+#: app/Widgets/WidgetSettings/ListingBusinessHoursSettings.php:60
+#: app/Widgets/WidgetSettings/ListingDescriptionSettings.php:45
+#: app/Widgets/WidgetSettings/ListingImageSettings.php:59
+#: app/Widgets/WidgetSettings/ListingPriceSettings.php:67
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:63
+#: app/Widgets/WidgetSettings/ListingSellerInfoSettings.php:56
+#: app/Widgets/WidgetSettings/ListingSocialProfilesSettings.php:49
+#: app/Widgets/WidgetSettings/RelatedListingsSettings.php:198
+#: app/Widgets/WidgetSettings/StoreBannerSettings.php:108
+#: app/Widgets/WidgetSettings/StoreBannerSettings.php:239
+#: app/Widgets/WidgetSettings/StoreNameSettings.php:45
+#: assets/blocks/main.js:1
+#: src/blocks/business-hours/inspector.js:63
+#: src/blocks/custom-fields/inspector.js:115
+#: src/blocks/listing-actions/inspector.js:74
+#: src/blocks/listing-archive/inspector.js:191
+#: src/blocks/listing-badge/inspector.js:76
+#: src/blocks/listing-booking/inspector.js:84
+#: src/blocks/listing-description/inspector.js:58
+#: src/blocks/listing-features/inspector.js:65
+#: src/blocks/listing-filter/inspector.js:87
+#: src/blocks/listing-image/inspector.js:90
+#: src/blocks/listing-map/inspector.js:57
+#: src/blocks/listing-meta/inspector.js:65
+#: src/blocks/listing-page-header/inspector.js:68
+#: src/blocks/listing-price/inspector.js:68
+#: src/blocks/listing-review/inspector.js:105
+#: src/blocks/listing-title/inspector.js:59
+#: src/blocks/listing-video/inspector.js:45
+#: src/blocks/related-listing/inspector.js:172
+#: src/blocks/seller-information/inspector.js:71
+#: src/blocks/social-profiles/inspector.js:67
+#: src/blocks/store-banner/inspector.js:72
+#: src/blocks/store-contact-info/inspector.js:72
+#: src/blocks/store-description/inspector.js:57
+#: src/blocks/store-name/inspector.js:59
+#: src/blocks/store-slogan/inspector.js:57
+msgid "General"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingBookingSettings.php:69
+#: assets/blocks/main.js:1
+#: src/blocks/listing-booking/inspector.js:87
+msgid "Show Heading"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingBookingSettings.php:70
+#: app/Widgets/WidgetSettings/ListingBookingSettings.php:78
+#: app/Widgets/WidgetSettings/ListingPriceSettings.php:81
+#: app/Widgets/WidgetSettings/ListingPriceSettings.php:90
+#: app/Widgets/WidgetSettings/ListingSellerInfoSettings.php:63
+#: app/Widgets/WidgetSettings/ListingSellerInfoSettings.php:72
+#: app/Widgets/WidgetSettings/ListingSellerInfoSettings.php:82
+#: app/Widgets/WidgetSettings/ListingSellerInfoSettings.php:91
+#: app/Widgets/WidgetSettings/ListingSellerInfoSettings.php:100
+#: app/Widgets/WidgetSettings/ListingSellerInfoSettings.php:109
+#: app/Widgets/WidgetSettings/ListingSocialProfilesSettings.php:56
+#: app/Widgets/WidgetSettings/ListingSocialProfilesSettings.php:91
+#: app/Widgets/WidgetSettings/ListingSocialProfilesSettings.php:99
+#: app/Widgets/WidgetSettings/ListingSocialProfilesSettings.php:107
+#: app/Widgets/WidgetSettings/ListingSocialProfilesSettings.php:115
+#: app/Widgets/WidgetSettings/ListingSocialProfilesSettings.php:123
+#: app/Widgets/WidgetSettings/ListingSocialProfilesSettings.php:131
+#: app/Widgets/WidgetSettings/ListingSocialProfilesSettings.php:139
+#: app/Widgets/WidgetSettings/StoreBannerSettings.php:59
+#: app/Widgets/WidgetSettings/StoreBannerSettings.php:68
+#: app/Widgets/WidgetSettings/StoreBannerSettings.php:77
+#: app/Widgets/WidgetSettings/StoreBannerSettings.php:86
+#: app/Widgets/WidgetSettings/StoreContactInfoSettings.php:59
+#: app/Widgets/WidgetSettings/StoreContactInfoSettings.php:68
+#: app/Widgets/WidgetSettings/StoreContactInfoSettings.php:77
+#: app/Widgets/WidgetSettings/StoreContactInfoSettings.php:86
+#: app/Widgets/WidgetSettings/StoreContactInfoSettings.php:95
+msgid "Hide"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingBookingSettings.php:71
+#: app/Widgets/WidgetSettings/ListingBookingSettings.php:79
+#: app/Widgets/WidgetSettings/ListingPriceSettings.php:82
+#: app/Widgets/WidgetSettings/ListingPriceSettings.php:91
+#: app/Widgets/WidgetSettings/ListingSellerInfoSettings.php:62
+#: app/Widgets/WidgetSettings/ListingSellerInfoSettings.php:71
+#: app/Widgets/WidgetSettings/ListingSellerInfoSettings.php:81
+#: app/Widgets/WidgetSettings/ListingSellerInfoSettings.php:90
+#: app/Widgets/WidgetSettings/ListingSellerInfoSettings.php:99
+#: app/Widgets/WidgetSettings/ListingSellerInfoSettings.php:108
+#: app/Widgets/WidgetSettings/ListingSocialProfilesSettings.php:55
+#: app/Widgets/WidgetSettings/ListingSocialProfilesSettings.php:90
+#: app/Widgets/WidgetSettings/ListingSocialProfilesSettings.php:98
+#: app/Widgets/WidgetSettings/ListingSocialProfilesSettings.php:106
+#: app/Widgets/WidgetSettings/ListingSocialProfilesSettings.php:114
+#: app/Widgets/WidgetSettings/ListingSocialProfilesSettings.php:122
+#: app/Widgets/WidgetSettings/ListingSocialProfilesSettings.php:130
+#: app/Widgets/WidgetSettings/ListingSocialProfilesSettings.php:138
+#: app/Widgets/WidgetSettings/StoreBannerSettings.php:58
+#: app/Widgets/WidgetSettings/StoreBannerSettings.php:67
+#: app/Widgets/WidgetSettings/StoreBannerSettings.php:76
+#: app/Widgets/WidgetSettings/StoreBannerSettings.php:85
+#: app/Widgets/WidgetSettings/StoreContactInfoSettings.php:58
+#: app/Widgets/WidgetSettings/StoreContactInfoSettings.php:67
+#: app/Widgets/WidgetSettings/StoreContactInfoSettings.php:76
+#: app/Widgets/WidgetSettings/StoreContactInfoSettings.php:85
+#: app/Widgets/WidgetSettings/StoreContactInfoSettings.php:94
+msgid "Show"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingBookingSettings.php:77
+#: assets/blocks/main.js:1
+#: src/blocks/listing-booking/inspector.js:93
+msgid "Show Heading Indicator"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingBookingSettings.php:101
+#: assets/blocks/main.js:1
+#: src/blocks/listing-booking/inspector.js:105
+msgid "Form Box"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingBookingSettings.php:105
+#: app/Widgets/WidgetSettings/ListingBookingSettings.php:313
+#: app/Widgets/WidgetSettings/ListingBookingSettings.php:352
+#: app/Widgets/WidgetSettings/ListingPriceSettings.php:140
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:322
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:354
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:434
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:465
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:968
+#: src/blocks/listing-archive/inspector.js:1048
+#: src/blocks/listing-archive/inspector.js:1102
+#: src/blocks/related-listing/inspector.js:770
+#: src/blocks/related-listing/inspector.js:828
+#: src/blocks/related-listing/inspector.js:856
+#: src/blocks/related-listing/inspector.js:886
+#: src/blocks/related-listing/inspector.js:935
+#: src/blocks/store-listing/inspector.js:1143
+#: src/blocks/store-listing/inspector.js:1223
+#: src/blocks/store-listing/inspector.js:1277
+#: src/components/Background/BGImage.js:50
+msgid "Background Color"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingBookingSettings.php:128
+#: app/Widgets/WidgetSettings/ListingBookingSettings.php:254
+#: app/Widgets/WidgetSettings/ListingBookingSettings.php:335
+#: assets/blocks/main.js:1
+#: src/blocks/listing-booking/inspector.js:129
+#: src/blocks/listing-booking/inspector.js:209
+#: src/blocks/listing-booking/inspector.js:265
+#: src/blocks/listing-filter/inspector.js:305
+#: src/components/AdvancedControl.js:196
+#: src/components/AdvancedControl.js:219
+msgid "Border Radius"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingBookingSettings.php:156
+#: assets/blocks/main.js:1
+#: src/blocks/listing-booking/inspector.js:141
+msgid "Heading"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingBookingSettings.php:178
+#: app/Widgets/WidgetSettings/ListingBookingSettings.php:415
+#: app/Widgets/WidgetSettings/ListingPageHeaderSettings.php:177
+#: app/Widgets/WidgetSettings/ListingPageHeaderSettings.php:222
+#: app/Widgets/WidgetSettings/ListingTitleSettings.php:107
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:830
+#: src/blocks/listing-badge/inspector.js:136
+#: src/blocks/listing-booking/inspector.js:154
+#: src/blocks/listing-booking/inspector.js:289
+#: src/blocks/listing-description/inspector.js:96
+#: src/blocks/listing-filter/inspector.js:201
+#: src/blocks/listing-page-header/inspector.js:146
+#: src/blocks/listing-page-header/inspector.js:161
+#: src/blocks/listing-price/inspector.js:119
+#: src/blocks/listing-title/inspector.js:84
+#: src/blocks/store-description/inspector.js:82
+#: src/blocks/store-listing/inspector.js:1005
+#: src/blocks/store-name/inspector.js:84
+#: src/blocks/store-slogan/inspector.js:82
+msgid "Spacing"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingBookingSettings.php:188
+#: assets/blocks/main.js:1
+#: src/blocks/listing-booking/inspector.js:165
+msgid "Indicator Color"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingBookingSettings.php:215
+#: assets/blocks/main.js:1
+#: src/blocks/listing-booking/inspector.js:173
+msgid "Form Field"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingBookingSettings.php:220
+#: app/Widgets/WidgetSettings/ListingBusinessHoursSettings.php:164
+#: app/Widgets/WidgetSettings/ListingCustomFieldsSettings.php:140
+#: app/Widgets/WidgetSettings/ListingSellerInfoSettings.php:138
+#: app/Widgets/WidgetSettings/ListingSocialProfilesSettings.php:174
+#: assets/blocks/main.js:1
+#: src/blocks/business-hours/inspector.js:121
+#: src/blocks/custom-fields/inspector.js:177
+#: src/blocks/listing-archive/inspector.js:804
+#: src/blocks/listing-booking/inspector.js:176
+#: src/blocks/seller-information/inspector.js:118
+#: src/blocks/social-profiles/inspector.js:123
+#: src/blocks/store-listing/inspector.js:979
+msgid "Label Typography"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingBookingSettings.php:225
+#: app/Widgets/WidgetSettings/ListingBusinessHoursSettings.php:177
+#: app/Widgets/WidgetSettings/ListingCustomFieldsSettings.php:153
+#: app/Widgets/WidgetSettings/ListingSellerInfoSettings.php:151
+#: assets/blocks/main.js:1
+#: src/blocks/business-hours/inspector.js:135
+#: src/blocks/custom-fields/inspector.js:189
+#: src/blocks/listing-archive/inspector.js:816
+#: src/blocks/listing-booking/inspector.js:182
+#: src/blocks/seller-information/inspector.js:130
+#: src/blocks/store-listing/inspector.js:991
+msgid "Label Color"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingBookingSettings.php:232
+#: assets/blocks/main.js:1
+#: src/blocks/listing-booking/inspector.js:187
+msgid "Field Background"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingBookingSettings.php:239
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:549
+#: assets/blocks/main.js:1
+#: src/blocks/listing-booking/inspector.js:192
+#: src/blocks/listing-review/inspector.js:369
+msgid "Field Height"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingBookingSettings.php:283
+#: assets/blocks/main.js:1
+#: src/blocks/listing-booking/inspector.js:220
+msgid "Booking Button"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingBookingSettings.php:321
+#: app/Widgets/WidgetSettings/ListingBookingSettings.php:359
+#: app/Widgets/WidgetSettings/ListingPageHeaderSettings.php:240
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:330
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:362
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:442
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:473
+#: app/Widgets/WidgetSettings/ListingSellerInfoSettings.php:229
+#: app/Widgets/WidgetSettings/StoreContactInfoSettings.php:295
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:975
+#: src/blocks/listing-archive/inspector.js:1148
+#: src/blocks/listing-booking/inspector.js:228
+#: src/blocks/listing-features/inspector.js:108
+#: src/blocks/listing-features/inspector.js:133
+#: src/blocks/listing-map/inspector.js:98
+#: src/blocks/listing-meta/inspector.js:127
+#: src/blocks/listing-review/inspector.js:237
+#: src/blocks/listing-review/inspector.js:403
+#: src/blocks/related-listing/inspector.js:777
+#: src/blocks/seller-information/inspector.js:166
+#: src/blocks/store-listing/inspector.js:1150
+#: src/blocks/store-listing/inspector.js:1323
+msgid "Text Color"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingBookingSettings.php:366
+#: app/Widgets/WidgetSettings/ListingBusinessHoursSettings.php:193
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:338
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:370
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:481
+#: assets/blocks/main.js:1
+#: src/blocks/business-hours/inspector.js:147
+#: src/blocks/listing-archive/inspector.js:573
+#: src/blocks/listing-archive/inspector.js:606
+#: src/blocks/listing-review/inspector.js:257
+#: src/blocks/related-listing/inspector.js:843
+#: src/blocks/related-listing/inspector.js:872
+#: src/blocks/store-listing/inspector.js:748
+#: src/blocks/store-listing/inspector.js:781
+#: src/components/BorderDimension.js:27
+msgid "Border Color"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingBookingSettings.php:398
+#: assets/blocks/main.js:1
+#: src/blocks/listing-booking/inspector.js:276
+msgid "Booking Info"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingBusinessHoursSettings.php:65
+#: assets/blocks/main.js:1
+#: src/blocks/business-hours/inspector.js:65
+msgid "Date Formate"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingBusinessHoursSettings.php:67
+msgid "12 Hours"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingBusinessHoursSettings.php:68
+msgid "24 Hours"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingBusinessHoursSettings.php:76
+msgid "Show Open status?"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingBusinessHoursSettings.php:77
+msgid "Yes"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingBusinessHoursSettings.php:78
+msgid "No"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingBusinessHoursSettings.php:80
+msgid "Switch to Show Open status"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingBusinessHoursSettings.php:85
+#: assets/blocks/main.js:1
+#: src/blocks/business-hours/inspector.js:79
+msgid "Open Status Text"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingBusinessHoursSettings.php:91
+#: assets/blocks/main.js:1
+#: src/blocks/business-hours/inspector.js:84
+msgid "Close Status Text"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingBusinessHoursSettings.php:113
+#: assets/blocks/main.js:1
+#: src/blocks/listing-review/inspector.js:169
+msgid "General Style"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingBusinessHoursSettings.php:120
+msgid "Open Status"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingBusinessHoursSettings.php:135
+msgid "Open status text Color"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingBusinessHoursSettings.php:144
+msgid "Close status text Color"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingBusinessHoursSettings.php:156
+msgid "Table"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingBusinessHoursSettings.php:171
+#: app/Widgets/WidgetSettings/ListingCustomFieldsSettings.php:147
+#: app/Widgets/WidgetSettings/ListingSellerInfoSettings.php:145
+#: assets/blocks/main.js:1
+#: src/blocks/business-hours/inspector.js:128
+#: src/blocks/custom-fields/inspector.js:183
+#: src/blocks/seller-information/inspector.js:124
+msgid "Data Typography"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingBusinessHoursSettings.php:185
+#: app/Widgets/WidgetSettings/ListingCustomFieldsSettings.php:161
+#: app/Widgets/WidgetSettings/ListingSellerInfoSettings.php:159
+#: assets/blocks/main.js:1
+#: src/blocks/business-hours/inspector.js:141
+#: src/blocks/custom-fields/inspector.js:194
+#: src/blocks/seller-information/inspector.js:135
+msgid "Data Color"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingCustomFieldsSettings.php:74
+#: app/Widgets/WidgetSettings/ListingMapSettings.php:43
+msgid "General Settings"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingCustomFieldsSettings.php:79
+#: app/Widgets/WidgetSettings/ListingCustomFieldsSettings.php:134
+#: app/Widgets/WidgetSettings/ListingPriceSettings.php:72
+#: app/Widgets/WidgetSettings/ListingSellerInfoSettings.php:132
+#: app/Widgets/WidgetSettings/ListingSocialProfilesSettings.php:168
+#: app/Widgets/WidgetSettings/RelatedListingsSettings.php:228
+#: assets/blocks/main.js:1
+#: src/blocks/custom-fields/inspector.js:123
+#: src/blocks/related-listing/inspector.js:174
+msgid "Style"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingCustomFieldsSettings.php:81
+#: app/Widgets/WidgetSettings/ListingPriceSettings.php:112
+#: app/Widgets/WidgetSettings/ListingPriceSettings.php:114
+#: assets/blocks/main.js:1
+#: src/globals/Constants.js:257
+#: src/globals/Constants.js:319
+#: src/globals/Constants.js:351
+#: src/globals/Constants.js:383
+msgid "Style 1"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingCustomFieldsSettings.php:82
+#: app/Widgets/WidgetSettings/ListingPriceSettings.php:113
+#: assets/blocks/main.js:1
+#: src/globals/Constants.js:258
+#: src/globals/Constants.js:324
+#: src/globals/Constants.js:356
+#: src/globals/Constants.js:388
+msgid "Style 2"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingCustomFieldsSettings.php:90
+msgid "Label and Value in New Line?"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingCustomFieldsSettings.php:99
+msgid "Custom Field Group's"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingCustomFieldsSettings.php:109
+msgid "Column Gap"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingDescriptionSettings.php:50
+#: app/Widgets/WidgetSettings/ListingDescriptionSettings.php:87
+msgid "Drop Cap"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingDescriptionSettings.php:125
+#: app/Widgets/WidgetSettings/StoreDescriptionSettings.php:46
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:688
+#: src/blocks/listing-description/inspector.js:80
+#: src/blocks/related-listing/inspector.js:530
+#: src/blocks/store-listing/inspector.js:863
+msgid "Description"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingDescriptionSettings.php:145
+msgid "Paragraph Speace"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingDescriptionSettings.php:156
+#: app/Widgets/WidgetSettings/ListingTitleSettings.php:78
+#: assets/blocks/main.js:1
+#: src/blocks/listing-badge/inspector.js:108
+#: src/blocks/listing-description/inspector.js:66
+#: src/blocks/listing-meta/inspector.js:103
+#: src/blocks/listing-price/inspector.js:89
+#: src/blocks/listing-title/inspector.js:68
+#: src/blocks/store-description/inspector.js:66
+#: src/blocks/store-name/inspector.js:68
+#: src/blocks/store-slogan/inspector.js:66
+msgid "Text Alignment"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingDescriptionSettings.php:159
+msgid "Justified"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingImageSettings.php:64
+msgid "Enable slider"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingImageSettings.php:73
+#: assets/blocks/main.js:1
+#: src/blocks/listing-image/inspector.js:99
+msgid "Show Thumbnail"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingImageSettings.php:82
+#: assets/blocks/main.js:1
+#: src/blocks/listing-image/inspector.js:111
+msgid "Show Video"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingImageSettings.php:91
+#: assets/blocks/main.js:1
+#: src/blocks/listing-image/inspector.js:104
+msgid "Show Arrow"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingImageSettings.php:100
+#: assets/blocks/main.js:1
+#: src/blocks/listing-image/inspector.js:116
+msgid "Show Lightbox Icon"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingImageSettings.php:109
+msgid "Enable Image Zoom"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingImageSettings.php:118
+#: assets/blocks/main.js:1
+#: src/blocks/listing-image/inspector.js:126
+msgid "Show Badge"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingImageSettings.php:155
+msgid "Zoom"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingImageSettings.php:160
+#: app/Widgets/WidgetSettings/ListingImageSettings.php:213
+msgid "Icon Background Color"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingImageSettings.php:168
+#: app/Widgets/WidgetSettings/ListingImageSettings.php:221
+msgid "Icon Hover Background"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingImageSettings.php:176
+#: app/Widgets/WidgetSettings/ListingImageSettings.php:229
+msgid "Icon color"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingImageSettings.php:184
+#: app/Widgets/WidgetSettings/ListingSocialProfilesSettings.php:188
+msgid "Icon Hover Color"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingImageSettings.php:208
+#: assets/blocks/main.js:1
+#: src/blocks/listing-image/inspector.js:146
+msgid "Carousel Arrow"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingImageSettings.php:237
+msgid "Icon Hover color"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingMapSettings.php:48
+msgid "Zoom label"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingMetaSettings.php:62
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:715
+#: src/blocks/related-listing/inspector.js:557
+#: src/blocks/store-listing/inspector.js:890
+msgid "Meta"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingMetaSettings.php:85
+msgid "Meta Icon Color"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingMetaSettings.php:105
+#: app/Widgets/WidgetSettings/StoreBannerSettings.php:52
+#: app/Widgets/WidgetSettings/StoreContactInfoSettings.php:52
+msgid "Content Visibility "
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingMetaSettings.php:110
+msgid "Show Types"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingMetaSettings.php:114
+msgid "Show or Hide Types. Default: On"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingMetaSettings.php:119
+msgid "Show date"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingMetaSettings.php:123
+msgid "Show or Hide date. Default: On"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingMetaSettings.php:128
+#: assets/blocks/main.js:1
+#: src/blocks/listing-meta/inspector.js:79
+msgid "Show User"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingMetaSettings.php:132
+msgid "Show or Hide user. Default: On"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingMetaSettings.php:137
+#: app/Widgets/WidgetSettings/StoreBannerSettings.php:75
+#: assets/blocks/main.js:1
+#: src/blocks/listing-filter/inspector.js:111
+#: src/blocks/listing-meta/inspector.js:85
+#: src/blocks/store-banner/inspector.js:130
+msgid "Show Category"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingMetaSettings.php:141
+msgid "Show or Hide Category. Default: On"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingMetaSettings.php:146
+#: app/Widgets/WidgetSettings/ListingSellerInfoSettings.php:80
+#: assets/blocks/main.js:1
+#: src/blocks/listing-filter/inspector.js:116
+#: src/blocks/listing-meta/inspector.js:91
+#: src/blocks/seller-information/inspector.js:86
+msgid "Show Location"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingMetaSettings.php:150
+msgid "Show or Hide Location. Default: On"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingMetaSettings.php:155
+#: assets/blocks/main.js:1
+#: src/blocks/listing-actions/inspector.js:78
+#: src/blocks/listing-meta/inspector.js:97
+msgid "Show Views"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingMetaSettings.php:159
+msgid "Show or Hide Views. Default: On"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingPageHeaderSettings.php:62
+msgid "Header Settings"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingPageHeaderSettings.php:71
+msgid "Show or Hide Title. Default: On"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingPageHeaderSettings.php:76
+#: assets/blocks/main.js:1
+#: src/blocks/listing-page-header/inspector.js:78
+msgid "Show Breadcrumb"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingPageHeaderSettings.php:80
+msgid "Show or Hide Breadcrumb. Default: On"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingPageHeaderSettings.php:85
+#: assets/blocks/main.js:1
+#: src/blocks/listing-page-header/inspector.js:106
+msgid "Breadcrumb Position"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingPageHeaderSettings.php:87
+msgid "Bottom"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingPageHeaderSettings.php:88
+#: assets/blocks/main.js:1
+#: src/blocks/listing-badge/inspector.js:170
+msgid "Top"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingPageHeaderSettings.php:89
+msgid "Right"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingPageHeaderSettings.php:115
+#: assets/blocks/main.js:1
+#: src/blocks/listing-page-header/inspector.js:86
+msgid "Title HTML Tag"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingPageHeaderSettings.php:134
+#: assets/blocks/main.js:1
+#: src/blocks/listing-page-header/inspector.js:93
+msgid "Title Alignment"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingPageHeaderSettings.php:146
+#: assets/blocks/main.js:1
+#: src/blocks/listing-page-header/inspector.js:113
+msgid "Breadcrumb Alignment"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingPageHeaderSettings.php:172
+#: app/Widgets/WidgetSettings/ListingTitleSettings.php:103
+#: assets/blocks/main.js:1
+#: src/blocks/custom-fields/inspector.js:152
+#: src/blocks/listing-archive/inspector.js:278
+#: src/blocks/listing-archive/inspector.js:630
+#: src/blocks/listing-filter/inspector.js:228
+#: src/blocks/listing-page-header/inspector.js:130
+#: src/blocks/related-listing/inspector.js:225
+#: src/blocks/related-listing/inspector.js:475
+#: src/blocks/store-listing/inspector.js:447
+#: src/blocks/store-listing/inspector.js:805
+#: src/globals/Constants.js:287
+msgid "Title"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingPageHeaderSettings.php:217
+#: assets/blocks/main.js:1
+#: src/blocks/listing-page-header/inspector.js:159
+msgid "Breadcrumb"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingPageHeaderSettings.php:248
+msgid "Link Color"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingPageHeaderSettings.php:256
+msgid "Link Hover Color"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingPriceSettings.php:80
+#: assets/blocks/main.js:1
+#: src/blocks/listing-price/inspector.js:77
+msgid "Show Price Unit"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingPriceSettings.php:89
+#: assets/blocks/main.js:1
+#: src/blocks/listing-price/inspector.js:83
+msgid "Show Price Type"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingPriceSettings.php:128
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:363
+#: src/blocks/listing-archive/inspector.js:960
+#: src/blocks/listing-price/inspector.js:103
+#: src/blocks/related-listing/inspector.js:299
+#: src/blocks/related-listing/inspector.js:762
+#: src/blocks/store-listing/inspector.js:532
+#: src/blocks/store-listing/inspector.js:1135
+#: src/globals/Constants.js:289
+msgid "Price"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingPriceSettings.php:158
+msgid "Price Alignment"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingPriceSettings.php:183
+#: assets/blocks/main.js:1
+#: src/blocks/listing-price/inspector.js:132
+msgid "Price Label"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:68
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:603
+#: assets/blocks/main.js:1
+#: src/blocks/listing-review/inspector.js:108
+#: src/blocks/listing-review/inspector.js:273
+msgid "Comment List"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:77
+msgid "Comment List Style"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:88
+msgid "Review Section Title "
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:98
+#: assets/blocks/main.js:1
+#: src/blocks/listing-review/inspector.js:122
+msgid "Review Title Text"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:99
+msgid "Reviews"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:106
+#: assets/blocks/main.js:1
+#: src/blocks/listing-review/inspector.js:129
+msgid "Leave Review Button"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:116
+#: assets/blocks/main.js:1
+#: src/blocks/listing-review/inspector.js:136
+msgid "Leave Review Button Text"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:117
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:143
+msgid "Leave Review"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:123
+#: assets/blocks/main.js:1
+#: src/blocks/listing-review/inspector.js:143
+msgid "Review Meta"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:133
+msgid "Comment Form"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:142
+msgid "Comment form Title Text"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:165
+msgid "Commet List Header Section"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:171
+#: assets/blocks/main.js:1
+#: src/blocks/listing-review/inspector.js:199
+msgid "Section Title Typography"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:177
+#: assets/blocks/main.js:1
+#: src/blocks/listing-review/inspector.js:205
+msgid "Title Color"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:186
+#: assets/blocks/main.js:1
+#: src/blocks/listing-review/inspector.js:210
+msgid "Average Rating Typography"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:192
+#: assets/blocks/main.js:1
+#: src/blocks/listing-review/inspector.js:216
+msgid "Average Rating Color"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:240
+msgid "General Style "
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:244
+#: app/Widgets/WidgetSettings/ListingSellerInfoSettings.php:245
+#: app/Widgets/WidgetSettings/StoreContactInfoSettings.php:287
+#: assets/blocks/main.js:1
+#: src/blocks/listing-actions/inspector.js:209
+#: src/blocks/listing-archive/inspector.js:468
+#: src/blocks/listing-archive/inspector.js:566
+#: src/blocks/listing-archive/inspector.js:599
+#: src/blocks/listing-archive/inspector.js:1134
+#: src/blocks/listing-booking/inspector.js:107
+#: src/blocks/listing-booking/inspector.js:238
+#: src/blocks/listing-filter/inspector.js:182
+#: src/blocks/listing-filter/inspector.js:236
+#: src/blocks/listing-filter/inspector.js:267
+#: src/blocks/listing-review/inspector.js:171
+#: src/blocks/listing-review/inspector.js:247
+#: src/blocks/listing-review/inspector.js:413
+#: src/blocks/related-listing/inspector.js:408
+#: src/blocks/seller-information/inspector.js:176
+#: src/blocks/store-contact-info/inspector.js:181
+#: src/blocks/store-listing/inspector.js:643
+#: src/blocks/store-listing/inspector.js:741
+#: src/blocks/store-listing/inspector.js:774
+#: src/blocks/store-listing/inspector.js:1309
+#: src/components/AdvancedControl.js:109
+#: src/components/AdvancedControl.js:125
+#: src/components/AdvancedControl.js:135
+#: src/components/AdvancedControl.js:163
+msgid "Background"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:289
+#: assets/blocks/main.js:1
+#: src/blocks/listing-review/inspector.js:229
+msgid "Header Button"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:401
+#: assets/blocks/main.js:1
+#: src/blocks/listing-review/inspector.js:395
+msgid "Form Button"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:512
+#: assets/blocks/main.js:1
+#: src/blocks/listing-review/inspector.js:337
+msgid "Form"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:518
+#: assets/blocks/main.js:1
+#: src/blocks/listing-review/inspector.js:340
+msgid "Fields Background"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:527
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:646
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:632
+#: src/blocks/listing-review/inspector.js:321
+#: src/blocks/listing-review/inspector.js:345
+#: src/blocks/related-listing/inspector.js:477
+#: src/blocks/store-listing/inspector.js:807
+msgid "Title Typography"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:533
+#: assets/blocks/main.js:1
+#: src/blocks/listing-review/inspector.js:351
+msgid "Form Title Gap"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:543
+#: assets/blocks/main.js:1
+#: src/blocks/listing-review/inspector.js:362
+msgid "Form Label Typography"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:564
+msgid "Comment Field Height"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:579
+#: assets/blocks/main.js:1
+#: src/blocks/listing-review/inspector.js:390
+msgid "Fields Border Color"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:630
+msgid "Author Name Typography"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:636
+#: assets/blocks/main.js:1
+#: src/blocks/listing-review/inspector.js:311
+msgid "Rating Gap"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingReviewSettings.php:652
+#: assets/blocks/main.js:1
+#: src/blocks/listing-review/inspector.js:327
+msgid "Title Gap"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingSellerInfoSettings.php:61
+#: assets/blocks/main.js:1
+#: src/blocks/seller-information/inspector.js:73
+msgid "Show Author"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingSellerInfoSettings.php:70
+#: assets/blocks/main.js:1
+#: src/blocks/seller-information/inspector.js:79
+msgid "Show Author Image"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingSellerInfoSettings.php:89
+#: assets/blocks/main.js:1
+#: src/blocks/seller-information/inspector.js:91
+msgid "Show Contact Number"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingSellerInfoSettings.php:98
+#: assets/blocks/main.js:1
+#: src/blocks/seller-information/inspector.js:96
+msgid "Show Contact Form"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingSellerInfoSettings.php:107
+#: assets/blocks/main.js:1
+#: src/blocks/seller-information/inspector.js:106
+msgid "Show Seller Website"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingSellerInfoSettings.php:217
+#: app/Widgets/WidgetSettings/StoreContactInfoSettings.php:253
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:1007
+#: src/blocks/related-listing/inspector.js:809
+#: src/blocks/store-listing/inspector.js:1182
+msgid "Button"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingSellerInfoSettings.php:237
+#: app/Widgets/WidgetSettings/StoreContactInfoSettings.php:327
+#: assets/blocks/main.js:1
+#: src/blocks/listing-booking/inspector.js:233
+#: src/blocks/listing-review/inspector.js:242
+#: src/blocks/listing-review/inspector.js:408
+#: src/blocks/seller-information/inspector.js:171
+msgid "Hover Text Color"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingSellerInfoSettings.php:253
+#: app/Widgets/WidgetSettings/StoreContactInfoSettings.php:319
+#: assets/blocks/main.js:1
+#: src/blocks/listing-actions/inspector.js:225
+#: src/blocks/listing-booking/inspector.js:243
+#: src/blocks/listing-review/inspector.js:252
+#: src/blocks/listing-review/inspector.js:418
+#: src/blocks/seller-information/inspector.js:181
+#: src/blocks/store-contact-info/inspector.js:186
+msgid "Hover Background"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingSellerInfoSettings.php:260
+#: app/Widgets/WidgetSettings/StoreContactInfoSettings.php:265
+#: assets/blocks/main.js:1
+#: src/blocks/listing-booking/inspector.js:248
+#: src/blocks/listing-review/inspector.js:262
+#: src/blocks/listing-review/inspector.js:423
+#: src/blocks/seller-information/inspector.js:186
+msgid "Button Padding"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingSocialProfilesSettings.php:54
+msgid "Show Label?"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingSocialProfilesSettings.php:62
+msgid "Label Text"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingSocialProfilesSettings.php:63
+msgid "Social Profiles:"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingSocialProfilesSettings.php:84
+msgid "Icon Visibility "
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingSocialProfilesSettings.php:89
+msgid "Show Facebook?"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingSocialProfilesSettings.php:97
+msgid "Show Twitter?"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingSocialProfilesSettings.php:105
+msgid "Show Youtube?"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingSocialProfilesSettings.php:113
+msgid "Show Instagram?"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingSocialProfilesSettings.php:121
+msgid "Show LinkedIn?"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingSocialProfilesSettings.php:129
+msgid "Show Pinterest?"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingSocialProfilesSettings.php:137
+msgid "Show Reddit?"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingSocialProfilesSettings.php:180
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:758
+#: src/blocks/listing-archive/inspector.js:784
+#: src/blocks/listing-features/inspector.js:139
+#: src/blocks/listing-image/inspector.js:148
+#: src/blocks/listing-image/inspector.js:161
+#: src/blocks/listing-meta/inspector.js:133
+#: src/blocks/related-listing/inspector.js:601
+#: src/blocks/related-listing/inspector.js:627
+#: src/blocks/related-listing/inspector.js:902
+#: src/blocks/store-listing/inspector.js:933
+#: src/blocks/store-listing/inspector.js:959
+msgid "Icon Color"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingSocialProfilesSettings.php:196
+#: assets/blocks/main.js:1
+#: src/blocks/listing-actions/inspector.js:168
+#: src/blocks/listing-features/inspector.js:151
+#: src/blocks/social-profiles/inspector.js:142
+msgid "Icon Size"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingSocialProfilesSettings.php:205
+msgid "Icon Speacing"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingSocialProfilesSettings.php:215
+msgid "Icon Alignment"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingTitleSettings.php:55
+msgid "Title Settings"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingTitleSettings.php:60
+#: assets/blocks/main.js:1
+#: src/blocks/listing-title/inspector.js:61
+#: src/blocks/store-description/inspector.js:59
+#: src/blocks/store-name/inspector.js:61
+#: src/blocks/store-slogan/inspector.js:59
+#: src/blocks/wrapper/inspector.js:94
+msgid "HTML Tag"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingVideoSettings.php:45
+msgid "Video"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingVideoSettings.php:50
+#: assets/blocks/main.js:1
+#: src/blocks/listing-video/inspector.js:47
+msgid "Width"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/ListingVideoSettings.php:73
+#: assets/blocks/main.js:1
+#: src/blocks/listing-video/inspector.js:58
+msgid "Height"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/RelatedListingsSettings.php:213
+#: assets/blocks/main.js:1
+#: src/blocks/related-listing/inspector.js:202
+msgid "Same Category"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/RelatedListingsSettings.php:214
+#: assets/blocks/main.js:1
+#: src/blocks/related-listing/inspector.js:203
+msgid "Same Location"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/RelatedListingsSettings.php:215
+#: assets/blocks/main.js:1
+#: src/blocks/related-listing/inspector.js:204
+msgid "Same Type"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/RelatedListingsSettings.php:216
+#: assets/blocks/main.js:1
+#: src/blocks/related-listing/inspector.js:205
+msgid "Same Author"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/RelatedListingsSettings.php:221
+msgid "Default value: Same Category "
+msgstr ""
+
+#: app/Widgets/WidgetSettings/RelatedListingsSettings.php:248
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:217
+#: src/blocks/listing-image/inspector.js:132
+#: src/blocks/related-listing/inspector.js:213
+#: src/blocks/store-listing/inspector.js:434
+msgid "Image Size"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/StoreBannerSettings.php:57
+#: assets/blocks/main.js:1
+#: src/blocks/store-banner/inspector.js:120
+msgid "Show Store Logo"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/StoreBannerSettings.php:61
+msgid "Switch to Show Store Logo"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/StoreBannerSettings.php:66
+#: assets/blocks/main.js:1
+#: src/blocks/store-banner/inspector.js:125
+msgid "Show Store Name"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/StoreBannerSettings.php:70
+msgid "Switch to Show Store Name"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/StoreBannerSettings.php:79
+msgid "Switch to Show Category"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/StoreBannerSettings.php:84
+#: assets/blocks/main.js:1
+#: src/blocks/store-banner/inspector.js:135
+msgid "Show Rating"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/StoreBannerSettings.php:88
+msgid "Switch to Show Rating"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/StoreBannerSettings.php:113
+msgid "Banner Height (px)"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/StoreBannerSettings.php:142
+msgid "Banner Image Width (%)"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/StoreBannerSettings.php:185
+#: app/Widgets/WidgetSettings/StoreBannerSettings.php:317
+#: assets/blocks/main.js:1
+#: src/blocks/store-banner/inspector.js:95
+#: src/blocks/store-banner/inspector.js:186
+msgid "Logo"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/StoreBannerSettings.php:190
+msgid "logo Wrapper Height (px)"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/StoreBannerSettings.php:207
+msgid "logo wrapper wight (px)"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/StoreBannerSettings.php:245
+#: app/Widgets/WidgetSettings/StoreNameSettings.php:51
+#: assets/blocks/main.js:1
+#: src/blocks/store-banner/inspector.js:147
+msgid "Name Typography"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/StoreBannerSettings.php:251
+#: app/Widgets/WidgetSettings/StoreNameSettings.php:57
+#: assets/blocks/main.js:1
+#: src/blocks/store-banner/inspector.js:153
+msgid "Name Color"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/StoreBannerSettings.php:260
+#: assets/blocks/main.js:1
+#: src/blocks/store-banner/inspector.js:158
+msgid "Category Typography"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/StoreBannerSettings.php:267
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:765
+#: src/blocks/listing-archive/inspector.js:791
+#: src/blocks/related-listing/inspector.js:608
+#: src/blocks/related-listing/inspector.js:634
+#: src/blocks/store-banner/inspector.js:164
+#: src/blocks/store-listing/inspector.js:940
+#: src/blocks/store-listing/inspector.js:966
+msgid "Category Color"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/StoreBannerSettings.php:276
+msgid "Category icon Color"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/StoreBannerSettings.php:286
+#: assets/blocks/main.js:1
+#: src/blocks/store-banner/inspector.js:174
+msgid "Review Typography"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/StoreBannerSettings.php:293
+msgid "Review count Color"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/StoreBannerSettings.php:322
+msgid "Wrapper background"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/StoreBannerSettings.php:329
+msgid "Logo Border"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/StoreBannerSettings.php:354
+msgid "Logo Image Width (px)"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/StoreContactInfoSettings.php:57
+msgid "Show Status"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/StoreContactInfoSettings.php:61
+msgid "Switch to Show/Hide Store Status"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/StoreContactInfoSettings.php:66
+msgid "Show Address"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/StoreContactInfoSettings.php:70
+msgid "Switch to Show/Hide Store Address"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/StoreContactInfoSettings.php:75
+msgid "Show Phone"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/StoreContactInfoSettings.php:79
+msgid "Switch to Show/Hide Store Phone"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/StoreContactInfoSettings.php:84
+msgid "Show Social Media"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/StoreContactInfoSettings.php:88
+#: app/Widgets/WidgetSettings/StoreContactInfoSettings.php:97
+msgid "Switch to Show/Hide Store Social Media"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/StoreContactInfoSettings.php:93
+msgid "Show Store Email"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/StoreContactInfoSettings.php:118
+msgid "Contact"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/StoreContactInfoSettings.php:150
+msgid "Social Icon Width (px)"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/StoreContactInfoSettings.php:179
+msgid "Social Icon font size (px)"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/StoreContactInfoSettings.php:208
+msgid "Form Field Height (px)"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/StoreListingsSettings.php:46
+#: app/Widgets/WidgetSettings/StoreSloganSettings.php:46
+msgid "Slogan"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/StoreListingsSettings.php:53
+#: app/Widgets/WidgetSettings/StoreSloganSettings.php:53
+msgid "Slogan Typography"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/StoreListingsSettings.php:59
+#: app/Widgets/WidgetSettings/StoreSloganSettings.php:59
+msgid "Slogan Color"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/StoreOpeningHoursSettings.php:47
+#: assets/blocks/main.js:1
+#: src/blocks/store-opening/inspector.js:73
+msgid "Opening Hours"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/StoreOpeningHoursSettings.php:51
+#: assets/blocks/main.js:1
+#: src/blocks/store-opening/inspector.js:91
+msgid "Day's Padding"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/StoreOpeningHoursSettings.php:61
+#: assets/blocks/main.js:1
+#: src/blocks/store-opening/inspector.js:81
+msgid "Day's Margin"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/StoreOpeningHoursSettings.php:87
+#: assets/blocks/main.js:1
+#: src/blocks/store-opening/inspector.js:106
+msgid "Today's Color"
+msgstr ""
+
+#: app/Widgets/WidgetSettings/StoreOpeningHoursSettings.php:95
+#: assets/blocks/main.js:1
+#: src/blocks/store-opening/inspector.js:111
+msgid "Off Day Color"
+msgstr ""
+
+#. translators: %s: views count
+#: templates/blocks/listing-archive/listing-archive/grid/style-1.php:156
+#: templates/blocks/listing-archive/listing-archive/grid/style-2.php:167
+#: templates/blocks/listing-archive/listing-archive/grid/style-3.php:110
+#: templates/blocks/listing-archive/listing-archive/grid/style-4.php:170
+#: templates/blocks/listing-archive/listing-archive/grid/style-5.php:104
+#: templates/blocks/listing-archive/listing-archive/list/style-1.php:164
+#: templates/blocks/listing-archive/listing-archive/list/style-2.php:158
+#: templates/blocks/listing-archive/listing-archive/list/style-3.php:155
+#: templates/blocks/listing-archive/listing-archive/list/style-4.php:96
+#: templates/blocks/listing-archive/listing-archive/list/style-5.php:96
+#: templates/blocks/listing-single/listing-meta.php:55
+#: templates/blocks/listing-single/related-listing/grid/style-1.php:150
+#: templates/blocks/listing-single/related-listing/grid/style-3.php:113
+#: templates/blocks/listing-single/related-listing/grid/style-4.php:165
+#: templates/blocks/listing-single/related-listing/grid/style-5.php:105
+#: templates/elementor/listing-archive/grid/style-1.php:155
+#: templates/elementor/listing-archive/grid/style-2.php:167
+#: templates/elementor/listing-archive/grid/style-3.php:109
+#: templates/elementor/listing-archive/grid/style-4.php:169
+#: templates/elementor/listing-archive/grid/style-5.php:103
+#: templates/elementor/listing-archive/list/style-1.php:166
+#: templates/elementor/listing-archive/list/style-2.php:158
+#: templates/elementor/listing-archive/list/style-3.php:158
+#: templates/elementor/listing-archive/list/style-4.php:95
+#: templates/elementor/listing-archive/list/style-5.php:95
+#: templates/elementor/single/meta.php:53
+#: templates/elementor/single/related-listing/grid/style-1.php:151
+#: templates/elementor/single/related-listing/grid/style-3.php:112
+#: templates/elementor/single/related-listing/grid/style-4.php:167
+#: templates/elementor/single/related-listing/grid/style-5.php:104
+msgid "%s view"
+msgid_plural "%s views"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/blocks/listing-archive/listing-archive/grid/style-3.php:164
+#: templates/blocks/listing-archive/listing-archive/list/style-4.php:151
+#: templates/blocks/listing-archive/listing-archive/list/style-5.php:147
+#: templates/blocks/listing-single/related-listing/grid/style-3.php:168
+#: templates/elementor/listing-archive/grid/style-3.php:164
+#: templates/elementor/listing-archive/list/style-4.php:150
+#: templates/elementor/listing-archive/list/style-5.php:146
+#: templates/elementor/single/related-listing/grid/style-3.php:169
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/layout/grid/style3.js:82
+#: src/blocks/listing-archive/layout/list/style4.js:95
+#: src/blocks/listing-archive/layout/list/style5.js:90
+#: src/blocks/related-listing/layout/grid/style-grid3.jsx:105
+#: src/blocks/store-listing/layout/grid/style3.js:80
+#: src/blocks/store-listing/layout/list/style4.js:93
+#: src/blocks/store-listing/layout/list/style5.js:88
+msgid "Show Phone No"
+msgstr ""
+
+#: templates/blocks/listing-archive/listing-archive/list/style-1.php:212
+#: templates/blocks/listing-archive/listing-archive/list/style-2.php:207
+#: templates/elementor/listing-archive/list/style-1.php:214
+#: templates/elementor/listing-archive/list/style-2.php:207
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/layout/list/style1.js:89
+#: src/blocks/listing-archive/layout/list/style2.js:105
+#: src/blocks/store-listing/layout/list/style1.js:87
+#: src/blocks/store-listing/layout/list/style2.js:103
+msgid "Details"
+msgstr ""
+
+#: templates/blocks/listing-single/classima/listing-features.php:18
+#: templates/elementor/single/classima/features-list.php:15
+msgid "Feature List In not enable"
+msgstr ""
+
+#: templates/blocks/listing-single/classima/listing-features.php:40
+#: templates/elementor/single/classima/features-list.php:35
+msgid "Features:"
+msgstr ""
+
+#: templates/blocks/listing-single/listing-booking.php:36
+#: templates/elementor/single/booking.php:46
+msgid "Kindly activate the booking feature in the classified listing plugin settings. Ensure that both the 'Enable Booking' option in the settings booking tab and the 'Booking Active' in the added listing checkbox are checked for seamless functionality. Thank you."
+msgstr ""
+
+#: templates/blocks/listing-single/listing-meta.php:35
+#: templates/elementor/single/meta.php:31
+msgid "by "
+msgstr ""
+
+#: templates/blocks/listing-single/listing-review.php:158
+#: templates/elementor/single/review.php:151
+msgid "Your rating"
+msgstr ""
+
+#: templates/blocks/listing-single/listing-review.php:159
+#: templates/elementor/single/review.php:152
+msgid "Rate&hellip;"
+msgstr ""
+
+#: templates/blocks/listing-single/listing-review.php:160
+#: templates/elementor/single/review.php:153
+msgid "Perfect"
+msgstr ""
+
+#: templates/blocks/listing-single/listing-review.php:161
+#: templates/elementor/single/review.php:154
+msgid "Good"
+msgstr ""
+
+#: templates/blocks/listing-single/listing-review.php:162
+#: templates/elementor/single/review.php:155
+msgid "Average"
+msgstr ""
+
+#: templates/blocks/listing-single/listing-review.php:163
+#: templates/elementor/single/review.php:156
+msgid "Not that bad"
+msgstr ""
+
+#: templates/blocks/listing-single/listing-review.php:164
+#: templates/elementor/single/review.php:157
+msgid "Very poor"
+msgstr ""
+
+#: templates/elementor/single/description.php:16
+msgid "This is demo text for editor mode. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In eu mi bibendum neque egestas congue quisque. At urna condimentum mattis pellentesque id nibh tortor. Aliquam eleifend mi in nulla posuere. Sed sed risus pretium quam vulputate. Sit amet dictum sit amet justo donec enim diam vulputate."
+msgstr ""
+
+#: templates/elementor/store-single/details-modal.php:37
+msgid "Open Hours"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/globals/Constants.js:37
+msgid "Classic"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/components/Background/index.js:72
+#: src/globals/Constants.js:38
+msgid "Gradient"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/globals/Constants.js:42
+#: src/globals/Constants.js:55
+#: src/globals/Constants.js:62
+#: src/globals/Constants.js:70
+#: src/globals/Constants.js:83
+#: src/globals/Constants.js:94
+msgid "Default"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/globals/Constants.js:43
+msgid "Left Top"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/globals/Constants.js:44
+msgid "Left Center"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/globals/Constants.js:45
+msgid "Left Bottom"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/globals/Constants.js:46
+msgid "Right Top"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/globals/Constants.js:47
+msgid "Right Center"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/globals/Constants.js:48
+msgid "Right Bottom"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/globals/Constants.js:49
+msgid "Center Top"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/globals/Constants.js:50
+msgid "Center Center"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/globals/Constants.js:51
+msgid "Center Bottom"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/globals/Constants.js:56
+msgid "Auto"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/globals/Constants.js:57
+msgid "Cover"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/globals/Constants.js:58
+msgid "Contain"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/globals/Constants.js:63
+msgid "No Repeat"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/globals/Constants.js:64
+msgid "Repeat"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/globals/Constants.js:65
+msgid "Repeat X"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/globals/Constants.js:66
+msgid "Repeat Y"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/globals/Constants.js:71
+msgid "Scroll"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/globals/Constants.js:72
+msgid "Fixed"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/globals/Constants.js:76
+#: src/globals/Constants.js:292
+msgid "None"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/globals/Constants.js:77
+msgid "Lowercase"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/globals/Constants.js:78
+msgid "Capitalize"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/globals/Constants.js:79
+msgid "Uppercase"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/globals/Constants.js:84
+msgid "Light"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/globals/Constants.js:86
+msgid "Medium"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/globals/Constants.js:87
+msgid "Semi Bold"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/globals/Constants.js:88
+msgid "Bold"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/globals/Constants.js:89
+msgid "Extra Bold"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/globals/Constants.js:90
+msgid "Heavy Bold"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/globals/Constants.js:96
+msgid "Italic"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/globals/Constants.js:97
+msgid "Oblique"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/globals/Constants.js:102
+#: src/globals/Constants.js:232
+msgid "H1"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/globals/Constants.js:103
+#: src/globals/Constants.js:233
+msgid "H2"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/globals/Constants.js:104
+#: src/globals/Constants.js:234
+msgid "H3"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/globals/Constants.js:105
+#: src/globals/Constants.js:235
+msgid "H4"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/globals/Constants.js:106
+#: src/globals/Constants.js:236
+msgid "H5"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/globals/Constants.js:107
+#: src/globals/Constants.js:237
+msgid "H6"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/globals/Constants.js:159
+#: src/globals/Constants.js:169
+msgid "1 Col"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/globals/Constants.js:160
+#: src/globals/Constants.js:170
+msgid "2 Col"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/globals/Constants.js:161
+#: src/globals/Constants.js:171
+msgid "3 Col"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/globals/Constants.js:162
+#: src/globals/Constants.js:172
+msgid "4 Col"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/globals/Constants.js:163
+#: src/globals/Constants.js:173
+msgid "5 Col"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/globals/Constants.js:164
+#: src/globals/Constants.js:174
+msgid "6 Col"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/globals/Constants.js:165
+msgid "7 Col"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/globals/Constants.js:166
+msgid "8 Col"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/globals/Constants.js:238
+#: src/globals/Constants.js:244
+msgid "Span"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/globals/Constants.js:239
+#: src/globals/Constants.js:245
+msgid "P"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/globals/Constants.js:243
+msgid "Div"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/globals/Constants.js:259
+#: src/globals/Constants.js:330
+#: src/globals/Constants.js:362
+#: src/globals/Constants.js:394
+msgid "Style 3"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/globals/Constants.js:260
+#: src/globals/Constants.js:336
+#: src/globals/Constants.js:368
+#: src/globals/Constants.js:400
+msgid "Style 4"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:355
+#: src/blocks/related-listing/inspector.js:291
+#: src/blocks/store-listing/inspector.js:524
+#: src/globals/Constants.js:286
+msgid "Date"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/globals/Constants.js:288
+msgid "ID"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:379
+#: src/blocks/related-listing/inspector.js:315
+#: src/blocks/store-listing/inspector.js:548
+#: src/globals/Constants.js:290
+msgid "Views"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/globals/Constants.js:291
+msgid "Rand"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/globals/Constants.js:297
+msgid "Ascending"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/globals/Constants.js:298
+msgid "Descending"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/globals/Constants.js:305
+msgid "List View"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/globals/Constants.js:310
+msgid "Grid View"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/globals/Constants.js:342
+#: src/globals/Constants.js:374
+#: src/globals/Constants.js:406
+msgid "Style 5"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/components/Background/BGImage.js:55
+msgid "Background Image"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/components/Background/BGImage.js:72
+msgid "Upload Image"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/components/Background/BGImage.js:93
+msgid "Background Position"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/components/Background/BGImage.js:108
+msgid "Background Attachment"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/components/Background/BGImage.js:120
+msgid "Background Repeat"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/components/Background/BGImage.js:132
+msgid "Background Size"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/components/BorderDimension.js:18
+msgid "Border Style"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/components/BorderDimension.js:33
+msgid "Border Width"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/components/Typography.js:43
+msgid "Font Family"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/components/Typography.js:62
+msgid "Font Weight"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/components/Typography.js:71
+msgid "Font Style"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/components/Typography.js:80
+msgid "Text Transform"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/components/Typography.js:89
+msgid "Letter Spacing"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/components/Typography.js:101
+msgid "Line Height"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/components/IconControl.js:58
+msgid "Component props options is mandatory"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/components/AdvancedControl.js:57
+msgid "Warpper Margin & Padding"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/components/AdvancedControl.js:62
+msgid "Margin Top"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/components/AdvancedControl.js:73
+msgid "Margin Bottom"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/components/AdvancedControl.js:141
+msgid "Background Transition"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/components/AdvancedControl.js:153
+msgid "Enable Overlay"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:516
+#: src/blocks/listing-filter/inspector.js:219
+#: src/blocks/related-listing/inspector.js:444
+#: src/blocks/store-listing/inspector.js:691
+#: src/components/AdvancedControl.js:233
+msgid "Shadow"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/components/AdvancedControl.js:263
+msgid "Show/Hide Condition"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/components/AdvancedControl.js:265
+msgid "Hide on desktop"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/components/AdvancedControl.js:273
+msgid "Hide on Tablet"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/components/AdvancedControl.js:281
+msgid "Hide on Mobile"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/components/AdvancedControl.js:290
+#: src/components/AdvancedControl.js:292
+msgid "Z-Index"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/components/AdvancedControl.js:302
+msgid "Coustom CSS"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/row/inspector.js:42
+#: src/blocks/row/inspector.js:64
+msgid "Flex Start"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/row/inspector.js:47
+#: src/blocks/row/inspector.js:69
+msgid "Center"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/row/inspector.js:52
+#: src/blocks/row/inspector.js:74
+msgid "Flex End"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/row/inspector.js:57
+msgid "Stretch"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/row/inspector.js:79
+#: src/components/SliderSetting.js:82
+msgid "Space Between"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/row/inspector.js:84
+msgid "Space Around"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/row/inspector.js:89
+msgid "Space Evenly"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/row/inspector.js:121
+msgid "Row Settings"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/row/inspector.js:122
+msgid "Container Width"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/row/inspector.js:172
+msgid "Align Items"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/row/inspector.js:181
+msgid "Justify Content"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/row/edit.js:99
+msgid "Select Column Layout"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/row/variations.js:7
+msgid "One column"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/row/variations.js:21
+msgid "Two columns"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/row/variations.js:37
+msgid "Three columns"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/row/variations.js:53
+msgid "Four columns"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/row/variations.js:68
+msgid "Two column 25-75"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/row/variations.js:81
+msgid "Two column 75-25"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/row/variations.js:95
+msgid "Three column 25-25-50"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/row/variations.js:110
+msgid "Three column 50-25-25"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/row/variations.js:125
+msgid "Three column 25-50-25"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/row/variations.js:140
+msgid "Five column 20-20-20-20-20"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/row/variations.js:157
+msgid "Five column 16-16-16-16-16-16"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/row/variations.js:175
+msgid "Five column 16-66-16"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/row/column/index.js:18
+#: src/blocks/row/index.js:15
+msgid "row"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/row/column/index.js:19
+#: src/blocks/row/index.js:16
+msgid "column"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/row/column/inspector.js:53
+msgid "Column Settings"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/row/column/index.js:10
+msgid "Column"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-page-header/inspector.js:72
+msgid "Show Page Title"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-page-header/render-view.js:19
+msgid "Page header does not add to the listing"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-page-header/edit.js:68
+msgid "No page header found."
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/business-hours/edit.js:74
+#: src/blocks/custom-fields/edit.js:69
+#: src/blocks/listing-actions/edit.js:74
+#: src/blocks/listing-badge/edit.js:69
+#: src/blocks/listing-description/edit.js:68
+#: src/blocks/listing-features/edit.js:70
+#: src/blocks/listing-image/edit.js:73
+#: src/blocks/listing-map/edit.js:74
+#: src/blocks/listing-meta/edit.js:69
+#: src/blocks/listing-price/edit.js:69
+#: src/blocks/listing-review/edit.js:85
+#: src/blocks/listing-title/edit.js:67
+#: src/blocks/listing-video/edit.js:74
+#: src/blocks/related-listing/edit.js:88
+#: src/blocks/seller-information/edit.js:75
+#: src/blocks/social-profiles/edit.js:69
+msgid "No listing found."
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-description/inspector.js:60
+msgid "Dropcap"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-description/render-view.js:14
+msgid "Description does not add to the listing"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-badge/inspector.js:78
+msgid "Show New"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-badge/inspector.js:84
+msgid "Show Top"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-badge/inspector.js:90
+msgid "Show Popular"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-badge/inspector.js:96
+msgid "Show Feature"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-badge/inspector.js:102
+msgid "Show BumpUp"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-badge/inspector.js:147
+msgid "Default Badge"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-badge/inspector.js:150
+msgid "Badge Default Typography"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-badge/inspector.js:156
+msgid "Badge Default Background"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-badge/inspector.js:162
+msgid "Badge Default Text Color"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:914
+#: src/blocks/listing-badge/inspector.js:172
+#: src/blocks/related-listing/inspector.js:716
+#: src/blocks/store-listing/inspector.js:1089
+msgid "Top Background Color"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-badge/inspector.js:177
+msgid "Top Text Color"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-badge/inspector.js:183
+msgid "Featured"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:900
+#: src/blocks/listing-badge/inspector.js:185
+#: src/blocks/related-listing/inspector.js:702
+#: src/blocks/store-listing/inspector.js:1075
+msgid "Featured Background Color"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-badge/inspector.js:190
+msgid "Featured Text Color"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-badge/inspector.js:196
+msgid "New"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:886
+#: src/blocks/listing-badge/inspector.js:198
+#: src/blocks/related-listing/inspector.js:688
+#: src/blocks/store-listing/inspector.js:1061
+msgid "New Background Color"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-badge/inspector.js:203
+msgid "New Text Color"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-badge/inspector.js:209
+msgid "Popular"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:929
+#: src/blocks/listing-badge/inspector.js:211
+#: src/blocks/related-listing/inspector.js:731
+#: src/blocks/store-listing/inspector.js:1104
+msgid "Popular Background Color"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-badge/inspector.js:216
+msgid "Popular Text Color"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-badge/inspector.js:222
+msgid "BumpUp"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:943
+#: src/blocks/listing-badge/inspector.js:224
+#: src/blocks/related-listing/inspector.js:745
+#: src/blocks/store-listing/inspector.js:1118
+msgid "BumpUp Background Color"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-badge/inspector.js:229
+msgid "BumpUp Text Color"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-badge/render-view.js:13
+msgid "Badge does not add to the listing"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-meta/inspector.js:67
+msgid "Show Type"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-meta/inspector.js:73
+msgid "Show Date"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-features/inspector.js:74
+#: src/blocks/listing-meta/inspector.js:139
+#: src/blocks/listing-review/inspector.js:295
+msgid "Gap"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-features/inspector.js:124
+msgid "Feature List"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-features/inspector.js:145
+#: src/blocks/listing-image/inspector.js:153
+#: src/blocks/listing-image/inspector.js:166
+msgid "Icon Background"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-features/inspector.js:160
+msgid "Icon Dimention"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/social-profiles/inspector.js:69
+msgid "Show Label"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/social-profiles/inspector.js:81
+msgid "Show Facebook"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/social-profiles/inspector.js:86
+msgid "Show Twitter"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/social-profiles/inspector.js:96
+msgid "Show Instagram"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/social-profiles/inspector.js:101
+msgid "Show LinkedIn"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/social-profiles/inspector.js:106
+msgid "Show Pinterest"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/social-profiles/inspector.js:111
+msgid "Show Reddit"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/social-profiles/render-view.js:12
+msgid "Social profiles does not add to the listing"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/business-hours/inspector.js:71
+msgid "Show Open Status?"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/business-hours/render-view.js:12
+msgid "Business Hours does not add to the listing"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/seller-information/inspector.js:101
+msgid "Show Online Status"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/seller-information/render-view.js:14
+msgid "Seller information does not add to the listing"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-video/render-view.js:44
+msgid "Video URL does not add to the listing"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-map/inspector.js:90
+msgid "Location Title"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-actions/inspector.js:158
+msgid "Social Icon Dimension"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-actions/inspector.js:220
+#: src/blocks/listing-archive/inspector.js:666
+#: src/blocks/related-listing/inspector.js:520
+#: src/blocks/store-listing/inspector.js:841
+msgid "Hover Color"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-actions/render-view.js:14
+msgid "Listing actions does not add to the listing"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-image/inspector.js:92
+msgid "Enable Slider"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-image/inspector.js:138
+msgid "Imge Size will work on frontend only"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-image/inspector.js:159
+msgid "Zoom Icon"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-review/inspector.js:115
+msgid "Review Section Title"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-review/inspector.js:152
+msgid "Contact Form"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-review/inspector.js:159
+msgid "Contact Form Title Text"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-review/inspector.js:380
+msgid "\tComment Field Height"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/custom-fields/inspector.js:133
+msgid "Label And Value In New Line?"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/custom-fields/inspector.js:138
+msgid "Custom Field Groups"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/custom-fields/inspector.js:175
+msgid "Fields"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/custom-fields/render-view.js:14
+msgid "Please Select Custom Feild"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/related-listing/inspector.js:183
+#: src/blocks/store-listing/inspector.js:419
+msgid "Listing Per Page"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/related-listing/inspector.js:194
+msgid "Listing Criteria"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:286
+#: src/blocks/related-listing/inspector.js:233
+#: src/blocks/store-listing/inspector.js:455
+msgid "Thumbnail"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:294
+#: src/blocks/listing-archive/inspector.js:303
+#: src/blocks/related-listing/inspector.js:241
+#: src/blocks/store-listing/inspector.js:463
+#: src/blocks/store-listing/inspector.js:472
+msgid "Short Description"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:314
+#: src/blocks/related-listing/inspector.js:250
+#: src/blocks/store-listing/inspector.js:483
+msgid "Description Limit"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:323
+#: src/blocks/listing-archive/inspector.js:842
+#: src/blocks/related-listing/inspector.js:259
+#: src/blocks/related-listing/inspector.js:644
+#: src/blocks/store-listing/inspector.js:492
+#: src/blocks/store-listing/inspector.js:1017
+msgid "Badge"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:331
+#: src/blocks/related-listing/inspector.js:267
+#: src/blocks/store-listing/inspector.js:500
+msgid "Sold"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:339
+#: src/blocks/related-listing/inspector.js:275
+#: src/blocks/store-listing/inspector.js:508
+msgid "Location"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:347
+#: src/blocks/related-listing/inspector.js:283
+#: src/blocks/store-listing/inspector.js:516
+msgid "Category"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:371
+#: src/blocks/related-listing/inspector.js:307
+#: src/blocks/store-listing/inspector.js:540
+msgid "Author"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:387
+#: src/blocks/related-listing/inspector.js:323
+#: src/blocks/store-listing/inspector.js:362
+#: src/blocks/store-listing/inspector.js:556
+msgid "Listing Type"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:396
+#: src/blocks/related-listing/inspector.js:332
+#: src/blocks/store-listing/inspector.js:565
+msgid "Details Button"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:405
+#: src/blocks/related-listing/inspector.js:341
+#: src/blocks/store-listing/inspector.js:574
+msgid "Phone Button"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/related-listing/inspector.js:349
+msgid "Favourit Button"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:420
+#: src/blocks/related-listing/inspector.js:356
+#: src/blocks/store-listing/inspector.js:589
+msgid "Quick View Button"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:427
+#: src/blocks/related-listing/inspector.js:363
+#: src/blocks/store-listing/inspector.js:596
+msgid "Compare  Button"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:445
+#: src/blocks/related-listing/inspector.js:378
+#: src/blocks/store-listing/inspector.js:619
+msgid "Action Button Layout"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:466
+#: src/blocks/related-listing/inspector.js:406
+#: src/blocks/store-listing/inspector.js:641
+msgid "Item Wrapper"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/related-listing/inspector.js:415
+msgid "Wrapper Padding"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/related-listing/inspector.js:426
+msgid "Content Padding"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:675
+#: src/blocks/related-listing/inspector.js:483
+#: src/blocks/store-listing/inspector.js:850
+msgid "Title Margin"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:717
+#: src/blocks/related-listing/inspector.js:560
+#: src/blocks/store-listing/inspector.js:892
+msgid "Meta Typography"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:724
+#: src/blocks/related-listing/inspector.js:567
+#: src/blocks/store-listing/inspector.js:899
+msgid "Meta Spacing"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:844
+#: src/blocks/related-listing/inspector.js:646
+#: src/blocks/store-listing/inspector.js:1019
+msgid "Badge Typography"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:850
+#: src/blocks/related-listing/inspector.js:652
+#: src/blocks/store-listing/inspector.js:1025
+msgid "Badge Paddingn"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:861
+#: src/blocks/related-listing/inspector.js:663
+#: src/blocks/store-listing/inspector.js:1036
+msgid "Badge Margin"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:872
+#: src/blocks/related-listing/inspector.js:674
+#: src/blocks/store-listing/inspector.js:1047
+msgid "Sold Background Color"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:879
+#: src/blocks/related-listing/inspector.js:681
+#: src/blocks/store-listing/inspector.js:1054
+msgid "Sold Color"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:893
+#: src/blocks/related-listing/inspector.js:695
+#: src/blocks/store-listing/inspector.js:1068
+msgid "New Color"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:907
+#: src/blocks/related-listing/inspector.js:709
+#: src/blocks/store-listing/inspector.js:1082
+msgid "Featured Color"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:921
+#: src/blocks/related-listing/inspector.js:723
+#: src/blocks/store-listing/inspector.js:1096
+msgid "Top Color"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:936
+#: src/blocks/related-listing/inspector.js:738
+#: src/blocks/store-listing/inspector.js:1111
+msgid "Popular Color"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:950
+#: src/blocks/related-listing/inspector.js:752
+#: src/blocks/store-listing/inspector.js:1125
+msgid "BumpUp Color"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:962
+#: src/blocks/related-listing/inspector.js:764
+#: src/blocks/store-listing/inspector.js:1137
+msgid "Price Typography"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:983
+#: src/blocks/related-listing/inspector.js:785
+#: src/blocks/store-listing/inspector.js:1158
+msgid "Unit Label Typography"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:989
+#: src/blocks/related-listing/inspector.js:791
+#: src/blocks/store-listing/inspector.js:1164
+msgid "Unit Label Text Color"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:996
+#: src/blocks/related-listing/inspector.js:798
+#: src/blocks/store-listing/inspector.js:1171
+msgid "Price Margin"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:1055
+#: src/blocks/listing-archive/inspector.js:1109
+#: src/blocks/related-listing/inspector.js:835
+#: src/blocks/related-listing/inspector.js:863
+#: src/blocks/store-listing/inspector.js:1230
+#: src/blocks/store-listing/inspector.js:1284
+msgid "Button Text Color"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/related-listing/inspector.js:884
+#: src/components/SliderSetting.js:102
+msgid "Arrow Navigation"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/related-listing/inspector.js:894
+msgid "Hover Background Color"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/related-listing/inspector.js:910
+msgid "Hover Icon Color"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/related-listing/inspector.js:922
+#: src/components/SliderSetting.js:126
+msgid "Dot Navigation"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/related-listing/inspector.js:924
+msgid "Dot Navigation Spacing"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/related-listing/inspector.js:944
+msgid "Active Background Color"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/layout/grid/style1.js:79
+#: src/blocks/listing-archive/layout/grid/style3.js:66
+#: src/blocks/listing-archive/layout/grid/style4.js:83
+#: src/blocks/listing-archive/layout/grid/style5.js:67
+#: src/blocks/listing-archive/layout/list/style1.js:75
+#: src/blocks/listing-archive/layout/list/style2.js:79
+#: src/blocks/listing-archive/layout/list/style2.js:100
+#: src/blocks/listing-archive/layout/list/style3.js:78
+#: src/blocks/listing-archive/layout/list/style4.js:69
+#: src/blocks/listing-archive/layout/list/style5.js:70
+#: src/blocks/related-listing/layout/grid/style-grid.jsx:103
+#: src/blocks/related-listing/layout/grid/style-grid3.jsx:89
+#: src/blocks/related-listing/layout/grid/style-grid4.jsx:105
+#: src/blocks/related-listing/layout/grid/style-grid5.jsx:88
+#: src/blocks/store-listing/layout/grid/style1.js:78
+#: src/blocks/store-listing/layout/grid/style3.js:64
+#: src/blocks/store-listing/layout/grid/style4.js:81
+#: src/blocks/store-listing/layout/grid/style5.js:65
+#: src/blocks/store-listing/layout/list/style1.js:73
+#: src/blocks/store-listing/layout/list/style2.js:77
+#: src/blocks/store-listing/layout/list/style2.js:98
+#: src/blocks/store-listing/layout/list/style3.js:77
+#: src/blocks/store-listing/layout/list/style4.js:67
+#: src/blocks/store-listing/layout/list/style5.js:68
+msgid "views"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-filter/inspector.js:90
+msgid "Show Filter Title"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-filter/inspector.js:97
+msgid "Filter Title"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-filter/inspector.js:121
+msgid "Show Radius Search"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-filter/inspector.js:126
+msgid "Show Ad Types"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-filter/inspector.js:131
+msgid "Show Price"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-filter/inspector.js:137
+msgid "Hide empty Category / Location"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-filter/inspector.js:142
+msgid "Show count for Category / Location"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-filter/inspector.js:148
+msgid "Ajax load for Category / Location to increase PageSpeed."
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-filter/inspector.js:153
+msgid "All Categories / All Locations link"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-filter/inspector.js:159
+msgid "Show category image / icon"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-filter/inspector.js:164
+msgid "Search by Rating"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-filter/inspector.js:169
+msgid "Search by Custom Fields"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-filter/inspector.js:180
+msgid "Item Box"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:498
+#: src/blocks/listing-filter/inspector.js:190
+#: src/blocks/store-listing/inspector.js:673
+msgid "Content Spacing"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-filter/edit.js:97
+msgid "No filter field found."
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:193
+msgid "Result Count"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:199
+msgid "Catalog Ordering"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:205
+msgid "View Switcher"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:211
+#: src/blocks/listing-archive/inspector.js:1132
+#: src/blocks/store-listing/inspector.js:611
+#: src/blocks/store-listing/inspector.js:1307
+msgid "Pagination"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:413
+#: src/blocks/store-listing/inspector.js:582
+msgid "Favourite Button"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:476
+#: src/blocks/store-listing/inspector.js:651
+msgid "Gutter Spacing"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:487
+#: src/blocks/store-listing/inspector.js:662
+msgid "Wrapper Spacing"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:548
+#: src/blocks/store-listing/inspector.js:723
+msgid "Promotional Post"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:810
+#: src/blocks/store-listing/inspector.js:985
+msgid "Value Typography"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:823
+#: src/blocks/store-listing/inspector.js:998
+msgid "Value Color"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:1029
+#: src/blocks/listing-archive/inspector.js:1083
+#: src/blocks/store-listing/inspector.js:1204
+#: src/blocks/store-listing/inspector.js:1258
+msgid "Details Button BG Color"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:1036
+#: src/blocks/listing-archive/inspector.js:1090
+#: src/blocks/store-listing/inspector.js:1211
+#: src/blocks/store-listing/inspector.js:1265
+msgid "Details Button Text Color"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:1067
+#: src/blocks/listing-archive/inspector.js:1121
+#: src/blocks/store-listing/inspector.js:1242
+#: src/blocks/store-listing/inspector.js:1296
+msgid "Action Button Text Color"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:1141
+#: src/blocks/store-listing/inspector.js:1316
+msgid "Active Background"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/inspector.js:1155
+#: src/blocks/store-listing/inspector.js:1330
+msgid "Active Text Color"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/listing-archive/edit.js:94
+msgid "No Listings found."
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/store-name/render-view.js:19
+msgid "Store name does not insert"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/store-contact-info/edit.js:68
+#: src/blocks/store-description/edit.js:66
+#: src/blocks/store-listing/edit.js:79
+#: src/blocks/store-name/edit.js:67
+#: src/blocks/store-opening/edit.js:68
+#: src/blocks/store-slogan/edit.js:66
+msgid "No Store found."
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/store-description/render-view.js:18
+msgid "Description does not add to the Store"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/store-slogan/render-view.js:19
+msgid "Slogan does not add to the store"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/store-contact-info/render-view.js:14
+msgid "Store Contact Info does not insert"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/store-opening/render-view.js:11
+msgid "Store Opening Hour does not insert"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/store-listing/inspector.js:332
+msgid "Filter"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/store-listing/inspector.js:334
+msgid "Promotions"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/store-listing/inspector.js:348
+msgid "Promotions Excludes"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/store-listing/inspector.js:372
+msgid "Categories"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/store-listing/inspector.js:386
+msgid "Locations"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/store-listing/inspector.js:400
+msgid "Order By"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/store-listing/inspector.js:410
+msgid "Sort By"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/store-listing/inspector.js:420
+msgid "The number of listings to show. Set -1 to show all listings."
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/store-listing/inspector.js:432
+msgid "Image"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/wrapper/index.js:18
+msgid "wrapper"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/wrapper/index.js:19
+msgid "rtcl-elementor-builder"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/store-banner/inspector.js:74
+msgid "Banner Height(px)"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/store-banner/inspector.js:84
+msgid "Banner Width(%)"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/store-banner/inspector.js:97
+msgid "Logo Wrapper Height(px)"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/store-banner/inspector.js:107
+msgid "Logo Wrapper Width(px)"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/store-banner/inspector.js:169
+msgid "Category Icon Color"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/store-banner/inspector.js:180
+msgid "Review Count Color"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/store-banner/inspector.js:188
+msgid "Wrapper Background"
+msgstr ""
+
+#: assets/blocks/main.js:1
+#: src/blocks/store-banner/inspector.js:200
+msgid "Logo Image Width (Px)"
+msgstr ""
+
+#: src/blocks/wrapper/inspector.js:65
+msgid "Content Width"
+msgstr ""
+
+#: src/components/BoxShadow.js:30
+msgid "Inset"
+msgstr ""
+
+#: src/components/BoxShadow.js:36
+msgid "Shadow Color"
+msgstr ""
+
+#: src/components/BoxShadow.js:41
+msgid "Horizontal Offset"
+msgstr ""
+
+#: src/components/BoxShadow.js:49
+msgid "Vertical Offset"
+msgstr ""
+
+#: src/components/BoxShadow.js:57
+msgid "Shadow Blur"
+msgstr ""
+
+#: src/components/BoxShadow.js:65
+msgid "Shadow Spread"
+msgstr ""
+
+#: src/components/BoxShadow.js:75
+msgid "Shadow Transition"
+msgstr ""
+
+#: src/components/SliderSetting.js:24
+msgid "Slider Options"
+msgstr ""
+
+#: src/components/SliderSetting.js:26
+msgid "Auto Heighit"
+msgstr ""
+
+#: src/components/SliderSetting.js:35
+msgid "Loop"
+msgstr ""
+
+#: src/components/SliderSetting.js:44
+msgid "Autoplay"
+msgstr ""
+
+#: src/components/SliderSetting.js:55
+msgid "Stop On Hover"
+msgstr ""
+
+#: src/components/SliderSetting.js:64
+msgid "Autoplay Delay"
+msgstr ""
+
+#: src/components/SliderSetting.js:74
+msgid "Slide Transition Speed"
+msgstr ""
+
+#: src/components/SliderSetting.js:91
+msgid "Slides To Item"
+msgstr ""
+
+#: src/components/SliderSetting.js:113
+msgid "Arrow Position"
+msgstr ""
+
+#: src/components/SliderSetting.js:135
+msgid "Dot style"
+msgstr ""
+
+#: src/components/SliderSetting.js:146
+msgid "Slider Loader"
+msgstr ""
+
+#: app/Blocks/business-hours/block.json
+msgctxt "block title"
+msgid "Business Hours"
+msgstr ""
+
+#: app/Blocks/business-hours/block.json
+msgctxt "block description"
+msgid "business hours block description"
+msgstr ""
+
+#: app/Blocks/business-hours/block.json
+msgctxt "block keyword"
+msgid "business"
+msgstr ""
+
+#: app/Blocks/business-hours/block.json
+msgctxt "block keyword"
+msgid "hours"
+msgstr ""
+
+#: app/Blocks/business-hours/block.json
+msgctxt "block keyword"
+msgid "business hours"
+msgstr ""
+
+#: app/Blocks/custom-fields/block.json
+msgctxt "block title"
+msgid "Custom Fields"
+msgstr ""
+
+#: app/Blocks/custom-fields/block.json
+msgctxt "block description"
+msgid "Custom fields block description"
+msgstr ""
+
+#: app/Blocks/custom-fields/block.json
+#: app/Blocks/listing-actions/block.json
+#: app/Blocks/listing-archive/block.json
+#: app/Blocks/listing-badge/block.json
+#: app/Blocks/listing-booking/block.json
+#: app/Blocks/listing-description/block.json
+#: app/Blocks/listing-features/block.json
+#: app/Blocks/listing-filter/block.json
+#: app/Blocks/listing-image/block.json
+#: app/Blocks/listing-map/block.json
+#: app/Blocks/listing-meta/block.json
+#: app/Blocks/listing-page-header/block.json
+#: app/Blocks/listing-price/block.json
+#: app/Blocks/listing-review/block.json
+#: app/Blocks/listing-title/block.json
+#: app/Blocks/listing-video/block.json
+#: app/Blocks/related-listing/block.json
+#: app/Blocks/social-profiles/block.json
+#: app/Blocks/store-banner/block.json
+#: app/Blocks/store-contact-info/block.json
+#: app/Blocks/store-description/block.json
+#: app/Blocks/store-listing/block.json
+#: app/Blocks/store-name/block.json
+#: app/Blocks/store-opening/block.json
+#: app/Blocks/store-slogan/block.json
+msgctxt "block keyword"
+msgid "listing"
+msgstr ""
+
+#: app/Blocks/custom-fields/block.json
+msgctxt "block keyword"
+msgid "Custom"
+msgstr ""
+
+#: app/Blocks/custom-fields/block.json
+msgctxt "block keyword"
+msgid "Custom fields"
+msgstr ""
+
+#: app/Blocks/listing-actions/block.json
+msgctxt "block title"
+msgid "Action & Social Share"
+msgstr ""
+
+#: app/Blocks/listing-actions/block.json
+msgctxt "block description"
+msgid "Listing action and social share block description"
+msgstr ""
+
+#: app/Blocks/listing-actions/block.json
+msgctxt "block keyword"
+msgid "action"
+msgstr ""
+
+#: app/Blocks/listing-actions/block.json
+msgctxt "block keyword"
+msgid "social share"
+msgstr ""
+
+#: app/Blocks/listing-archive/block.json
+msgctxt "block title"
+msgid "Listing Archive"
+msgstr ""
+
+#: app/Blocks/listing-archive/block.json
+msgctxt "block description"
+msgid "Listing archive block description"
+msgstr ""
+
+#: app/Blocks/listing-archive/block.json
+msgctxt "block keyword"
+msgid "archive"
+msgstr ""
+
+#: app/Blocks/listing-archive/block.json
+msgctxt "block keyword"
+msgid "listing archive"
+msgstr ""
+
+#: app/Blocks/listing-badge/block.json
+msgctxt "block title"
+msgid "Badge"
+msgstr ""
+
+#: app/Blocks/listing-badge/block.json
+msgctxt "block description"
+msgid "Listing badge block description"
+msgstr ""
+
+#: app/Blocks/listing-badge/block.json
+msgctxt "block keyword"
+msgid "badge"
+msgstr ""
+
+#: app/Blocks/listing-badge/block.json
+msgctxt "block keyword"
+msgid "listing badge"
+msgstr ""
+
+#: app/Blocks/listing-booking/block.json
+msgctxt "block title"
+msgid "Booking"
+msgstr ""
+
+#: app/Blocks/listing-booking/block.json
+msgctxt "block description"
+msgid "Listing booking block description"
+msgstr ""
+
+#: app/Blocks/listing-booking/block.json
+msgctxt "block keyword"
+msgid "booking"
+msgstr ""
+
+#: app/Blocks/listing-booking/block.json
+msgctxt "block keyword"
+msgid "listing booking"
+msgstr ""
+
+#: app/Blocks/listing-description/block.json
+#: app/Blocks/store-description/block.json
+msgctxt "block title"
+msgid "Description"
+msgstr ""
+
+#: app/Blocks/listing-description/block.json
+msgctxt "block description"
+msgid "Listing description block description"
+msgstr ""
+
+#: app/Blocks/listing-description/block.json
+msgctxt "block keyword"
+msgid "description"
+msgstr ""
+
+#: app/Blocks/listing-description/block.json
+msgctxt "block keyword"
+msgid "listing description"
+msgstr ""
+
+#: app/Blocks/listing-features/block.json
+msgctxt "block title"
+msgid "Listing features"
+msgstr ""
+
+#: app/Blocks/listing-features/block.json
+msgctxt "block description"
+msgid "Listing features block description"
+msgstr ""
+
+#: app/Blocks/listing-features/block.json
+#: app/Blocks/social-profiles/block.json
+msgctxt "block keyword"
+msgid "features"
+msgstr ""
+
+#: app/Blocks/listing-features/block.json
+msgctxt "block keyword"
+msgid "listing features"
+msgstr ""
+
+#: app/Blocks/listing-filter/block.json
+msgctxt "block title"
+msgid "Listing Filter"
+msgstr ""
+
+#: app/Blocks/listing-filter/block.json
+msgctxt "block description"
+msgid "Listing filter block description"
+msgstr ""
+
+#: app/Blocks/listing-filter/block.json
+msgctxt "block keyword"
+msgid "filter"
+msgstr ""
+
+#: app/Blocks/listing-filter/block.json
+msgctxt "block keyword"
+msgid "listing filter"
+msgstr ""
+
+#: app/Blocks/listing-image/block.json
+msgctxt "block title"
+msgid "Image"
+msgstr ""
+
+#: app/Blocks/listing-image/block.json
+msgctxt "block description"
+msgid "Listing Image block description"
+msgstr ""
+
+#: app/Blocks/listing-image/block.json
+msgctxt "block keyword"
+msgid "image"
+msgstr ""
+
+#: app/Blocks/listing-image/block.json
+msgctxt "block keyword"
+msgid "listing image"
+msgstr ""
+
+#: app/Blocks/listing-map/block.json
+msgctxt "block title"
+msgid "Map"
+msgstr ""
+
+#: app/Blocks/listing-map/block.json
+msgctxt "block description"
+msgid "Listing map block description"
+msgstr ""
+
+#: app/Blocks/listing-map/block.json
+msgctxt "block keyword"
+msgid "map"
+msgstr ""
+
+#: app/Blocks/listing-map/block.json
+msgctxt "block keyword"
+msgid "listing map"
+msgstr ""
+
+#: app/Blocks/listing-meta/block.json
+msgctxt "block title"
+msgid "Meta"
+msgstr ""
+
+#: app/Blocks/listing-meta/block.json
+msgctxt "block description"
+msgid "Listing meta block description"
+msgstr ""
+
+#: app/Blocks/listing-meta/block.json
+msgctxt "block keyword"
+msgid "meta"
+msgstr ""
+
+#: app/Blocks/listing-meta/block.json
+msgctxt "block keyword"
+msgid "listing meta"
+msgstr ""
+
+#: app/Blocks/listing-page-header/block.json
+msgctxt "block title"
+msgid "Page Header"
+msgstr ""
+
+#: app/Blocks/listing-page-header/block.json
+msgctxt "block description"
+msgid "Listing page header block description"
+msgstr ""
+
+#: app/Blocks/listing-page-header/block.json
+msgctxt "block keyword"
+msgid "header"
+msgstr ""
+
+#: app/Blocks/listing-page-header/block.json
+msgctxt "block keyword"
+msgid "page header"
+msgstr ""
+
+#: app/Blocks/listing-price/block.json
+msgctxt "block title"
+msgid "Price"
+msgstr ""
+
+#: app/Blocks/listing-price/block.json
+msgctxt "block description"
+msgid "Listing price block description"
+msgstr ""
+
+#: app/Blocks/listing-price/block.json
+msgctxt "block keyword"
+msgid "price"
+msgstr ""
+
+#: app/Blocks/listing-price/block.json
+msgctxt "block keyword"
+msgid "listing price"
+msgstr ""
+
+#: app/Blocks/listing-review/block.json
+msgctxt "block title"
+msgid "Review"
+msgstr ""
+
+#: app/Blocks/listing-review/block.json
+msgctxt "block description"
+msgid "Listing review block description"
+msgstr ""
+
+#: app/Blocks/listing-review/block.json
+msgctxt "block keyword"
+msgid "review"
+msgstr ""
+
+#: app/Blocks/listing-review/block.json
+msgctxt "block keyword"
+msgid "listing review"
+msgstr ""
+
+#: app/Blocks/listing-title/block.json
+msgctxt "block title"
+msgid "Title"
+msgstr ""
+
+#: app/Blocks/listing-title/block.json
+msgctxt "block description"
+msgid "Listing title block description"
+msgstr ""
+
+#: app/Blocks/listing-title/block.json
+msgctxt "block keyword"
+msgid "title"
+msgstr ""
+
+#: app/Blocks/listing-title/block.json
+msgctxt "block keyword"
+msgid "listing title"
+msgstr ""
+
+#: app/Blocks/listing-video/block.json
+msgctxt "block title"
+msgid "Video"
+msgstr ""
+
+#: app/Blocks/listing-video/block.json
+msgctxt "block description"
+msgid "Listing Video block description"
+msgstr ""
+
+#: app/Blocks/listing-video/block.json
+msgctxt "block keyword"
+msgid "video"
+msgstr ""
+
+#: app/Blocks/listing-video/block.json
+msgctxt "block keyword"
+msgid "listing video"
+msgstr ""
+
+#: app/Blocks/related-listing/block.json
+msgctxt "block title"
+msgid "Related Listing"
+msgstr ""
+
+#: app/Blocks/related-listing/block.json
+msgctxt "block description"
+msgid "Related Listing description"
+msgstr ""
+
+#: app/Blocks/related-listing/block.json
+msgctxt "block keyword"
+msgid "related"
+msgstr ""
+
+#: app/Blocks/related-listing/block.json
+msgctxt "block keyword"
+msgid "related-listing"
+msgstr ""
+
+#: app/Blocks/row/block.json
+msgctxt "block title"
+msgid "Row"
+msgstr ""
+
+#: app/Blocks/row/block.json
+msgctxt "block description"
+msgid "Add row and column layout and displays content in multiple columns"
+msgstr ""
+
+#: app/Blocks/seller-information/block.json
+msgctxt "block title"
+msgid "Seller Information"
+msgstr ""
+
+#: app/Blocks/seller-information/block.json
+msgctxt "block description"
+msgid "Seller information block description"
+msgstr ""
+
+#: app/Blocks/seller-information/block.json
+msgctxt "block keyword"
+msgid "seller"
+msgstr ""
+
+#: app/Blocks/seller-information/block.json
+msgctxt "block keyword"
+msgid "information"
+msgstr ""
+
+#: app/Blocks/seller-information/block.json
+msgctxt "block keyword"
+msgid "seller-information"
+msgstr ""
+
+#: app/Blocks/social-profiles/block.json
+msgctxt "block title"
+msgid "Social Profiles"
+msgstr ""
+
+#: app/Blocks/social-profiles/block.json
+msgctxt "block description"
+msgid "social profiles block description"
+msgstr ""
+
+#: app/Blocks/social-profiles/block.json
+msgctxt "block keyword"
+msgid "social profiles"
+msgstr ""
+
+#: app/Blocks/store-banner/block.json
+msgctxt "block title"
+msgid "Banner"
+msgstr ""
+
+#: app/Blocks/store-banner/block.json
+msgctxt "block description"
+msgid "Store Banner block description"
+msgstr ""
+
+#: app/Blocks/store-banner/block.json
+#: app/Blocks/store-contact-info/block.json
+#: app/Blocks/store-description/block.json
+#: app/Blocks/store-listing/block.json
+#: app/Blocks/store-name/block.json
+#: app/Blocks/store-slogan/block.json
+msgctxt "block keyword"
+msgid "store"
+msgstr ""
+
+#: app/Blocks/store-banner/block.json
+msgctxt "block keyword"
+msgid "store banner"
+msgstr ""
+
+#: app/Blocks/store-contact-info/block.json
+msgctxt "block title"
+msgid "Contact Info"
+msgstr ""
+
+#: app/Blocks/store-contact-info/block.json
+msgctxt "block description"
+msgid "Store contact info block description"
+msgstr ""
+
+#: app/Blocks/store-contact-info/block.json
+#: app/Blocks/store-name/block.json
+msgctxt "block keyword"
+msgid "store name"
+msgstr ""
+
+#: app/Blocks/store-description/block.json
+msgctxt "block description"
+msgid "Store block description"
+msgstr ""
+
+#: app/Blocks/store-description/block.json
+msgctxt "block keyword"
+msgid "store description"
+msgstr ""
+
+#: app/Blocks/store-listing/block.json
+msgctxt "block title"
+msgid "Store Listings"
+msgstr ""
+
+#: app/Blocks/store-listing/block.json
+msgctxt "block description"
+msgid "Store Listing block description"
+msgstr ""
+
+#: app/Blocks/store-listing/block.json
+msgctxt "block keyword"
+msgid "store listings"
+msgstr ""
+
+#: app/Blocks/store-name/block.json
+msgctxt "block title"
+msgid "Name"
+msgstr ""
+
+#: app/Blocks/store-name/block.json
+msgctxt "block description"
+msgid "Store name block description"
+msgstr ""
+
+#: app/Blocks/store-opening/block.json
+msgctxt "block title"
+msgid "Opening Hour"
+msgstr ""
+
+#: app/Blocks/store-opening/block.json
+msgctxt "block description"
+msgid "Store opening hour block description"
+msgstr ""
+
+#: app/Blocks/store-opening/block.json
+msgctxt "block keyword"
+msgid "opening"
+msgstr ""
+
+#: app/Blocks/store-opening/block.json
+msgctxt "block keyword"
+msgid "store opening hour"
+msgstr ""
+
+#: app/Blocks/store-slogan/block.json
+msgctxt "block title"
+msgid "Slogan"
+msgstr ""
+
+#: app/Blocks/store-slogan/block.json
+msgctxt "block description"
+msgid "Store slogan block description"
+msgstr ""
+
+#: app/Blocks/store-slogan/block.json
+msgctxt "block keyword"
+msgid "store slogan"
+msgstr ""
+
+#: app/Blocks/wrapper/block.json
+msgctxt "block title"
+msgid "Wrapper"
+msgstr ""
+
+#: app/Blocks/wrapper/block.json
+msgctxt "block description"
+msgid "Blocks are displayed in a wrapper"
+msgstr ""

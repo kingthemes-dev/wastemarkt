@@ -1,0 +1,14 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "title": "Business Hours",
+  "name": "rtcl/business-hours",
+  "category": "rtcl-single-block",
+  "description": "business hours block description",
+  "keywords": [
+	"business",
+	"hours",
+	"business hours"
+   ],
+  "apiVersion": 2,
+  "textdomain": "rtcl-elementor-builder"
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "title": "Action & Social Share",
+  "name": "rtcl/listing-actions",
+  "category": "rtcl-single-block",
+  "description": "Listing action and social share block description",
+  "keywords": [
+	"listing",
+	"action",
+	"social share"
+   ],
+  "apiVersion": 2,
+  "textdomain": "rtcl-elementor-builder"
+}

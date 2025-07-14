@@ -1,0 +1,14 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"title": "Map",
+	"name": "rtcl/listing-map",
+	"category": "rtcl-single-block",
+	"description": "Listing map block description",
+	"keywords": [
+		"listing",
+		"map",
+		"listing map"
+	],
+	"apiVersion": 2,
+	"textdomain": "rtcl-elementor-builder"
+}

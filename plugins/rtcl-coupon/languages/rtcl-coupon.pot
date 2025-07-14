@@ -1,0 +1,329 @@
+# Copyright (C) 2022 rtcl-coupon
+# This file is distributed under the same license as the rtcl-coupon package.
+msgid ""
+msgstr ""
+"Project-Id-Version: rtcl-coupon\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: RadiusTheme <admin@radiustheme.com>\n"
+"Last-Translator: RadiusTheme <admin@radiustheme.com>\n"
+"POT-Creation-Date: 2022-11-11 09:20+0000\n"
+"Project-Id-Version: undefined\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../app/Controllers/Ajax.php:42, ../app/Controllers/Ajax.php:95, ../app/Controllers/Ajax.php:169
+msgid "Something Went wrong. Refresh And try again"
+msgstr ""
+
+#: ../app/Controllers/Ajax.php:123
+msgid "After Apply Coupon"
+msgstr ""
+
+#: ../app/Controllers/Ajax.php:127
+msgid "Subtotal"
+msgstr ""
+
+#: ../app/Controllers/Ajax.php:138
+msgid "Coupon: %s"
+msgstr ""
+
+#: ../app/Controllers/Ajax.php:144
+msgid "Remove"
+msgstr ""
+
+#: ../app/Controllers/Ajax.php:148
+msgid "Total"
+msgstr ""
+
+#: ../app/Controllers/Scripts.php:55
+msgid "Generate coupon code"
+msgstr ""
+
+#. translators: %1$d: posts count, %2$s: post type singular name, %3$s: post type plural name.
+#: ../app/Controllers/UniqueCoupon.php:110
+msgid "There is %1$d duplicate %2$s found. The latest one will apply."
+msgid_plural "There are %1$d other duplicate %3$s found. The latest one will apply."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../app/Controllers/UniqueCoupon.php:105
+msgid "The chosen title is unique."
+msgstr ""
+
+#: ../app/Helpers/Fns.php:72
+msgid "Include Pricing"
+msgstr ""
+
+#: ../app/Helpers/Fns.php:86
+msgid "The coupon is only for selected Pricing."
+msgstr ""
+
+#: ../app/Helpers/Fns.php:89
+msgid "Exclude Pricing"
+msgstr ""
+
+#: ../app/Helpers/Fns.php:103
+msgid "The coupon is not for selected Pricing."
+msgstr ""
+
+#: ../app/Hooks/ActionHooks.php:69
+msgid "Coupons"
+msgstr ""
+
+#: ../app/Hooks/ActionHooks.php:70, ../app/Hooks/FilterHooks.php:76
+msgid "Coupon"
+msgstr ""
+
+#: ../app/Hooks/ActionHooks.php:71
+msgctxt "Admin menu name"
+msgid "Coupons"
+msgstr ""
+
+#: ../app/Hooks/ActionHooks.php:72
+msgid "Add coupon"
+msgstr ""
+
+#: ../app/Hooks/ActionHooks.php:73
+msgid "Add new coupon"
+msgstr ""
+
+#: ../app/Hooks/ActionHooks.php:74
+msgid "Edit"
+msgstr ""
+
+#: ../app/Hooks/ActionHooks.php:75
+msgid "Edit coupon"
+msgstr ""
+
+#: ../app/Hooks/ActionHooks.php:76
+msgid "New coupon"
+msgstr ""
+
+#: ../app/Hooks/ActionHooks.php:77
+msgid "View coupon"
+msgstr ""
+
+#: ../app/Hooks/ActionHooks.php:78
+msgid "Search coupons"
+msgstr ""
+
+#: ../app/Hooks/ActionHooks.php:79
+msgid "No coupons found"
+msgstr ""
+
+#: ../app/Hooks/ActionHooks.php:80
+msgid "No coupons found in trash"
+msgstr ""
+
+#: ../app/Hooks/ActionHooks.php:81
+msgid "Parent coupon"
+msgstr ""
+
+#: ../app/Hooks/ActionHooks.php:82
+msgid "Filter coupons"
+msgstr ""
+
+#: ../app/Hooks/ActionHooks.php:83
+msgid "Coupons navigation"
+msgstr ""
+
+#: ../app/Hooks/ActionHooks.php:84
+msgid "Coupons list"
+msgstr ""
+
+#: ../app/Hooks/ActionHooks.php:86
+msgid "This is where you can add new coupons that customers can use in your store."
+msgstr ""
+
+#: ../app/Hooks/ActionHooks.php:112
+msgid "Description (optional)"
+msgstr ""
+
+#: ../app/Hooks/ActionHooks.php:130
+msgid "Apply Coupon"
+msgstr ""
+
+#: ../app/Hooks/ActionHooks.php:146
+msgid "Coupon Options"
+msgstr ""
+
+#: ../app/Hooks/ActionHooks.php:262
+msgid "Subtotal "
+msgstr ""
+
+#: ../app/Hooks/ActionHooks.php:273
+msgid "Discount "
+msgstr ""
+
+#: ../app/Hooks/ActionHooks.php:313
+msgid "Applied Coupons:"
+msgstr ""
+
+#: ../app/Hooks/ActionHooks.php:323, ../app/Hooks/FilterHooks.php:102
+msgid "Subtotal: "
+msgstr ""
+
+#: ../app/Hooks/ActionHooks.php:332, ../app/Hooks/FilterHooks.php:103
+msgid "Discount: "
+msgstr ""
+
+#: ../app/Hooks/ActionHooks.php:341
+msgid "Order Total: "
+msgstr ""
+
+#. translators: %s: count
+#: ../app/Hooks/ActionHooks.php:413
+msgid "%s Time"
+msgid_plural "%s Times"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../app/Hooks/ActionHooks.php:425
+msgid "Percentage"
+msgstr ""
+
+#: ../app/Hooks/ActionHooks.php:423
+msgid "Fixed"
+msgstr ""
+
+#: ../app/Hooks/FilterHooks.php:49
+msgid "Coupon plugin license key"
+msgstr ""
+
+#: ../app/Hooks/FilterHooks.php:77, ../views/coupon-metabox.php:51
+msgid "Pricing Type"
+msgstr ""
+
+#: ../app/Hooks/FilterHooks.php:78
+msgid "Coupon Type"
+msgstr ""
+
+#: ../app/Hooks/FilterHooks.php:79
+msgid "Discount"
+msgstr ""
+
+#: ../app/Hooks/FilterHooks.php:80
+msgid "Applied"
+msgstr ""
+
+#: ../app/Hooks/FilterHooks.php:81
+msgid "Expiry Date"
+msgstr ""
+
+#: ../app/Hooks/FilterHooks.php:101
+msgid "Coupon: "
+msgstr ""
+
+#: ../app/Hooks/FilterHooks.php:104
+msgid "Total: "
+msgstr ""
+
+#: ../app/Models/Coupon.php:181
+msgid "Invalid coupon "
+msgstr ""
+
+#: ../app/Models/Coupon.php:184
+msgid "Coupon expired"
+msgstr ""
+
+#: ../app/Models/Coupon.php:187
+msgid "Coupon is not valid for this pricing"
+msgstr ""
+
+#: ../app/Models/Coupon.php:190
+msgid "Coupon uses limit over"
+msgstr ""
+
+#: ../app/Models/Coupon.php:193
+msgid "Coupon uses limit over for you"
+msgstr ""
+
+#: ../app/Traits/SingletonTrait.php:43, ../app/Traits/SingletonTrait.php:50
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: ../app/Api/V1/V1_CouponApi.php:22
+msgid "Plane id"
+msgstr ""
+
+#: ../app/Api/V1/V1_CouponApi.php:27
+msgid "Coupon code type."
+msgstr ""
+
+#: ../app/Api/V1/V1_CouponApi.php:43
+msgid "You are not logged in."
+msgstr ""
+
+#: ../app/Controllers/Admin/AdminNotices.php:93
+msgid "and"
+msgstr ""
+
+#: ../views/coupon-metabox.php:16
+msgid "General"
+msgstr ""
+
+#: ../views/coupon-metabox.php:17
+msgid "Others"
+msgstr ""
+
+#: ../views/coupon-metabox.php:24
+msgid "Discount type"
+msgstr ""
+
+#: ../views/coupon-metabox.php:27
+msgid "Fixed discount"
+msgstr ""
+
+#: ../views/coupon-metabox.php:28
+msgid "Percentage discount"
+msgstr ""
+
+#: ../views/coupon-metabox.php:34
+msgid "Coupon amount"
+msgstr ""
+
+#: ../views/coupon-metabox.php:37
+msgid "Value of the coupon."
+msgstr ""
+
+#: ../views/coupon-metabox.php:41
+msgid "Coupon expiry date"
+msgstr ""
+
+#: ../views/coupon-metabox.php:48
+msgid "The coupon will expire at 00:00:00 of this date."
+msgstr ""
+
+#: ../views/coupon-metabox.php:53
+msgid "--Select--"
+msgstr ""
+
+#: ../views/coupon-metabox.php:66
+msgid "The coupon is only for selected Pricing Types."
+msgstr ""
+
+#: ../views/coupon-metabox.php:113
+msgid "Usage limit"
+msgstr ""
+
+#: ../views/coupon-metabox.php:115
+msgid "How many times this coupon can be used before it is void."
+msgstr ""
+
+#: ../views/coupon-metabox.php:121
+msgid "Usage limit per user"
+msgstr ""
+
+#: ../views/coupon-metabox.php:122
+msgid "Unlimited usage"
+msgstr ""
+
+#: ../views/coupon-metabox.php:123
+msgid "How many times this coupon can be used by an individual user."
+msgstr ""

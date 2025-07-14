@@ -1,0 +1,14 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"title": "Image",
+	"name": "rtcl/listing-image",
+	"category": "rtcl-single-block",
+	"description": "Listing Image block description",
+	"keywords": [
+		"listing",
+		"image",
+		"listing image"
+	],
+	"apiVersion": 2,
+	"textdomain": "rtcl-elementor-builder"
+}

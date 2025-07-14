@@ -1,0 +1,159 @@
+# Copyright (C) 2023 Classified Listing - PDF Invoices
+# This file is distributed under the same license as the Classified Listing - PDF Invoices package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Classified Listing - PDF Invoices\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-07-05 07:48+0000\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../app/Admin/AdminHooks.php:26
+msgid "Invoice addon license key"
+msgstr ""
+
+#: ../app/Admin/AdminSettings.php:33
+msgid "Classified Listing - PDF Invoices"
+msgstr ""
+
+#: ../app/Admin/AdminSettings.php:34
+msgid "PDF Invoices"
+msgstr ""
+
+#: ../app/Admin/AdminSettings.php:63
+msgid "Action failed. Please refresh the page and retry."
+msgstr ""
+
+#: ../app/Admin/AdminSettings.php:68
+msgid "Your settings have been saved."
+msgstr ""
+
+#: ../app/Admin/AdminSettings.php:76
+msgid "Company Logo"
+msgstr ""
+
+#: ../app/Admin/AdminSettings.php:78
+msgid "Select a company logo to show on invoice."
+msgstr ""
+
+#: ../app/Admin/AdminSettings.php:81
+msgid "Company Name"
+msgstr ""
+
+#: ../app/Admin/AdminSettings.php:84
+msgid "Add company title here."
+msgstr ""
+
+#: ../app/Admin/AdminSettings.php:87
+msgid "Company Address"
+msgstr ""
+
+#: ../app/Admin/AdminSettings.php:90
+msgid "Add company address here."
+msgstr ""
+
+#: ../app/Admin/AdminSettings.php:93
+msgid "Footer Note"
+msgstr ""
+
+#: ../app/Admin/AdminSettings.php:96
+msgid "Add terms & conditions, policies, etc."
+msgstr ""
+
+#: ../app/Helpers/Functions.php:196
+msgid "Paid"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:199
+msgid "Due"
+msgstr ""
+
+#: ../app/Hooks/ActionHooks.php:57, ../templates/myaccount/payment-history.php:33
+msgid "Invoice"
+msgstr ""
+
+#: ../app/Hooks/ActionHooks.php:130
+msgid "No order found"
+msgstr ""
+
+#: ../app/Hooks/ActionHooks.php:75
+msgid "To:"
+msgstr ""
+
+#: ../app/Hooks/ActionHooks.php:141
+msgid "Regular"
+msgstr ""
+
+#: ../app/Models/Dependencies.php:75
+msgid "and"
+msgstr ""
+
+#: ../app/Models/Dependencies.php:89
+msgid "<strong>Classified Listing – PDF Invoices</strong> is enabled but not effective. It requires %s in order to work."
+msgstr ""
+
+#: ../templates/invoice/invoice-pricing-wc.php:18, ../templates/invoice/invoice-pricing.php:31
+msgid "SL."
+msgstr ""
+
+#: ../templates/invoice/invoice-pricing-wc.php:19, ../templates/invoice/invoice-pricing.php:32
+msgid "Title"
+msgstr ""
+
+#: ../templates/invoice/invoice-pricing-wc.php:20, ../templates/invoice/invoice-pricing.php:33
+msgid "Pricing Type"
+msgstr ""
+
+#: ../templates/invoice/invoice-pricing-wc.php:21, ../templates/invoice/invoice-pricing.php:34
+msgid "Price"
+msgstr ""
+
+#: ../templates/invoice/invoice-pricing-wc.php:25, ../templates/invoice/invoice-pricing.php:37
+msgid "1"
+msgstr ""
+
+#: ../templates/invoice/invoice-total-wc.php:16, ../templates/invoice/invoice-total.php:31
+msgid "Sub Total:"
+msgstr ""
+
+#: ../templates/invoice/invoice-total-wc.php:23, ../templates/invoice/invoice-total.php:35
+msgid "Coupon(s):"
+msgstr ""
+
+#: ../templates/invoice/invoice-total-wc.php:43, ../templates/invoice/invoice-total.php:39
+msgid "Order Total:"
+msgstr ""
+
+#: ../templates/myaccount/payment-history.php:69
+msgid "No Results Found."
+msgstr ""
+
+#: ../templates/myaccount/payment-history.php:29
+msgid "#"
+msgstr ""
+
+#: ../templates/myaccount/payment-history.php:30
+msgid "Total"
+msgstr ""
+
+#: ../templates/myaccount/payment-history.php:31
+msgid "Status"
+msgstr ""
+
+#: ../templates/myaccount/payment-history.php:32
+msgid "Date"
+msgstr ""
+
+#: ../templates/myaccount/payment-history.php:47
+msgid "Pay via <strong>%s</strong>"
+msgstr ""
+
+#: ../templates/myaccount/payment-history.php:55
+msgid "Download"
+msgstr ""

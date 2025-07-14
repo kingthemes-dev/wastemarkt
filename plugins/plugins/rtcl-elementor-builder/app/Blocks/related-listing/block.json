@@ -1,0 +1,14 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "title": "Related Listing",
+  "name": "rtcl/related-listing",
+  "category": "rtcl-single-block",
+  "description": "Related Listing description",
+  "keywords": [
+	"listing",
+	"related",
+	"related-listing"
+   ],
+  "apiVersion": 2,
+  "textdomain": "rtcl-elementor-builder"
+}

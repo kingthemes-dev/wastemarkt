@@ -1,0 +1,14 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"title": "Opening Hour",
+	"name": "rtcl/store-opening-hour",
+	"category": "rtcl-store-single-block",
+	"description": "Store opening hour block description",
+	"keywords": [
+		"listing",
+		"opening",
+		"store opening hour"
+	],
+	"apiVersion": 2,
+	"textdomain": "rtcl-elementor-builder"
+}

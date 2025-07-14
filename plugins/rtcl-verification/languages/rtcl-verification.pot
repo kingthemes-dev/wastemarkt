@@ -1,0 +1,268 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Classified Listing - Mobile Number Verification\n"
+"POT-Creation-Date: 2022-07-20 17:42+0600\n"
+"PO-Revision-Date: 2022-07-20 17:42+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: rtcl-verification.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: app/Api/V1/V1_PhoneVerificationApi.php:99
+msgid "Error while saving the verified otp for firebase."
+msgstr ""
+
+#: app/Api/V1/V1_PhoneVerificationApi.php:112
+msgid "OTP code saved for firebase."
+msgstr ""
+
+#: app/Api/V1/V1_PhoneVerificationApi.php:125 app/Helpers/Functions.php:73
+#, php-format
+msgid "This %s number is already used."
+msgstr ""
+
+#: app/Api/V1/V1_PhoneVerificationApi.php:138
+msgid "Fetch error to send twilio OTP"
+msgstr ""
+
+#: app/Api/V1/V1_PhoneVerificationApi.php:143
+msgid "Sms gateway not defined."
+msgstr ""
+
+#: app/Api/V1/V1_PhoneVerificationApi.php:158
+#, php-format
+msgid "OTP code is sent to %s."
+msgstr ""
+
+#: app/Helpers/Functions.php:67
+msgid "Error message"
+msgstr ""
+
+#: app/Helpers/Functions.php:81 app/Services/TwilioGateway.php:75
+#, php-format
+msgid "OTP sent to %s"
+msgstr ""
+
+#: app/Helpers/Functions.php:128 app/Helpers/Functions.php:186
+#: app/Hooks/ActionHooks.php:154
+msgid "Error message!"
+msgstr ""
+
+#: app/Helpers/Functions.php:163 app/Helpers/Functions.php:226
+msgid "Verified the number"
+msgstr ""
+
+#: app/Helpers/Functions.php:165
+msgid "Something wrong!"
+msgstr ""
+
+#: app/Helpers/Functions.php:168
+msgid "Expired OTP Code"
+msgstr ""
+
+#: app/Helpers/Functions.php:171
+msgid "Invalid OTP Code"
+msgstr ""
+
+#: app/Hooks/ActionHooks.php:75 app/Hooks/FilterHooks.php:54
+msgid "Send OTP"
+msgstr ""
+
+#: app/Hooks/ActionHooks.php:80 app/Hooks/FilterHooks.php:59
+msgid "OTP Code"
+msgstr ""
+
+#: app/Hooks/ActionHooks.php:87 app/Hooks/FilterHooks.php:64
+msgid "Verify OTP"
+msgstr ""
+
+#: app/Hooks/ActionHooks.php:101 app/Hooks/ActionHooks.php:114
+#: app/Hooks/ActionHooks.php:130 app/Hooks/ActionHooks.php:148
+msgid "Session Error!!"
+msgstr ""
+
+#: app/Hooks/ActionHooks.php:173
+msgid "Verified the number!"
+msgstr ""
+
+#: app/Hooks/AdminSettingsHook.php:29
+msgid "Verification settings"
+msgstr ""
+
+#: app/Hooks/AdminSettingsHook.php:45
+msgid "SMS Gateway"
+msgstr ""
+
+#: app/Hooks/AdminSettingsHook.php:49
+msgid "Gateway Type"
+msgstr ""
+
+#: app/Hooks/AdminSettingsHook.php:53
+msgid "Google Firebase"
+msgstr ""
+
+#: app/Hooks/AdminSettingsHook.php:54
+msgid "Twilio"
+msgstr ""
+
+#: app/Hooks/AdminSettingsHook.php:58
+msgid "Firebase API key"
+msgstr ""
+
+#: app/Hooks/AdminSettingsHook.php:70
+msgid "Firebase App ID"
+msgstr ""
+
+#: app/Hooks/AdminSettingsHook.php:82
+msgid "Firebase Project ID"
+msgstr ""
+
+#: app/Hooks/AdminSettingsHook.php:94
+msgid "Firebase Messaging Sender ID"
+msgstr ""
+
+#: app/Hooks/AdminSettingsHook.php:106
+msgid "Firebase Measurement ID"
+msgstr ""
+
+#: app/Hooks/AdminSettingsHook.php:118
+msgid "Twilio SID"
+msgstr ""
+
+#: app/Hooks/AdminSettingsHook.php:128
+msgid "Add Twilio account site ID here."
+msgstr ""
+
+#: app/Hooks/AdminSettingsHook.php:131
+msgid "Twilio Auth Token"
+msgstr ""
+
+#: app/Hooks/AdminSettingsHook.php:141
+msgid "Add Twilio account authentication token here."
+msgstr ""
+
+#: app/Hooks/AdminSettingsHook.php:144
+msgid "Twilio Phone [From]"
+msgstr ""
+
+#: app/Hooks/AdminSettingsHook.php:154
+msgid "Add Twilio account phone number."
+msgstr ""
+
+#: app/Hooks/AdminSettingsHook.php:157
+msgid "OTP Resend Time (Second)"
+msgstr ""
+
+#: app/Hooks/AdminSettingsHook.php:160
+msgid "Add OTP resend timer. It also will be use as expire time in seconds."
+msgstr ""
+
+#: app/Hooks/AdminSettingsHook.php:163
+msgid "Disable Ad Post"
+msgstr ""
+
+#: app/Hooks/AdminSettingsHook.php:165
+msgid "Disable"
+msgstr ""
+
+#: app/Hooks/AdminSettingsHook.php:166
+msgid "Disable ad post button for unverified user."
+msgstr ""
+
+#: app/Hooks/AdminSettingsHook.php:169
+msgid "Select Countries"
+msgstr ""
+
+#: app/Hooks/AdminSettingsHook.php:173
+msgid "Please, select the country list to show specific country."
+msgstr ""
+
+#: app/Hooks/AdminSettingsHook.php:177
+msgid "Default Country"
+msgstr ""
+
+#: app/Hooks/FilterHooks.php:30
+msgid "Phone number not verified."
+msgstr ""
+
+#: app/Hooks/FilterHooks.php:33
+msgid "Phone number not exist."
+msgstr ""
+
+#: app/Hooks/FilterHooks.php:88
+msgid "Verification addon license key"
+msgstr ""
+
+#: app/Hooks/FilterHooks.php:116
+msgid "Please, verify the phone number"
+msgstr ""
+
+#: app/Hooks/FilterHooks.php:125
+msgid "Already verified!"
+msgstr ""
+
+#: app/Hooks/FilterHooks.php:137
+msgid "Please, add verified phone number."
+msgstr ""
+
+#: app/Hooks/FilterHooks.php:148
+msgid "You have to verify phone number to post ad."
+msgstr ""
+
+#: app/Models/Dependencies.php:76
+msgid "and"
+msgstr ""
+
+#: app/Models/Dependencies.php:90
+#, php-format
+msgid ""
+"<strong>Classified Listing - Mobile Number Verification</strong> is enabled "
+"but not effective. It requires %s in order to work."
+msgstr ""
+
+#: app/RtclVerification.php:101
+msgid "Resend OTP"
+msgstr ""
+
+#: app/Services/TwilioGateway.php:24
+msgid "Missing configuration for twilio. Please contact with administrator."
+msgstr ""
+
+#: app/Services/TwilioGateway.php:67
+#, php-format
+msgid "OTP resent to %s"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Classified Listing - Mobile Number Verification"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"https://www.radiustheme.com/downloads/classified-listing-mobile-no-"
+"verification/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Mobile Number Verification addon for Classified Listing"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "RadiusTheme"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://radiustheme.com"
+msgstr ""

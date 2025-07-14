@@ -1,0 +1,283 @@
+# Copyright (C) 2025 Classified Listing - Claim Listing
+# This file is distributed under the same license as the Classified Listing - Claim Listing package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Classified Listing - Claim Listing\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-06-04 06:53+0000\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../app/init.php:118
+msgid "Download"
+msgstr ""
+
+#: ../app/init.php:119
+msgid "Remove"
+msgstr ""
+
+#: ../app/init.php:120
+msgid "Are you sure to delete?"
+msgstr ""
+
+#: ../app/init.php:121
+msgid "File extension not supported."
+msgstr ""
+
+#: ../app/init.php:122
+msgid "File size is more then %s."
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:17
+msgid "Classified Listing - Claim Listings"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:18
+msgid "Claim Listings"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:50
+msgid "Claim Listing license key"
+msgstr ""
+
+#: ../app/Api/RestApi.php:44, ../app/Hooks/ActionHooks.php:38
+msgid "Claimed"
+msgstr ""
+
+#: ../app/Emails/ClaimApprovedEmailToUser.php:32
+msgid "[{site_title}] Your claim is approved for \"{listing_title}\""
+msgstr ""
+
+#: ../app/Emails/ClaimApprovedEmailToUser.php:41
+msgid "Your claim is approved"
+msgstr ""
+
+#: ../app/Emails/ClaimRejectedEmailToUser.php:32
+msgid "[{site_title}] Your claim for \"{listing_title}\" is rejected"
+msgstr ""
+
+#: ../app/Emails/ClaimRejectedEmailToUser.php:41
+msgid "Your claim is rejected"
+msgstr ""
+
+#: ../app/Emails/ClaimRequestEmailToAdmin.php:32
+msgid "[{site_title}] Claim request for \"{listing_title}\""
+msgstr ""
+
+#: ../app/Emails/ClaimRequestEmailToAdmin.php:41
+msgid "An email is Received."
+msgstr ""
+
+#: ../app/Helpers/Functions.php:17
+msgid "Pending"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:18
+msgid "Approved"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:20
+msgid "Cancelled"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:26
+msgid "Something wrong to change listing ownership!"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:30
+msgid "The listing does not exist!"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:36
+msgid "User id for claimer does not exist!"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:46
+msgid "Updated listing ownership!"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:83
+msgid "Claim this listing"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:107
+msgid "Claim Listing"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:113
+msgid "Submit"
+msgstr ""
+
+#: ../app/Hooks/AjaxHooks.php:77
+msgid "Session Error !!"
+msgstr ""
+
+#: ../app/Hooks/AjaxHooks.php:63, ../app/Api/V1/V1_ClaimListingsApi.php:136
+msgid "Thank you for submitting claim request!"
+msgstr ""
+
+#: ../app/Models/Dependencies.php:76
+msgid "and"
+msgstr ""
+
+#: ../app/Models/Dependencies.php:90
+msgid "<strong>Classified Listing - Claim Listing</strong> is enabled but not effective. It requires %s in order to work."
+msgstr ""
+
+#: ../app/Api/V1/ClaimListingsApi.php:20
+msgid "Maximum number of items to be returned in result set."
+msgstr ""
+
+#: ../app/Api/V1/ClaimListingsApi.php:29
+msgid "Current page of the collection."
+msgstr ""
+
+#: ../app/Api/V1/ClaimListingsApi.php:43
+msgid "Order by."
+msgstr ""
+
+#: ../app/Api/V1/ClaimListingsApi.php:60, ../app/Api/V1/ClaimListingsApi.php:72, ../app/Api/V1/ClaimListingsApi.php:102
+msgid "Claim Listing id is required"
+msgstr ""
+
+#: ../app/Api/V1/ClaimListingsApi.php:77
+msgid "Email is required."
+msgstr ""
+
+#: ../app/Api/V1/ClaimListingsApi.php:82
+msgid "Phone is required."
+msgstr ""
+
+#: ../app/Api/V1/ClaimListingsApi.php:90
+msgid "Status is required."
+msgstr ""
+
+#: ../app/Api/V1/ClaimListingsApi.php:198, ../app/Api/V1/ClaimListingsApi.php:261, ../app/Api/V1/ClaimListingsApi.php:305
+msgid "Claim Listing id not found."
+msgstr ""
+
+#: ../app/Api/V1/ClaimListingsApi.php:277, ../app/Api/V1/ClaimListingsApi.php:351, ../app/Api/V1/SettingsApi.php:46
+msgid "Something wrong!"
+msgstr ""
+
+#: ../app/Api/V1/ClaimListingsApi.php:285
+msgid "Deleted claim successfully"
+msgstr ""
+
+#: ../app/Api/V1/ClaimListingsApi.php:315
+msgid "Claim Listing status not found."
+msgstr ""
+
+#: ../app/Api/V1/ClaimListingsApi.php:325
+msgid "Phone not found."
+msgstr ""
+
+#: ../app/Api/V1/ClaimListingsApi.php:335
+msgid "Email not found."
+msgstr ""
+
+#: ../app/Api/V1/ClaimListingsApi.php:390
+msgid "Updated claim successfully"
+msgstr ""
+
+#: ../app/Api/V1/SettingsApi.php:40
+msgid "Settings data not found."
+msgstr ""
+
+#: ../app/Api/V1/SettingsApi.php:54
+msgid "Updated settings successfully"
+msgstr ""
+
+#: ../app/Api/V1/V1_ClaimListingsApi.php:61
+msgid "Listing not found."
+msgstr ""
+
+#: ../app/Api/V1/V1_ClaimListingsApi.php:85
+msgid "Invalid file type. Only PDF files are allowed."
+msgstr ""
+
+#: ../app/Api/V1/V1_ClaimListingsApi.php:93
+msgid "File size exceeds the 5MB limit."
+msgstr ""
+
+#: ../app/Api/V1/V1_ClaimListingsApi.php:120
+msgid "Error while creating claim"
+msgstr ""
+
+#: ../templates/claim/claim-popup-form.php:36
+msgid "Name"
+msgstr ""
+
+#: ../templates/claim/claim-popup-form.php:42
+msgid "Email"
+msgstr ""
+
+#: ../templates/claim/claim-popup-form.php:47
+msgid "Phone"
+msgstr ""
+
+#: ../templates/claim/claim-popup-form.php:52
+msgid "Details"
+msgstr ""
+
+#: ../templates/claim/claim-popup-form.php:53
+msgid "Write your claim here"
+msgstr ""
+
+#: ../templates/claim/claim-popup-form.php:59
+msgid "Attachment"
+msgstr ""
+
+#: ../templates/claim/claim-popup-form.php:64
+msgid "Upload File"
+msgstr ""
+
+#: ../templates/claim/claim-popup-form.php:70
+msgid "Maximum file size 5 MB, only pdf file allowed."
+msgstr ""
+
+#: ../templates/emails/claim-approved-email-to-user.php:26, ../templates/emails/claim-rejected-email-to-user.php:26
+msgid "Hi %s,"
+msgstr ""
+
+#: ../templates/emails/claim-approved-email-to-user.php:27
+msgid "Your claim for <a href=\"%s\"><strong>%s</strong></a> is approved at <a href=\"%s\">%s</a>."
+msgstr ""
+
+#: ../templates/emails/claim-rejected-email-to-user.php:27
+msgid "Your claim for <a href=\"%s\"><strong>%s</strong></a> is rejected at <a href=\"%s\">%s</a>."
+msgstr ""
+
+#: ../templates/emails/claim-request-email-to-admin.php:27
+msgid "Hi Administrator,"
+msgstr ""
+
+#: ../templates/emails/claim-request-email-to-admin.php:28
+msgid "A claim request is received at your <a href=\"%s\">%s.</a>"
+msgstr ""
+
+#: ../templates/emails/claim-request-email-to-admin.php:29
+msgid "<strong>Name :</strong> %s"
+msgstr ""
+
+#: ../templates/emails/claim-request-email-to-admin.php:30
+msgid "<strong>Email :</strong> %s"
+msgstr ""
+
+#: ../templates/emails/claim-request-email-to-admin.php:32
+msgid "<strong>Phone :</strong> %s"
+msgstr ""
+
+#: ../templates/emails/claim-request-email-to-admin.php:34
+msgid "<strong>Message :</strong> %s"
+msgstr ""
+
+#: ../views/html-admin-claim-listings.php:2
+msgid "Manage Claim Listings"
+msgstr ""

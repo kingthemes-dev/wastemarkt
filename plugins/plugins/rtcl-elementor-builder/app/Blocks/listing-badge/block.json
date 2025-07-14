@@ -1,0 +1,14 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"title": "Badge",
+	"name": "rtcl/listing-badge",
+	"category": "rtcl-single-block",
+	"description": "Listing badge block description",
+	"keywords": [
+		"listing",
+		"badge",
+		"listing badge"
+	],
+	"apiVersion": 2,
+	"textdomain": "rtcl-elementor-builder"
+}

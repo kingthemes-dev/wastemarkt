@@ -1,0 +1,1449 @@
+/*rtrb-panel-control-wrapper,
+ rtrb-components-popover*/
+.rtrb-components-popover,
+.rtrb-panel-control-wrapper,
+.rtrb-child-nav-sidebar-control-wrap {
+  --rtrb-admin-color-primary: #0066ff;
+  --rtrb-admin-color-secondary: #555555;
+  --rtrb-admin-color-black: #000000;
+  --rtrb-admin-color-body: #333333;
+  --rtrb-admin-root-tab-active: #ecf4ff;
+  --rtrb-admin-color-border: #e9e9e9;
+  --rtrb-admin-column-gap: 10px;
+  --rtrb-admin-row-gap: 10px;
+  --rtrb-admin-tab-btn-bg: #f9f9f9;
+  --rtrb-admin-tab-btn-bg-hover: #e0e0e0;
+  --rtrb-admin-text-xs: 13px;
+  --rtrb-admin-text-base: 13px;
+  --rtrb-admin-text-sm: 13px;
+  --rtrb-admin-text-md: 16px;
+  --rtrb-admin-transition: all 0.3s ease-in-out;
+  --wp-admin-theme-color: #0066ff;
+  --wp-admin-theme-color--rgb: 0, 102, 255;
+  color: var(--rtrb-admin-color-body);
+}
+.rtrb-components-popover .components-base-control__field,
+.rtrb-panel-control-wrapper .components-base-control__field,
+.rtrb-child-nav-sidebar-control-wrap .components-base-control__field {
+  margin-bottom: 0;
+}
+.rtrb-components-popover .components-base-control.components-toggle-control .components-base-control__field,
+.rtrb-panel-control-wrapper .components-base-control.components-toggle-control .components-base-control__field,
+.rtrb-child-nav-sidebar-control-wrap .components-base-control.components-toggle-control .components-base-control__field {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.rtrb-components-popover .components-base-control .components-select-control .components-input-control__label,
+.rtrb-panel-control-wrapper .components-base-control .components-select-control .components-input-control__label,
+.rtrb-child-nav-sidebar-control-wrap .components-base-control .components-select-control .components-input-control__label {
+  padding-bottom: 0 !important;
+}
+.rtrb-components-popover .components-base-control,
+.rtrb-components-popover .rtrb-control-field,
+.rtrb-panel-control-wrapper .components-base-control,
+.rtrb-panel-control-wrapper .rtrb-control-field,
+.rtrb-child-nav-sidebar-control-wrap .components-base-control,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-control-field {
+  --wp-admin-theme-color: #0066ff;
+  --wp-admin-theme-color--rgb: 0, 102, 255;
+  --column-gap: 10px;
+  --row-gap: 10px;
+  display: grid;
+  gap: var(--row-gap, 10px);
+  margin-bottom: 10px;
+}
+.rtrb-components-popover .components-base-control:last-of-type,
+.rtrb-components-popover .rtrb-control-field:last-of-type,
+.rtrb-panel-control-wrapper .components-base-control:last-of-type,
+.rtrb-panel-control-wrapper .rtrb-control-field:last-of-type,
+.rtrb-child-nav-sidebar-control-wrap .components-base-control:last-of-type,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-control-field:last-of-type {
+  margin-bottom: 6px;
+}
+.rtrb-components-popover .components-base-control.rtrb-cf-react-select,
+.rtrb-components-popover .rtrb-control-field.rtrb-cf-react-select,
+.rtrb-panel-control-wrapper .components-base-control.rtrb-cf-react-select,
+.rtrb-panel-control-wrapper .rtrb-control-field.rtrb-cf-react-select,
+.rtrb-child-nav-sidebar-control-wrap .components-base-control.rtrb-cf-react-select,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-control-field.rtrb-cf-react-select {
+  --row-gap: 6px;
+}
+.rtrb-components-popover .components-base-control.rtrb-cf-react-select input[type=text]:focus,
+.rtrb-components-popover .rtrb-control-field.rtrb-cf-react-select input[type=text]:focus,
+.rtrb-panel-control-wrapper .components-base-control.rtrb-cf-react-select input[type=text]:focus,
+.rtrb-panel-control-wrapper .rtrb-control-field.rtrb-cf-react-select input[type=text]:focus,
+.rtrb-child-nav-sidebar-control-wrap .components-base-control.rtrb-cf-react-select input[type=text]:focus,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-control-field.rtrb-cf-react-select input[type=text]:focus {
+  box-shadow: none;
+}
+.rtrb-components-popover .components-base-control.rtrb-cf-react-select > div > div,
+.rtrb-components-popover .rtrb-control-field.rtrb-cf-react-select > div > div,
+.rtrb-panel-control-wrapper .components-base-control.rtrb-cf-react-select > div > div,
+.rtrb-panel-control-wrapper .rtrb-control-field.rtrb-cf-react-select > div > div,
+.rtrb-child-nav-sidebar-control-wrap .components-base-control.rtrb-cf-react-select > div > div,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-control-field.rtrb-cf-react-select > div > div {
+  border-color: var(--rtrb-admin-color-border, #e9e9e9);
+}
+.rtrb-components-popover .components-base-control.rtrb-cf-react-select [id*=react-select-],
+.rtrb-components-popover .rtrb-control-field.rtrb-cf-react-select [id*=react-select-],
+.rtrb-panel-control-wrapper .components-base-control.rtrb-cf-react-select [id*=react-select-],
+.rtrb-panel-control-wrapper .rtrb-control-field.rtrb-cf-react-select [id*=react-select-],
+.rtrb-child-nav-sidebar-control-wrap .components-base-control.rtrb-cf-react-select [id*=react-select-],
+.rtrb-child-nav-sidebar-control-wrap .rtrb-control-field.rtrb-cf-react-select [id*=react-select-] {
+  z-index: 45;
+}
+.rtrb-components-popover .components-base-control.rtrb-cf-range-wrap .rtrb-cf-head, .rtrb-components-popover .components-base-control.rtrb-cf-dimension .rtrb-cf-head,
+.rtrb-components-popover .rtrb-control-field.rtrb-cf-range-wrap .rtrb-cf-head,
+.rtrb-components-popover .rtrb-control-field.rtrb-cf-dimension .rtrb-cf-head,
+.rtrb-panel-control-wrapper .components-base-control.rtrb-cf-range-wrap .rtrb-cf-head,
+.rtrb-panel-control-wrapper .components-base-control.rtrb-cf-dimension .rtrb-cf-head,
+.rtrb-panel-control-wrapper .rtrb-control-field.rtrb-cf-range-wrap .rtrb-cf-head,
+.rtrb-panel-control-wrapper .rtrb-control-field.rtrb-cf-dimension .rtrb-cf-head,
+.rtrb-child-nav-sidebar-control-wrap .components-base-control.rtrb-cf-range-wrap .rtrb-cf-head,
+.rtrb-child-nav-sidebar-control-wrap .components-base-control.rtrb-cf-dimension .rtrb-cf-head,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-control-field.rtrb-cf-range-wrap .rtrb-cf-head,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-control-field.rtrb-cf-dimension .rtrb-cf-head {
+  justify-content: space-between;
+}
+.rtrb-components-popover .components-base-control .rtrb-cf-head,
+.rtrb-components-popover .rtrb-control-field .rtrb-cf-head,
+.rtrb-panel-control-wrapper .components-base-control .rtrb-cf-head,
+.rtrb-panel-control-wrapper .rtrb-control-field .rtrb-cf-head,
+.rtrb-child-nav-sidebar-control-wrap .components-base-control .rtrb-cf-head,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-control-field .rtrb-cf-head {
+  display: flex;
+  align-items: center;
+  gap: var(--column-gap, 10px);
+}
+.rtrb-components-popover .components-base-control .rtrb-cf-body .components-base-control,
+.rtrb-components-popover .rtrb-control-field .rtrb-cf-body .components-base-control,
+.rtrb-panel-control-wrapper .components-base-control .rtrb-cf-body .components-base-control,
+.rtrb-panel-control-wrapper .rtrb-control-field .rtrb-cf-body .components-base-control,
+.rtrb-child-nav-sidebar-control-wrap .components-base-control .rtrb-cf-body .components-base-control,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-control-field .rtrb-cf-body .components-base-control {
+  margin-bottom: 0 !important;
+}
+.rtrb-components-popover .components-base-control .rt-left-part,
+.rtrb-components-popover .rtrb-control-field .rt-left-part,
+.rtrb-panel-control-wrapper .components-base-control .rt-left-part,
+.rtrb-panel-control-wrapper .rtrb-control-field .rt-left-part,
+.rtrb-child-nav-sidebar-control-wrap .components-base-control .rt-left-part,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-control-field .rt-left-part {
+  display: flex;
+  align-items: center;
+  gap: var(--column-gap, 10px);
+}
+.rtrb-components-popover .components-base-control .rtrb-units-choices,
+.rtrb-components-popover .rtrb-control-field .rtrb-units-choices,
+.rtrb-panel-control-wrapper .components-base-control .rtrb-units-choices,
+.rtrb-panel-control-wrapper .rtrb-control-field .rtrb-units-choices,
+.rtrb-child-nav-sidebar-control-wrap .components-base-control .rtrb-units-choices,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-control-field .rtrb-units-choices {
+  display: flex;
+  gap: 5px;
+  justify-content: flex-end;
+}
+.rtrb-components-popover .components-base-control .rtrb-units-choices label,
+.rtrb-components-popover .rtrb-control-field .rtrb-units-choices label,
+.rtrb-panel-control-wrapper .components-base-control .rtrb-units-choices label,
+.rtrb-panel-control-wrapper .rtrb-control-field .rtrb-units-choices label,
+.rtrb-child-nav-sidebar-control-wrap .components-base-control .rtrb-units-choices label,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-control-field .rtrb-units-choices label {
+  cursor: pointer;
+  padding: 0;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 500;
+}
+.rtrb-components-popover .components-base-control .rtrb-units-choices label:hover, .rtrb-components-popover .components-base-control .rtrb-units-choices label.active,
+.rtrb-components-popover .rtrb-control-field .rtrb-units-choices label:hover,
+.rtrb-components-popover .rtrb-control-field .rtrb-units-choices label.active,
+.rtrb-panel-control-wrapper .components-base-control .rtrb-units-choices label:hover,
+.rtrb-panel-control-wrapper .components-base-control .rtrb-units-choices label.active,
+.rtrb-panel-control-wrapper .rtrb-control-field .rtrb-units-choices label:hover,
+.rtrb-panel-control-wrapper .rtrb-control-field .rtrb-units-choices label.active,
+.rtrb-child-nav-sidebar-control-wrap .components-base-control .rtrb-units-choices label:hover,
+.rtrb-child-nav-sidebar-control-wrap .components-base-control .rtrb-units-choices label.active,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-control-field .rtrb-units-choices label:hover,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-control-field .rtrb-units-choices label.active {
+  color: var(--rtrb-admin-color-primary, #0066ff);
+}
+.rtrb-components-popover .components-base-control .components-base-control__help,
+.rtrb-components-popover .rtrb-control-field .components-base-control__help,
+.rtrb-panel-control-wrapper .components-base-control .components-base-control__help,
+.rtrb-panel-control-wrapper .rtrb-control-field .components-base-control__help,
+.rtrb-child-nav-sidebar-control-wrap .components-base-control .components-base-control__help,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-control-field .components-base-control__help {
+  font-size: 12px;
+  color: var(--rtrb-admin-color-secondary, #000);
+  margin-top: -5px;
+}
+.rtrb-components-popover .components-base-control .components-input-control__label,
+.rtrb-components-popover .components-base-control .components-toggle-control__label,
+.rtrb-components-popover .components-base-control .components-base-control__label,
+.rtrb-components-popover .components-base-control .rtrb-label,
+.rtrb-components-popover .rtrb-control-field .components-input-control__label,
+.rtrb-components-popover .rtrb-control-field .components-toggle-control__label,
+.rtrb-components-popover .rtrb-control-field .components-base-control__label,
+.rtrb-components-popover .rtrb-control-field .rtrb-label,
+.rtrb-panel-control-wrapper .components-base-control .components-input-control__label,
+.rtrb-panel-control-wrapper .components-base-control .components-toggle-control__label,
+.rtrb-panel-control-wrapper .components-base-control .components-base-control__label,
+.rtrb-panel-control-wrapper .components-base-control .rtrb-label,
+.rtrb-panel-control-wrapper .rtrb-control-field .components-input-control__label,
+.rtrb-panel-control-wrapper .rtrb-control-field .components-toggle-control__label,
+.rtrb-panel-control-wrapper .rtrb-control-field .components-base-control__label,
+.rtrb-panel-control-wrapper .rtrb-control-field .rtrb-label,
+.rtrb-child-nav-sidebar-control-wrap .components-base-control .components-input-control__label,
+.rtrb-child-nav-sidebar-control-wrap .components-base-control .components-toggle-control__label,
+.rtrb-child-nav-sidebar-control-wrap .components-base-control .components-base-control__label,
+.rtrb-child-nav-sidebar-control-wrap .components-base-control .rtrb-label,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-control-field .components-input-control__label,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-control-field .components-toggle-control__label,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-control-field .components-base-control__label,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-control-field .rtrb-label {
+  font-size: var(--rtrb-admin-text-base, 13px);
+  color: var(--rtrb-admin-color-secondary, #000);
+  font-weight: 500;
+  line-height: 1;
+}
+.rtrb-components-popover .components-base-control .components-input-control__label,
+.rtrb-components-popover .components-base-control .components-base-control__label,
+.rtrb-components-popover .rtrb-control-field .components-input-control__label,
+.rtrb-components-popover .rtrb-control-field .components-base-control__label,
+.rtrb-panel-control-wrapper .components-base-control .components-input-control__label,
+.rtrb-panel-control-wrapper .components-base-control .components-base-control__label,
+.rtrb-panel-control-wrapper .rtrb-control-field .components-input-control__label,
+.rtrb-panel-control-wrapper .rtrb-control-field .components-base-control__label,
+.rtrb-child-nav-sidebar-control-wrap .components-base-control .components-input-control__label,
+.rtrb-child-nav-sidebar-control-wrap .components-base-control .components-base-control__label,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-control-field .components-input-control__label,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-control-field .components-base-control__label {
+  padding-bottom: var(--row-gap, 8px) !important;
+  margin-bottom: 0 !important;
+  display: inline-block;
+  font-size: var(--rtrb-admin-text-base, 13px) !important;
+  text-transform: capitalize !important;
+}
+.rtrb-components-popover .components-base-control .components-input-control__input,
+.rtrb-components-popover .components-base-control .components-select-control__input,
+.rtrb-components-popover .components-base-control .components-textarea-control__input,
+.rtrb-components-popover .components-base-control .components-text-control__input,
+.rtrb-components-popover .rtrb-control-field .components-input-control__input,
+.rtrb-components-popover .rtrb-control-field .components-select-control__input,
+.rtrb-components-popover .rtrb-control-field .components-textarea-control__input,
+.rtrb-components-popover .rtrb-control-field .components-text-control__input,
+.rtrb-panel-control-wrapper .components-base-control .components-input-control__input,
+.rtrb-panel-control-wrapper .components-base-control .components-select-control__input,
+.rtrb-panel-control-wrapper .components-base-control .components-textarea-control__input,
+.rtrb-panel-control-wrapper .components-base-control .components-text-control__input,
+.rtrb-panel-control-wrapper .rtrb-control-field .components-input-control__input,
+.rtrb-panel-control-wrapper .rtrb-control-field .components-select-control__input,
+.rtrb-panel-control-wrapper .rtrb-control-field .components-textarea-control__input,
+.rtrb-panel-control-wrapper .rtrb-control-field .components-text-control__input,
+.rtrb-child-nav-sidebar-control-wrap .components-base-control .components-input-control__input,
+.rtrb-child-nav-sidebar-control-wrap .components-base-control .components-select-control__input,
+.rtrb-child-nav-sidebar-control-wrap .components-base-control .components-textarea-control__input,
+.rtrb-child-nav-sidebar-control-wrap .components-base-control .components-text-control__input,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-control-field .components-input-control__input,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-control-field .components-select-control__input,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-control-field .components-textarea-control__input,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-control-field .components-text-control__input {
+  line-height: 1.5 !important;
+  height: 36px;
+  padding: 8px;
+  color: var(--rtrb-admin-color-secondary, #555555) !important;
+  border-radius: 3px;
+  border: 1px solid var(--rtrb-admin-color-border, #e9e9e9) !important;
+  transition: var(--rtrb-admin-transition, all 0.3s ease);
+}
+.rtrb-components-popover .components-base-control .components-input-control__input:focus,
+.rtrb-components-popover .components-base-control .components-select-control__input:focus,
+.rtrb-components-popover .components-base-control .components-textarea-control__input:focus,
+.rtrb-components-popover .components-base-control .components-text-control__input:focus,
+.rtrb-components-popover .rtrb-control-field .components-input-control__input:focus,
+.rtrb-components-popover .rtrb-control-field .components-select-control__input:focus,
+.rtrb-components-popover .rtrb-control-field .components-textarea-control__input:focus,
+.rtrb-components-popover .rtrb-control-field .components-text-control__input:focus,
+.rtrb-panel-control-wrapper .components-base-control .components-input-control__input:focus,
+.rtrb-panel-control-wrapper .components-base-control .components-select-control__input:focus,
+.rtrb-panel-control-wrapper .components-base-control .components-textarea-control__input:focus,
+.rtrb-panel-control-wrapper .components-base-control .components-text-control__input:focus,
+.rtrb-panel-control-wrapper .rtrb-control-field .components-input-control__input:focus,
+.rtrb-panel-control-wrapper .rtrb-control-field .components-select-control__input:focus,
+.rtrb-panel-control-wrapper .rtrb-control-field .components-textarea-control__input:focus,
+.rtrb-panel-control-wrapper .rtrb-control-field .components-text-control__input:focus,
+.rtrb-child-nav-sidebar-control-wrap .components-base-control .components-input-control__input:focus,
+.rtrb-child-nav-sidebar-control-wrap .components-base-control .components-select-control__input:focus,
+.rtrb-child-nav-sidebar-control-wrap .components-base-control .components-textarea-control__input:focus,
+.rtrb-child-nav-sidebar-control-wrap .components-base-control .components-text-control__input:focus,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-control-field .components-input-control__input:focus,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-control-field .components-select-control__input:focus,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-control-field .components-textarea-control__input:focus,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-control-field .components-text-control__input:focus {
+  outline: 0;
+  box-shadow: none;
+  border-color: var(--rtrb-admin-color-primary, #0066ff) !important;
+}
+.rtrb-components-popover .components-base-control .components-input-control__input,
+.rtrb-components-popover .components-base-control .components-select-control__input,
+.rtrb-components-popover .components-base-control .components-text-control__input,
+.rtrb-components-popover .rtrb-control-field .components-input-control__input,
+.rtrb-components-popover .rtrb-control-field .components-select-control__input,
+.rtrb-components-popover .rtrb-control-field .components-text-control__input,
+.rtrb-panel-control-wrapper .components-base-control .components-input-control__input,
+.rtrb-panel-control-wrapper .components-base-control .components-select-control__input,
+.rtrb-panel-control-wrapper .components-base-control .components-text-control__input,
+.rtrb-panel-control-wrapper .rtrb-control-field .components-input-control__input,
+.rtrb-panel-control-wrapper .rtrb-control-field .components-select-control__input,
+.rtrb-panel-control-wrapper .rtrb-control-field .components-text-control__input,
+.rtrb-child-nav-sidebar-control-wrap .components-base-control .components-input-control__input,
+.rtrb-child-nav-sidebar-control-wrap .components-base-control .components-select-control__input,
+.rtrb-child-nav-sidebar-control-wrap .components-base-control .components-text-control__input,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-control-field .components-input-control__input,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-control-field .components-select-control__input,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-control-field .components-text-control__input {
+  height: 36px !important;
+}
+.rtrb-components-popover .components-base-control .components-textarea-control__input,
+.rtrb-components-popover .rtrb-control-field .components-textarea-control__input,
+.rtrb-panel-control-wrapper .components-base-control .components-textarea-control__input,
+.rtrb-panel-control-wrapper .rtrb-control-field .components-textarea-control__input,
+.rtrb-child-nav-sidebar-control-wrap .components-base-control .components-textarea-control__input,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-control-field .components-textarea-control__input {
+  height: 80px;
+}
+.rtrb-components-popover .components-base-control .components-input-control__backdrop,
+.rtrb-components-popover .rtrb-control-field .components-input-control__backdrop,
+.rtrb-panel-control-wrapper .components-base-control .components-input-control__backdrop,
+.rtrb-panel-control-wrapper .rtrb-control-field .components-input-control__backdrop,
+.rtrb-child-nav-sidebar-control-wrap .components-base-control .components-input-control__backdrop,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-control-field .components-input-control__backdrop {
+  display: none;
+}
+.rtrb-components-popover .components-base-control .components-form-toggle .components-form-toggle__track,
+.rtrb-components-popover .rtrb-control-field .components-form-toggle .components-form-toggle__track,
+.rtrb-panel-control-wrapper .components-base-control .components-form-toggle .components-form-toggle__track,
+.rtrb-panel-control-wrapper .rtrb-control-field .components-form-toggle .components-form-toggle__track,
+.rtrb-child-nav-sidebar-control-wrap .components-base-control .components-form-toggle .components-form-toggle__track,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-control-field .components-form-toggle .components-form-toggle__track {
+  border-color: #000;
+}
+.rtrb-components-popover .components-base-control .components-form-toggle .components-form-toggle__input:focus,
+.rtrb-components-popover .rtrb-control-field .components-form-toggle .components-form-toggle__input:focus,
+.rtrb-panel-control-wrapper .components-base-control .components-form-toggle .components-form-toggle__input:focus,
+.rtrb-panel-control-wrapper .rtrb-control-field .components-form-toggle .components-form-toggle__input:focus,
+.rtrb-child-nav-sidebar-control-wrap .components-base-control .components-form-toggle .components-form-toggle__input:focus,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-control-field .components-form-toggle .components-form-toggle__input:focus {
+  box-shadow: none;
+  outline: 0;
+}
+.rtrb-components-popover .components-base-control .components-form-toggle .components-form-toggle__input:focus + .components-form-toggle__track,
+.rtrb-components-popover .rtrb-control-field .components-form-toggle .components-form-toggle__input:focus + .components-form-toggle__track,
+.rtrb-panel-control-wrapper .components-base-control .components-form-toggle .components-form-toggle__input:focus + .components-form-toggle__track,
+.rtrb-panel-control-wrapper .rtrb-control-field .components-form-toggle .components-form-toggle__input:focus + .components-form-toggle__track,
+.rtrb-child-nav-sidebar-control-wrap .components-base-control .components-form-toggle .components-form-toggle__input:focus + .components-form-toggle__track,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-control-field .components-form-toggle .components-form-toggle__input:focus + .components-form-toggle__track {
+  box-shadow: none;
+  outline: 0;
+}
+.rtrb-components-popover .components-base-control .components-form-toggle.is-checked .components-form-toggle__track,
+.rtrb-components-popover .rtrb-control-field .components-form-toggle.is-checked .components-form-toggle__track,
+.rtrb-panel-control-wrapper .components-base-control .components-form-toggle.is-checked .components-form-toggle__track,
+.rtrb-panel-control-wrapper .rtrb-control-field .components-form-toggle.is-checked .components-form-toggle__track,
+.rtrb-child-nav-sidebar-control-wrap .components-base-control .components-form-toggle.is-checked .components-form-toggle__track,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-control-field .components-form-toggle.is-checked .components-form-toggle__track {
+  border-color: var(--rtrb-admin-color-primary, #0066ff);
+  background-color: var(--rtrb-admin-color-primary, #0066ff);
+}
+.rtrb-components-popover .components-base-control .components-form-toggle.is-checked .components-form-toggle__thumb,
+.rtrb-components-popover .rtrb-control-field .components-form-toggle.is-checked .components-form-toggle__thumb,
+.rtrb-panel-control-wrapper .components-base-control .components-form-toggle.is-checked .components-form-toggle__thumb,
+.rtrb-panel-control-wrapper .rtrb-control-field .components-form-toggle.is-checked .components-form-toggle__thumb,
+.rtrb-child-nav-sidebar-control-wrap .components-base-control .components-form-toggle.is-checked .components-form-toggle__thumb,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-control-field .components-form-toggle.is-checked .components-form-toggle__thumb {
+  background-color: #fff;
+  border-color: #fff;
+}
+.rtrb-components-popover .rtrb-control-single-field,
+.rtrb-panel-control-wrapper .rtrb-control-single-field,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-control-single-field {
+  margin-top: 10px;
+}
+.rtrb-components-popover .rtrb-undo-btn.components-button, .rtrb-components-popover .rtrb-undo-btn.has-icon,
+.rtrb-panel-control-wrapper .rtrb-undo-btn.components-button,
+.rtrb-panel-control-wrapper .rtrb-undo-btn.has-icon,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-undo-btn.components-button,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-undo-btn.has-icon {
+  font-size: 16px;
+  padding: 0;
+  background-color: transparent;
+}
+.rtrb-components-popover .rtrb-undo-btn.components-button:hover, .rtrb-components-popover .rtrb-undo-btn.has-icon:hover,
+.rtrb-panel-control-wrapper .rtrb-undo-btn.components-button:hover,
+.rtrb-panel-control-wrapper .rtrb-undo-btn.has-icon:hover,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-undo-btn.components-button:hover,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-undo-btn.has-icon:hover {
+  background-color: transparent;
+}
+.rtrb-components-popover .rtrb-undo-btn.components-button:focus, .rtrb-components-popover .rtrb-undo-btn.components-button:hover, .rtrb-components-popover .rtrb-undo-btn.components-button:active, .rtrb-components-popover .rtrb-undo-btn.has-icon:focus, .rtrb-components-popover .rtrb-undo-btn.has-icon:hover, .rtrb-components-popover .rtrb-undo-btn.has-icon:active,
+.rtrb-panel-control-wrapper .rtrb-undo-btn.components-button:focus,
+.rtrb-panel-control-wrapper .rtrb-undo-btn.components-button:hover,
+.rtrb-panel-control-wrapper .rtrb-undo-btn.components-button:active,
+.rtrb-panel-control-wrapper .rtrb-undo-btn.has-icon:focus,
+.rtrb-panel-control-wrapper .rtrb-undo-btn.has-icon:hover,
+.rtrb-panel-control-wrapper .rtrb-undo-btn.has-icon:active,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-undo-btn.components-button:focus,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-undo-btn.components-button:hover,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-undo-btn.components-button:active,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-undo-btn.has-icon:focus,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-undo-btn.has-icon:hover,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-undo-btn.has-icon:active {
+  outline: 0;
+  box-shadow: none;
+}
+.rtrb-components-popover .rtrb-undo-btn.components-button span, .rtrb-components-popover .rtrb-undo-btn.has-icon span,
+.rtrb-panel-control-wrapper .rtrb-undo-btn.components-button span,
+.rtrb-panel-control-wrapper .rtrb-undo-btn.has-icon span,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-undo-btn.components-button span,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-undo-btn.has-icon span {
+  font-size: inherit;
+  height: auto;
+}
+
+/*.rtrb-components-popover*/
+.rtrb-components-popover .components-base-control .components-input-control__label,
+.rtrb-components-popover .components-base-control .components-base-control__label,
+.rtrb-components-popover .rtrb-control-field .components-input-control__label,
+.rtrb-components-popover .rtrb-control-field .components-base-control__label {
+  margin-bottom: 6px !important;
+}
+.rtrb-components-popover .components-base-control .components-input-control__input,
+.rtrb-components-popover .components-base-control .components-select-control__input,
+.rtrb-components-popover .components-base-control .components-text-control__input,
+.rtrb-components-popover .rtrb-control-field .components-input-control__input,
+.rtrb-components-popover .rtrb-control-field .components-select-control__input,
+.rtrb-components-popover .rtrb-control-field .components-text-control__input {
+  height: 34px !important;
+}
+
+/*rtrb-components-popover*/
+.rtrb-components-popover {
+  --row-gap: 8px;
+}
+.rtrb-components-popover .components-input-control__backdrop {
+  display: none;
+}
+.rtrb-components-popover .components-popover__content::-webkit-scrollbar {
+  width: 8px;
+  border-radius: 8px;
+}
+.rtrb-components-popover .components-popover__content::-webkit-scrollbar-track {
+  background: linear-gradient(to bottom, #0066ff 0%, #488cf1 100%, #9dff00 0%, #f5440f 100%);
+  border-radius: 8px;
+}
+.rtrb-components-popover .components-popover__content::-webkit-scrollbar-thumb {
+  background: transparent;
+  box-shadow: 0px 0px 0px 1000vh black;
+  border-radius: 8px;
+}
+
+/*rtrb-tab-panel -- tab buttons*/
+.rtrb-tab-panel .components-tab-panel__tabs {
+  background: #fff;
+  border-top: 1px solid #d1d1d1;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  box-shadow: 0 4px 5px 0 rgba(32, 33, 36, 0.09);
+}
+.rtrb-tab-panel .components-button {
+  color: var(--rtrb-admin-color-black, #000);
+  transition: var(--rtrb-admin-transition, all 0.3s ease);
+}
+.rtrb-tab-panel .components-button:focus {
+  outline: 0;
+  box-shadow: none;
+}
+.rtrb-tab-panel .rtrb-tab-btn {
+  font-size: var(--rtrb-admin-text-sm, 13px);
+  position: relative;
+  height: 54px;
+  padding: 4px 0;
+  flex-grow: 1;
+  display: block;
+  border-right: 1px solid #efefef;
+  border-bottom: 3px solid transparent;
+}
+.rtrb-tab-panel .rtrb-tab-btn.general::before, .rtrb-tab-panel .rtrb-tab-btn.styles::before, .rtrb-tab-panel .rtrb-tab-btn.advance::before {
+  font-family: dashicons;
+  display: block;
+  line-height: 1;
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 3px;
+}
+.rtrb-tab-panel .rtrb-tab-btn.general::before {
+  content: "\f464";
+}
+.rtrb-tab-panel .rtrb-tab-btn.styles::before {
+  content: "\f475";
+}
+.rtrb-tab-panel .rtrb-tab-btn.advance::before {
+  content: "\f111";
+}
+.rtrb-tab-panel .rtrb-tab-btn:hover {
+  color: var(--rtrb-admin-color-primary, #0066ff);
+}
+.rtrb-tab-panel .rtrb-tab-btn.active-tab {
+  background-color: var(--rtrb-admin-root-tab-active, #ecf4ff);
+  color: var(--rtrb-admin-color-primary, #0066ff);
+  border-bottom-color: var(--rttpg-admin-color-primary, #0066ff);
+}
+.rtrb-tab-panel .rtrb-tab-btn.active-tab::before {
+  visibility: visible;
+  opacity: 1;
+}
+.rtrb-tab-panel .rtrb-tab-btn.components-tab-panel__tabs-item::before {
+  position: unset;
+}
+.rtrb-tab-panel .rtrb-tab-btn.components-tab-panel__tabs-item::after {
+  content: none;
+}
+
+/*rtrb-tab-content*/
+.rtrb-tab-content .components-button,
+.rtrb-child-nav-sidebar-control-wrap .components-button {
+  font-size: var(--rtrb-admin-text-base, 13px);
+  background-color: var(--rtrb-admin-tab-btn-bg, #f9f9f9);
+}
+.rtrb-tab-content .components-button .components-panel__arrow,
+.rtrb-child-nav-sidebar-control-wrap .components-button .components-panel__arrow {
+  color: inherit;
+}
+.rtrb-tab-content .components-button:hover,
+.rtrb-child-nav-sidebar-control-wrap .components-button:hover {
+  background-color: var(--rtrb-admin-tab-btn-bg-hover, #e0e0e0);
+}
+.rtrb-tab-content .components-panel__body-title > .components-button,
+.rtrb-child-nav-sidebar-control-wrap .components-panel__body-title > .components-button {
+  font-weight: 500;
+}
+.rtrb-tab-content .rtrb-btn-group,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-btn-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.rtrb-tab-content .rtrb-btn-group .components-button,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-btn-group .components-button {
+  box-shadow: none;
+  outline: 0;
+}
+.rtrb-tab-content .rtrb-btn-group .components-button:active, .rtrb-tab-content .rtrb-btn-group .components-button:focus, .rtrb-tab-content .rtrb-btn-group .components-button:hover,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-btn-group .components-button:active,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-btn-group .components-button:focus,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-btn-group .components-button:hover {
+  box-shadow: none;
+  outline: 0;
+}
+.rtrb-tab-content .rtrb-btn-group .components-button.is-secondary:active, .rtrb-tab-content .rtrb-btn-group .components-button.is-secondary:focus, .rtrb-tab-content .rtrb-btn-group .components-button.is-secondary:hover,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-btn-group .components-button.is-secondary:active,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-btn-group .components-button.is-secondary:focus,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-btn-group .components-button.is-secondary:hover {
+  box-shadow: none;
+  outline: 0;
+}
+.rtrb-tab-content .rtrb-btn-group .components-button.is-secondary:hover,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-btn-group .components-button.is-secondary:hover {
+  color: var(--rtrb-admin-color-primary, #0066ff);
+}
+.rtrb-tab-content .rtrb-btn-group .rtrb-button,
+.rtrb-tab-content .rtrb-btn-group .components-button,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-btn-group .rtrb-button,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-btn-group .components-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  font-size: var(--rtrb-admin-text-xs, 12px);
+  color: var(--rtrb-admin-color-secondary, #555);
+  background-color: var(--rtrb-admin-color-white, #fff);
+  border: 1px solid var(--rtrb-admin-color-border, #e9e9e9);
+  padding: 2px;
+  height: 32px;
+  cursor: pointer;
+  transition: var(--rtrb-admin-transition, all 0.3s ease-in-out);
+}
+.rtrb-tab-content .rtrb-btn-group .rtrb-button:first-of-type,
+.rtrb-tab-content .rtrb-btn-group .components-button:first-of-type,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-btn-group .rtrb-button:first-of-type,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-btn-group .components-button:first-of-type {
+  border-radius: 4px 0 0 4px;
+}
+.rtrb-tab-content .rtrb-btn-group .rtrb-button:last-of-type,
+.rtrb-tab-content .rtrb-btn-group .components-button:last-of-type,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-btn-group .rtrb-button:last-of-type,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-btn-group .components-button:last-of-type {
+  border-radius: 0 4px 4px 0;
+}
+.rtrb-tab-content .rtrb-btn-group .rtrb-button:not(:last-of-type),
+.rtrb-tab-content .rtrb-btn-group .components-button:not(:last-of-type),
+.rtrb-child-nav-sidebar-control-wrap .rtrb-btn-group .rtrb-button:not(:last-of-type),
+.rtrb-child-nav-sidebar-control-wrap .rtrb-btn-group .components-button:not(:last-of-type) {
+  border-right: none;
+}
+.rtrb-tab-content .rtrb-btn-group .rtrb-button .components-button + .components-button,
+.rtrb-tab-content .rtrb-btn-group .rtrb-button .rtrb-button + .rtrb-button,
+.rtrb-tab-content .rtrb-btn-group .components-button .components-button + .components-button,
+.rtrb-tab-content .rtrb-btn-group .components-button .rtrb-button + .rtrb-button,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-btn-group .rtrb-button .components-button + .components-button,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-btn-group .rtrb-button .rtrb-button + .rtrb-button,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-btn-group .components-button .components-button + .components-button,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-btn-group .components-button .rtrb-button + .rtrb-button {
+  margin: 0;
+}
+.rtrb-tab-content .rtrb-btn-group .rtrb-button.is-primary, .rtrb-tab-content .rtrb-btn-group .rtrb-button.active,
+.rtrb-tab-content .rtrb-btn-group .components-button.is-primary,
+.rtrb-tab-content .rtrb-btn-group .components-button.active,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-btn-group .rtrb-button.is-primary,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-btn-group .rtrb-button.active,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-btn-group .components-button.is-primary,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-btn-group .components-button.active {
+  border-color: var(--rtrb-admin-color-primary, #0066ff);
+  color: var(--rtrb-admin-color-white, #fff);
+  background-color: var(--rtrb-admin-color-primary, #0066ff);
+}
+.rtrb-tab-content .rtrb-btn-group.rtrb-btn-group-state,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-btn-group.rtrb-btn-group-state {
+  margin-bottom: 8px;
+}
+.rtrb-tab-content .rtrb-btn-group.rtrb-btn-group-state .components-button,
+.rtrb-child-nav-sidebar-control-wrap .rtrb-btn-group.rtrb-btn-group-state .components-button {
+  height: 34px;
+  font-weight: 500;
+  font-size: var(--rtrb-admin-text-base, 13px);
+}
+.rtrb-tab-content .components-panel__body.is-opened > .components-panel__body-title,
+.rtrb-child-nav-sidebar-control-wrap .components-panel__body.is-opened > .components-panel__body-title {
+  margin-bottom: 10px;
+}
+
+.rtrb-img-remove-btn {
+  height: 100px;
+  width: 100%;
+  margin-bottom: 5px;
+}
+.rtrb-img-remove-btn span {
+  font-size: 30px;
+  width: auto;
+  height: auto;
+  margin: 0;
+}
+
+.rtrb-panel-control-wrapper .rtrb-image-avatar {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-bottom: 5px;
+  background-color: var(--rtrb-admin-tab-btn-bg-hover, #e0e0e0);
+}
+.rtrb-panel-control-wrapper .rtrb-image-avatar .rtrb-img-avt-action-group {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.rtrb-panel-control-wrapper .rtrb-image-avatar .rtrb-img-avt-action-group .components-button {
+  border: none;
+  padding: 5px !important;
+  min-height: 30px;
+  width: auto;
+  line-height: 1;
+  height: auto;
+  font-size: 15px !important;
+  color: var(--rtrb-admin-color-primary, #0066ff);
+  transition: 0.3s;
+  border-radius: 4px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+}
+.rtrb-panel-control-wrapper .rtrb-image-avatar .rtrb-img-avt-action-group .components-button:hover {
+  color: var(--rtrb-admin-color-white, #fff);
+  background-color: var(--rtrb-admin-color-primary, #0066ff);
+}
+.rtrb-panel-control-wrapper .rtrb-image-avatar .rtrb-img-avt-action-group .components-button:focus {
+  color: var(--rtrb-admin-color-white, #fff);
+  background-color: var(--rtrb-admin-color-primary, #0066ff);
+}
+.rtrb-panel-control-wrapper input[type=text]:focus {
+  box-shadow: none;
+}
+
+/*block-editor-block-inspector => bottom advanced*/
+.block-editor-block-inspector .components-base-control {
+  margin-bottom: 10px;
+}
+.block-editor-block-inspector .components-base-control:last-of-type {
+  margin-bottom: 6px;
+}
+.block-editor-block-inspector .components-base-control .components-textarea-control__input,
+.block-editor-block-inspector .components-base-control .components-text-control__input {
+  line-height: 1.5 !important;
+  height: 36px;
+  padding: 8px;
+  color: var(--rtrb-admin-color-secondary, #555);
+  border-radius: 3px;
+  border: 1px solid var(--rtrb-admin-color-border, #e9e9e9);
+  transition: var(--rtrb-admin-transition, all 0.3s ease-in-out);
+}
+.block-editor-block-inspector .components-base-control .components-textarea-control__input:focus,
+.block-editor-block-inspector .components-base-control .components-text-control__input:focus {
+  outline: 0;
+  box-shadow: none;
+  border-color: var(--rtrb-admin-color-primary, #0066ff);
+}
+.block-editor-block-inspector .components-base-control .components-textarea-control__input {
+  height: 80px;
+}
+.block-editor-block-inspector .components-base-control .components-base-control__label,
+.block-editor-block-inspector .components-base-control .components-toggle-control__label {
+  font-size: var(--rtrb-admin-text-base, 13px);
+  color: var(--rtrb-admin-color-secondary, #555);
+  font-weight: 500;
+}
+.block-editor-block-inspector .components-base-control .components-base-control__label {
+  margin-bottom: var(--row-gap, 10px);
+  display: inline-block;
+  text-transform: capitalize;
+}
+.block-editor-block-inspector__advanced .components-button {
+  font-size: var(--rtrb-admin-text-base, 13px);
+  color: var(--rtrb-admin-color-black, #000);
+  font-weight: 500;
+}
+.block-editor-block-inspector__advanced .components-button .components-panel__arrow {
+  color: inherit;
+}
+.block-editor-block-inspector__advanced .components-button:hover {
+  background-color: var(--rtrb-admin-tab-btn-bg-hover, #e0e0e0);
+}
+.block-editor-block-inspector__advanced .components-button:focus {
+  outline: 0;
+  box-shadow: none;
+}
+.block-editor-block-inspector .components-panel__body {
+  border: none;
+  border-top: 1px solid #e0e0e0;
+  margin: 0;
+}
+
+.rtrb-sortable-list {
+  display: grid;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.rtrb-sortable-list .drag-helper {
+  list-style: none;
+  z-index: initial;
+}
+
+.rtrb-sortable-expand-area {
+  border: 1px solid #d3d3d3;
+  border-top: 0;
+  padding: 10px;
+  background: #fff;
+}
+
+.rtrb-sortable-item {
+  border: 1px solid #d3d3d3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 2.5em;
+  font-size: 13px;
+  color: #555 !important;
+  height: 40px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+}
+.rtrb-sortable-item .rtrb-sortable-title {
+  flex: 12;
+  overflow: hidden;
+  padding-left: 8px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 200px;
+  padding-right: 5px;
+  display: inline-block;
+}
+.rtrb-sortable-item .rtrb-sortable-title .rt-icon,
+.rtrb-sortable-item .rtrb-sortable-title i,
+.rtrb-sortable-item .rtrb-sortable-title svg {
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  margin-right: 3px;
+  position: relative;
+  top: 1px;
+}
+.rtrb-sortable-item .drag-handle {
+  background: transparent !important;
+  border-left: 1px solid var(--rtrb-admin-color-border, #e9e9e9) !important;
+  border-right: none !important;
+  display: flex !important;
+  justify-content: center;
+  flex: 2 1 0% !important;
+  align-items: center;
+  color: #fff;
+  cursor: move;
+  height: 100%;
+}
+.rtrb-sortable-item .rtrb-social-delete-icon {
+  font-size: 14px;
+  border-left: 1px solid #e9e9e9;
+  line-height: 2.5em;
+  flex: 2;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+.rtrb-sortable-item .rtrb-delete-icon:hover {
+  cursor: pointer;
+}
+
+.rtrb-drag-helper {
+  list-style: none;
+}
+
+.rtrb-item-add-btn-wrapper .rtrb-add-accordion-button,
+.rtrb-block > .rtrb-add-accordion-button,
+.rtrb-block + .rtrb-add-accordion-button {
+  position: relative !important;
+  z-index: 10 !important;
+  margin-top: 8px !important;
+  margin-bottom: 8px !important;
+  font-size: var(--rtrb-admin-text-base, 13px) !important;
+  background-color: var(--rtrb-admin-tab-btn-bg, #f9f9f9) !important;
+  border: 1px solid #e2e2e2 !important;
+  padding: 12px 30px !important;
+  height: 42px !important;
+  font-size: 17px !important;
+  color: #000000 !important;
+  transition: all 0.3s ease-in-out !important;
+}
+.rtrb-item-add-btn-wrapper .rtrb-add-accordion-button:hover,
+.rtrb-block > .rtrb-add-accordion-button:hover,
+.rtrb-block + .rtrb-add-accordion-button:hover {
+  background-color: var(--rtrb-admin-tab-btn-bg-hover, #ededef) !important;
+  color: #212121 !important;
+}
+.rtrb-item-add-btn-wrapper .rtrb-add-accordion-button:focus,
+.rtrb-block > .rtrb-add-accordion-button:focus,
+.rtrb-block + .rtrb-add-accordion-button:focus {
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+.rtrb-item-add-btn-wrapper .rtrb-add-accordion-button .dashicons,
+.rtrb-block > .rtrb-add-accordion-button .dashicons,
+.rtrb-block + .rtrb-add-accordion-button .dashicons {
+  width: 18px;
+  height: 18px;
+  font-size: 18px;
+  left: unset !important;
+  width: unset !important;
+}
+
+.rtrb-item-add-btn-wrapper.rt-faq {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.components-panel__body-title ~ .rtrb-add-accordion-button,
+.rtrb-control-field ~ .rtrb-add-accordion-button {
+  position: relative !important;
+  z-index: 10 !important;
+  margin-top: 0px !important;
+  margin-bottom: 10px !important;
+  font-size: var(--rtrb-admin-text-base, 13px) !important;
+  background-color: var(--rtrb-admin-tab-btn-bg, #f9f9f9) !important;
+  border: 1px solid #e2e2e2 !important;
+  padding: 10px 12px !important;
+  height: 32px !important;
+  font-size: 13px !important;
+  transition: all 0.3s ease-in-out !important;
+}
+.components-panel__body-title ~ .rtrb-add-accordion-button:hover,
+.rtrb-control-field ~ .rtrb-add-accordion-button:hover {
+  background-color: var(--rtrb-admin-tab-btn-bg-hover, #ededef) !important;
+  color: #212121 !important;
+}
+.components-panel__body-title ~ .rtrb-add-accordion-button:focus,
+.rtrb-control-field ~ .rtrb-add-accordion-button:focus {
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+.components-panel__body-title ~ .rtrb-add-accordion-button .dashicons,
+.rtrb-control-field ~ .rtrb-add-accordion-button .dashicons {
+  width: 18px;
+  height: 18px;
+  font-size: 18px;
+  left: unset !important;
+  width: unset !important;
+}
+
+.rtrb-panel-control-wrapper [data-tooltip]:before {
+  content: attr(data-tooltip);
+  position: absolute;
+  pointer-events: none;
+  opacity: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.15s ease;
+  padding: 6px 10px;
+  color: #fff;
+  background: #1a1a1a;
+  border-radius: 4px;
+  border-width: 0;
+  white-space: nowrap;
+  text-align: center;
+  line-height: 1.2;
+  font-size: 13px;
+  box-shadow: none;
+  right: -70px;
+}
+.rtrb-panel-control-wrapper [data-tooltip]:hover::before {
+  margin: 0;
+  opacity: 1;
+  z-index: 1000;
+}
+
+[data-type="rtrb/image-gallery"] .rtrb-add-accordion-button {
+  justify-content: center !important;
+  width: 100% !important;
+  padding: 6px 20px !important;
+  height: 44px !important;
+}
+
+/*components-datetime*/
+.rtrb-panel-control-wrapper .components-datetime {
+  --wp-admin-theme-color-darker-20: var(var(--rtrb-admin-color-primary),
+  		#0066ff);
+}
+.rtrb-panel-control-wrapper .components-datetime__timezone {
+  display: none;
+}
+.rtrb-panel-control-wrapper .components-datetime input,
+.rtrb-panel-control-wrapper .components-datetime select {
+  border-color: var(--rtrb-admin-color-border, #e9e9e9);
+}
+.rtrb-panel-control-wrapper .components-datetime input:focus,
+.rtrb-panel-control-wrapper .components-datetime select:focus {
+  border-color: var(--rtrb-admin-color-primary, #0066ff);
+  color: var(--rtrb-admin-color-secondary, #555);
+  box-shadow: none;
+}
+.rtrb-panel-control-wrapper .components-datetime .components-button-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.rtrb-panel-control-wrapper .components-datetime .components-button-group .components-button {
+  box-shadow: none;
+  outline: 0;
+}
+.rtrb-panel-control-wrapper .components-datetime .components-button-group .components-button:active, .rtrb-panel-control-wrapper .components-datetime .components-button-group .components-button:focus, .rtrb-panel-control-wrapper .components-datetime .components-button-group .components-button:hover {
+  box-shadow: none;
+  outline: 0;
+}
+.rtrb-panel-control-wrapper .components-datetime .components-button-group .components-button.is-secondary:active, .rtrb-panel-control-wrapper .components-datetime .components-button-group .components-button.is-secondary:focus, .rtrb-panel-control-wrapper .components-datetime .components-button-group .components-button.is-secondary:hover {
+  box-shadow: none;
+  outline: 0;
+}
+.rtrb-panel-control-wrapper .components-datetime .components-button-group .components-button.is-secondary:hover {
+  color: var(--rtrb-admin-color-primary, #0066ff);
+}
+.rtrb-panel-control-wrapper .components-datetime .components-button-group .rtrb-button,
+.rtrb-panel-control-wrapper .components-datetime .components-button-group .components-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  font-size: var(--rtrb-admin-text-xs, 12px);
+  color: var(--rtrb-admin-color-secondary, #555);
+  background-color: var(--rtrb-admin-color-white, #fff);
+  border: 1px solid var(--rtrb-admin-color-border, #e9e9e9);
+  padding: 5.2px 10px;
+  height: revert;
+  cursor: pointer;
+  transition: var(--rtrb-admin-transition, all 0.3s ease-in-out);
+}
+.rtrb-panel-control-wrapper .components-datetime .components-button-group .rtrb-button:first-of-type,
+.rtrb-panel-control-wrapper .components-datetime .components-button-group .components-button:first-of-type {
+  border-radius: 4px 0 0 4px;
+}
+.rtrb-panel-control-wrapper .components-datetime .components-button-group .rtrb-button:last-of-type,
+.rtrb-panel-control-wrapper .components-datetime .components-button-group .components-button:last-of-type {
+  border-radius: 0 4px 4px 0;
+}
+.rtrb-panel-control-wrapper .components-datetime .components-button-group .rtrb-button:not(:last-of-type),
+.rtrb-panel-control-wrapper .components-datetime .components-button-group .components-button:not(:last-of-type) {
+  border-right: none;
+}
+.rtrb-panel-control-wrapper .components-datetime .components-button-group .rtrb-button .components-button + .components-button,
+.rtrb-panel-control-wrapper .components-datetime .components-button-group .rtrb-button .rtrb-button + .rtrb-button,
+.rtrb-panel-control-wrapper .components-datetime .components-button-group .components-button .components-button + .components-button,
+.rtrb-panel-control-wrapper .components-datetime .components-button-group .components-button .rtrb-button + .rtrb-button {
+  margin: 0;
+}
+.rtrb-panel-control-wrapper .components-datetime .components-button-group .rtrb-button.is-primary, .rtrb-panel-control-wrapper .components-datetime .components-button-group .rtrb-button.active,
+.rtrb-panel-control-wrapper .components-datetime .components-button-group .components-button.is-primary,
+.rtrb-panel-control-wrapper .components-datetime .components-button-group .components-button.active {
+  border-color: var(--rtrb-admin-color-primary, #0066ff);
+  color: var(--rtrb-admin-color-white, #fff);
+  background-color: var(--rtrb-admin-color-primary, #0066ff);
+}
+.rtrb-panel-control-wrapper .components-datetime .components-datetime__buttons .components-button {
+  font-size: var(--rtrb-admin-text-xs, 12px);
+  padding: 5px 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  box-shadow: none;
+  color: var(--rtrb-admin-color-black, #000);
+  background-color: #e0e0e0;
+  text-decoration: none;
+  border-radius: 3px;
+  height: 26px;
+}
+.rtrb-panel-control-wrapper .components-datetime .components-datetime__buttons .components-button:hover {
+  color: var(--rtrb-admin-color-white, #fff);
+  background-color: var(--rtrb-admin-color-primary, #0066ff);
+}
+
+.rtrb-control-field .rtrb-align-icons svg {
+  width: 18px;
+  height: 18px;
+}
+
+[data-type*="rtrb/wrapper"] .block-list-appender .components-button.block-editor-button-block-appender,
+[data-type*="rtrb/container"] .block-list-appender .components-button.block-editor-button-block-appender,
+[data-type*="rtrb/row"] .block-list-appender .components-button.block-editor-button-block-appender {
+  border: 1px solid #e9e9e9;
+  box-shadow: none;
+  color: #484b4a;
+}
+[data-type*="rtrb/wrapper"] .block-list-appender .components-button.block-editor-button-block-appender svg,
+[data-type*="rtrb/container"] .block-list-appender .components-button.block-editor-button-block-appender svg,
+[data-type*="rtrb/row"] .block-list-appender .components-button.block-editor-button-block-appender svg {
+  width: 30px;
+  height: 30px;
+}
+
+.rtrb-container-variation-picker .rtrb-variation-close {
+  font-size: 36px;
+  background: none;
+  color: #6c6c6c;
+  cursor: pointer;
+  border: none;
+  box-shadow: none;
+  display: inline-flex;
+  align-items: center;
+  position: absolute;
+  top: 24px;
+  z-index: 999999;
+  line-height: 0;
+  vertical-align: middle;
+  right: 24px;
+}
+.rtrb-container-variation-picker .rtrb-variation-close:focus, .rtrb-container-variation-picker .rtrb-variation-close:focus-visible {
+  outline: 0;
+  box-shadow: none;
+}
+.rtrb-container-variation-picker .rtrb-variation-close:hover {
+  color: var(--rtrb-admin-color-primary, #0066ff);
+}
+.rtrb-container-variation-picker .components-placeholder.is-large .components-placeholder__label,
+.rtrb-container-variation-picker .components-placeholder__label {
+  font-size: 22px;
+  color: #333333;
+  margin-bottom: 24px;
+  font-weight: 400;
+}
+.rtrb-container-variation-picker .components-placeholder.components-placeholder {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  position: relative;
+  padding: 1em;
+  min-height: 200px;
+  width: 100%;
+  text-align: left;
+  margin: 0;
+  color: #444;
+  -moz-font-smoothing: subpixel-antialiased;
+  -webkit-font-smoothing: subpixel-antialiased;
+  border-radius: 2px;
+  background-color: #fff;
+  box-shadow: none;
+  border: 1px solid #d5dadf;
+}
+.rtrb-container-variation-picker .block-editor-block-variation-picker__variations.block-editor-block-variation-picker__variations {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  max-width: 750px;
+}
+.rtrb-container-variation-picker .block-editor-block-variation-picker__variations.block-editor-block-variation-picker__variations > li {
+  width: 14%;
+  list-style: none;
+  margin: 0;
+  flex-shrink: 1;
+  text-align: center;
+}
+.rtrb-container-variation-picker .block-editor-block-variation-picker__variations.block-editor-block-variation-picker__variations > li .components-button {
+  margin: 0;
+  color: #d1d5da !important;
+  border: 1px solid #e9e9e9;
+  box-shadow: none !important;
+  transition: all 0.3s ease;
+  width: 100%;
+  padding: 6px !important;
+}
+.rtrb-container-variation-picker .block-editor-block-variation-picker__variations.block-editor-block-variation-picker__variations > li .components-button svg {
+  max-width: 100px;
+  height: auto;
+}
+.rtrb-container-variation-picker .block-editor-block-variation-picker__variations.block-editor-block-variation-picker__variations > li .components-button::before {
+  display: none;
+}
+.rtrb-container-variation-picker .block-editor-block-variation-picker__variations.block-editor-block-variation-picker__variations > li .components-button:hover {
+  color: #75818b !important;
+}
+.rtrb-container-variation-picker .components-placeholder__fieldset {
+  align-items: center;
+}
+.rtrb-container-variation-picker .block-list-appender .components-button.block-editor-button-block-appender {
+  border: 1px solid #e9e9e9;
+  box-shadow: none;
+  color: #484b4a;
+}
+.rtrb-container-variation-picker .block-list-appender .components-button.block-editor-button-block-appender svg {
+  width: 30px;
+  height: 30px;
+}
+
+.rtrb-block .block-list-appender .components-button.block-editor-button-block-appender {
+  border: 1px solid #e9e9e9;
+  box-shadow: none;
+  color: #484b4a;
+}
+.rtrb-block .block-list-appender .components-button.block-editor-button-block-appender svg {
+  width: 30px;
+  height: 30px;
+}
+
+.rtrb-image-avatar-editor,
+.rtrb-logo-avater-image-inspector {
+  position: relative;
+}
+
+.rtrb-image-comparison-placeholder {
+  gap: 10px;
+}
+.rtrb-image-comparison-placeholder .components-button.rtrb-image-upload {
+  margin: 0;
+}
+.rtrb-image-comparison-placeholder .components-button.rtrb-image-upload > span:nth-of-type(2) {
+  display: none;
+}
+
+.admin-card-style, .rtrb-settings-page-wrapper .rtrb-general-settings .rtrb-general-wrap .rtrb-general-item-box, .rtrb-settings-page-wrapper .rtrb-block-settings .rtrb-block-enable-disable-box, .rtrb-settings-page-wrapper .rtrb-general-settings,
+.rtrb-settings-page-wrapper .rtrb-block-settings, .rtrb-settings-page-wrapper .rtrb-settings-tabs-wrap .rtrb-tabs-nav-wrap, .rtrb-settings-page-wrapper .rtrb-header-area {
+  padding: 24px 30px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 4px 40px rgba(0, 0, 0, 0.05);
+}
+
+.rtrb-settings-page-wrapper {
+  padding: 15px;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.rtrb-settings-page-wrapper .rtrb-button-wrapper {
+  display: inline-flex;
+  gap: 20px;
+}
+.rtrb-settings-page-wrapper .rtrb-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  font-size: 15px;
+  padding: 10px 16px;
+  font-weight: 600;
+  border-radius: 4px;
+  color: #fff;
+  border: none;
+  background: #0066ff;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.rtrb-settings-page-wrapper .rtrb-button:focus {
+  box-shadow: none;
+  outline: 0;
+}
+.rtrb-settings-page-wrapper .rtrb-button:hover {
+  background: #003d99;
+}
+.rtrb-settings-page-wrapper .rtrb-button.rtrb-disable-button {
+  background: #d80e0e;
+}
+.rtrb-settings-page-wrapper .rtrb-button.rtrb-disable-button:hover {
+  background: #a80000;
+}
+.rtrb-settings-page-wrapper .rtrb-header-area {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.rtrb-settings-page-wrapper .rtrb-header-area .rtrb-header-logo-wrap {
+  line-height: 1;
+  flex: 0 0 32px;
+  max-width: 32px;
+}
+.rtrb-settings-page-wrapper .rtrb-header-area .rtrb-header-title-wrap {
+  flex-grow: 1;
+}
+.rtrb-settings-page-wrapper .rtrb-header-area .rtrb-header-title-wrap .rtrb-title {
+  font-size: 22px;
+  line-height: 1.2;
+  color: #242424;
+  font-weight: 600;
+  margin: 0px;
+  margin-bottom: 0;
+}
+.rtrb-settings-page-wrapper .rtrb-settings-tabs-wrap {
+  display: grid;
+  gap: 25px;
+  margin-top: 30px;
+}
+.rtrb-settings-page-wrapper .rtrb-settings-tabs-wrap .rtrb-tab-list {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px 10px;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+.rtrb-settings-page-wrapper .rtrb-settings-tabs-wrap .rtrb-tab-list li {
+  margin: 0;
+  padding: 0;
+}
+.rtrb-settings-page-wrapper .rtrb-settings-tabs-wrap .rtrb-tab-list li a {
+  padding: 10px 25px;
+  color: #242424;
+  border-radius: 3px;
+  background: #eaeaea;
+}
+.rtrb-settings-page-wrapper .rtrb-settings-tabs-wrap .rtrb-tab-list li a.active {
+  color: #fff;
+  background: #0066ff;
+}
+.rtrb-settings-page-wrapper .rtrb-settings-tabs-wrap .rtrb-tab-list li a:focus {
+  outline: 0;
+  box-shadow: none;
+}
+.rtrb-settings-page-wrapper .rtrb-settings-tabs-wrap .rtrb-settings-tab-content {
+  display: none;
+}
+.rtrb-settings-page-wrapper .rtrb-settings-tabs-wrap .rtrb-settings-tab-content.active {
+  display: block;
+}
+.rtrb-settings-page-wrapper .rtrb-block-settings .rtrb-bs-header-area {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px 30px;
+}
+.rtrb-settings-page-wrapper .rtrb-block-settings .rtrb-bs-header {
+  flex-grow: 1;
+}
+.rtrb-settings-page-wrapper .rtrb-block-settings .rtrb-bs-header .rtrb-title {
+  font-size: 20px;
+  line-height: 1.3;
+  font-weight: 600;
+  color: #000;
+  margin: 0;
+}
+.rtrb-settings-page-wrapper .rtrb-block-settings .rtrb-bs-header .rtrb-description {
+  margin: 0;
+  margin-top: 12px;
+  font-size: 15px;
+  color: #474747;
+  max-width: 576px;
+  width: 100%;
+}
+.rtrb-settings-page-wrapper .rtrb-block-settings .rtrb-bs-header-area .rtrb-button-wrapper {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.rtrb-settings-page-wrapper .rtrb-block-settings .rtrb-bs-content-area {
+  display: flex;
+  flex-wrap: wrap;
+}
+.rtrb-settings-page-wrapper .rtrb-block-settings .rtrb-block-settings-wrap {
+  display: grid;
+  gap: 30px;
+}
+.rtrb-settings-page-wrapper .rtrb-block-settings .rtrb-bs-content-area {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+@media (max-width: 1199px) {
+  .rtrb-settings-page-wrapper .rtrb-block-settings .rtrb-bs-content-area {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 767px) {
+  .rtrb-settings-page-wrapper .rtrb-block-settings .rtrb-bs-content-area {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+.rtrb-settings-page-wrapper .rtrb-block-settings .rtrb-block-enable-disable-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4px 16px;
+  padding: 30px 20px;
+  border-radius: 4px;
+  box-shadow: 0 4px 40px rgba(0, 0, 0, 0.1);
+}
+.rtrb-settings-page-wrapper .rtrb-block-settings .rtrb-block-enable-disable-box .rtrb-block-icon {
+  line-height: 1;
+}
+.rtrb-settings-page-wrapper .rtrb-block-settings .rtrb-block-enable-disable-box .rtrb-block-icon .rt-icon {
+  font-size: 24px;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+}
+.rtrb-settings-page-wrapper .rtrb-block-settings .rtrb-block-enable-disable-box .rtrb-block-content {
+  flex: 1;
+}
+.rtrb-settings-page-wrapper .rtrb-block-settings .rtrb-block-enable-disable-box .rtrb-block-content .rtrb-block-name {
+  font-size: 17px;
+  font-weight: 500;
+  margin: 0;
+}
+.rtrb-settings-page-wrapper .rtrb-block-settings .rtrb-block-enable-disable-box .rtrb-block-content .rtrb-block-link {
+  font-size: 15px;
+  margin: 0;
+  text-decoration: underline;
+  color: #818181;
+  margin-top: 5px;
+  display: inline-block;
+}
+.rtrb-settings-page-wrapper .rtrb-block-settings .rtrb-block-enable-disable-box .rtrb-block-content .rtrb-block-link:hover {
+  color: #0066ff;
+}
+.rtrb-settings-page-wrapper .rtrb-block-settings .rtrb-block-enable-disable-box .rtrb-block-content .rtrb-block-link:focus {
+  outline: 0;
+  box-shadow: none;
+}
+.rtrb-settings-page-wrapper .rtrb-general-settings .rtrb-general-wrap {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+}
+@media (min-width: 768px) {
+  .rtrb-settings-page-wrapper .rtrb-general-settings .rtrb-general-wrap {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 1200px) {
+  .rtrb-settings-page-wrapper .rtrb-general-settings .rtrb-general-wrap {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.rtrb-settings-page-wrapper .rtrb-general-settings .rtrb-general-wrap .rtrb-general-item-box {
+  box-shadow: 0 4px 40px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+.rtrb-settings-page-wrapper .rtrb-general-settings .rtrb-general-wrap .rtrb-general-item-box .rt-box-icon {
+  font-size: 36px;
+  display: inline-flex;
+  align-items: center;
+  line-height: 1;
+  color: #0066ff;
+}
+.rtrb-settings-page-wrapper .rtrb-general-settings .rtrb-general-wrap .rtrb-general-item-box .rtrb-content {
+  margin-top: 18px;
+  margin-bottom: 25px;
+}
+.rtrb-settings-page-wrapper .rtrb-general-settings .rtrb-general-wrap .rtrb-general-item-box .rtrb-content .rtrb-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+}
+.rtrb-settings-page-wrapper .rtrb-general-settings .rtrb-general-wrap .rtrb-general-item-box .rtrb-content .rtrb-description {
+  font-size: 15px;
+  margin: 0;
+  margin-top: 16px;
+}
+.rtrb-settings-page-wrapper .rtrb-general-settings .rtrb-general-wrap .rtrb-general-item-box .rtrb-content .rtrb-description a {
+  color: var(--rtrb-admin-color-primary, #0066ff);
+  transition: 0.3s;
+}
+.rtrb-settings-page-wrapper .rtrb-general-settings .rtrb-general-wrap .rtrb-general-item-box .rtrb-content .rtrb-description a:hover {
+  color: var(--rtrb-admin-color-primary-hover, #003d99);
+}
+.rtrb-settings-page-wrapper .rtrb-general-settings .rtrb-general-wrap .rtrb-general-item-box .rtrb-button-wrapper .rtrb-button {
+  font-size: 14px;
+  padding: 10px 15px;
+}
+.rtrb-settings-page-wrapper #rtrb-admin-settings-save-btn .rtrb-button {
+  padding: 10px 40px;
+}
+
+.wp-admin ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.wp-admin pre {
+  padding: 0;
+}
+
+.post-type-rtcl_builder .editor-styles-wrapper {
+  color: inherit;
+}

@@ -1,0 +1,292 @@
+.rtcl-listing-booking.el-single-addon .rtcl-listing-booking-wrap {
+  color: #646464;
+}
+.rtcl-listing-booking.el-single-addon.rtcl-title-hide .rtcl-listing-side-title {
+  display: none;
+}
+.rtcl-listing-booking.el-single-addon.rtcl-title-hide-indicator .rtcl-listing-side-title h3:after {
+  content: unset;
+}
+
+.rtcl-el-slider-wrapper .rtcl-swiper-lazy-preloader {
+  width: 42px;
+  height: 42px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -21px;
+  margin-top: -21px;
+  z-index: 10;
+  visibility: hidden;
+  opacity: 0;
+}
+.rtcl-el-slider-wrapper .swiper:not(.swiper-initialized) {
+  position: relative;
+}
+.rtcl-el-slider-wrapper .swiper:not(.swiper-initialized) .rtcl-swiper-lazy-preloader {
+  visibility: visible;
+  opacity: 1;
+}
+.rtcl-el-slider-wrapper .swiper:not(.swiper-initialized) .swiper-wrapper {
+  opacity: 0;
+}
+.rtcl-el-slider-wrapper .rtcl-grid-view .listing-item {
+  margin-bottom: 5px;
+}
+
+.el-single-addon.seller-information .listing-author {
+  align-items: center;
+  display: flex;
+  margin-bottom: 10px;
+}
+.el-single-addon.seller-information .listing-author .author-logo-wrapper {
+  padding: 5px;
+}
+.el-single-addon.seller-information .listing-author .author-logo-wrapper img {
+  border-radius: 50%;
+  height: 50px;
+  margin-right: 10px;
+  width: 50px;
+}
+
+.rtcl-listing-description.enabled-drop-cap p:first-child:first-letter {
+  float: left;
+  font-size: 75px;
+  line-height: 1;
+  padding-top: 4px;
+  padding-right: 8px;
+}
+
+.el-single-addon.classima-listing-single .classima-single-details .rtin-specs .rtin-spec-items {
+  display: flex;
+  flex-wrap: wrap;
+}
+.el-single-addon.classima-listing-single .classima-single-details .rtin-specs .rtin-spec-items li {
+  margin: initial;
+}
+
+.rtcl-listings-sc-wrapper.rtcl-elementor-widget .rtcl-listings.rtcl-list-view .rtcl-add-to-cart-form {
+  flex-direction: unset;
+  align-items: flex-start;
+}
+
+.rtcl-listings-sc-wrapper.rtcl-elementor-widget .rtcl-listings-actions .rtcl-view-switcher {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.rtcl-listings-sc-wrapper.rtcl-elementor-widget .rtcl-listings-actions .rtcl-view-trigger {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.el-single-addon {
+  --fb-field-icon-area-size: 40px;
+  --fb-field-icon-area-margin-r: 10px;
+  --file-item-column: 1;
+  --file-item-gap: 20px;
+}
+.el-single-addon ul {
+  padding: 0;
+  list-style: none;
+}
+.el-single-addon .rtcl-listing-header {
+  margin: initial;
+}
+.el-single-addon .rtcl-listing-badge-wrap {
+  width: 100%;
+}
+.el-single-addon #respond {
+  background: none;
+  padding: 0 !important;
+}
+.el-single-addon .rtcl-listing-user-info .rtcl-user-status > span {
+  line-height: 1;
+  padding-left: 25px;
+  position: relative;
+}
+.el-single-addon .rtcl-listing-user-info .rtcl-user-status > span:before {
+  border-radius: 50%;
+  content: "";
+  height: 16px;
+  left: 0;
+  position: absolute;
+  top: 4px;
+  width: 16px;
+}
+.el-single-addon .rtcl-listing-user-info .rtcl-user-status.offline > span:before {
+  background: red;
+}
+.el-single-addon .rtcl-listing-user-info .rtcl-user-status.online > span::before {
+  background: #14ad3f;
+}
+.el-single-addon .rtcl-listing-meta-data li.rt-categories {
+  font-size: inherit;
+}
+.el-single-addon .rtcl-sidebar-social a.twitter {
+  width: initial;
+  height: initial;
+}
+.el-single-addon .rtcl-single-listing-action {
+  list-style: none;
+}
+.el-single-addon .rtcl-single-listing-action .rtcl-sidebar-social a {
+  margin: 0 !important;
+}
+.el-single-addon .rtcl-field-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--fb-field-icon-area-size);
+  height: var(--fb-field-icon-area-size);
+  border: 1px solid var(--rtcl-primary-color);
+  margin-right: var(--fb-field-icon-area-margin-r);
+}
+.el-single-addon .rtcl-field-icon i {
+  display: inline-flex;
+  color: var(--rtcl-primary-color);
+}
+.el-single-addon .rtcl-fb-checkbox {
+  --multiselect-columns: 3;
+  --multiselect-gap: 16px;
+  --multiselect-icon-gap: 5px;
+}
+.el-single-addon .rtcl-fb-checkbox .rtcl-list-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--multiselect-gap);
+}
+.el-single-addon .rtcl-fb-checkbox .rtcl-list-group li {
+  flex: 1 1 calc(100% / var(--multiselect-columns) - var(--multiselect-gap));
+  box-sizing: border-box;
+  max-width: calc(100% / var(--multiselect-columns) - var(--multiselect-gap));
+}
+.el-single-addon .rtcl-fb-checkbox .rtcl-list-group i {
+  margin-right: var(--multiselect-icon-gap);
+  color: var(--rtcl-primary-color);
+}
+.el-single-addon .rtcl-icon-label-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  width: 100%;
+}
+.el-single-addon .rtcl-repeater-main-heading,
+.el-single-addon .rtcl-list-item-heading {
+  margin: 0;
+}
+.el-single-addon .rtcl-list-group,
+.el-single-addon .rtcl-fb-repeater-fields-content {
+  --rp-columns: 1;
+  --rp-gap: 16px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  gap: var(--rp-gap);
+}
+.el-single-addon .rtcl-list-group .rtcl-fb-element,
+.el-single-addon .rtcl-fb-repeater-fields-content .rtcl-fb-element {
+  flex: 1 1 calc((100% - var(--rp-gap) * (var(--rp-columns) - 1)) / var(--rp-columns));
+  max-width: calc((100% - var(--rp-gap) * (var(--rp-columns) - 1)) / var(--rp-columns));
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.elementor-widget-rt-listing-image .swiper-slide img {
+  width: 100%;
+}
+.elementor-widget-rt-listing-image .rtcl-slider-nav .rtcl-slider-thumb-item img {
+  height: auto;
+}
+
+/* ==== Page Header Widget === */
+.rtcl-el-listing-page-header {
+  row-gap: 8px;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  display: flex;
+}
+.rtcl-el-listing-page-header .rtcl-breadcrumb {
+  margin-bottom: 0;
+}
+.rtcl-el-listing-page-header.header-style-1 {
+  flex-flow: column;
+}
+.rtcl-el-listing-page-header.header-style-2 {
+  flex-flow: column;
+  flex-direction: column-reverse;
+}
+.rtcl-el-listing-page-header.header-style-3 {
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* ==== Listing Meta Widget === */
+.single-listing-meta-wrap.meta-display-block .rtcl-listing-meta-data {
+  flex-flow: column;
+}
+
+/* ==== Listing Review Widget === */
+.rtcl .rtcl-Reviews.rtcl #respond .comment-form label {
+  width: 100%;
+  display: inline-flex;
+  margin-bottom: 10px;
+}
+
+.el-single-addon .gravatar-img {
+  margin-right: 10px;
+}
+.el-single-addon.rtcl-Reviews.rtcl #comments ol.comment-list li .comment-container .rtcl-review-meta {
+  margin-left: 0;
+}
+
+/* ==== Listing Review Widget === */
+.el-single-addon.rtcl-slider-wrapper .rtcl-slider-nav {
+  max-height: unset;
+}
+
+/* ==== Listing Price Widget === */
+.el-single-addon .rtcl-price span.divider-after-price,
+.el-single-addon .rtcl-price span.price-type,
+.el-single-addon .rtcl-price span.price-unit {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ==== Listing Chat Widget === */
+#rtcl-chat-modal .rtcl-chat-model-body {
+  padding: 12px;
+}
+
+/* ==== Listing Seller Info Widget === */
+.el-single-addon.seller-information .list-group-item .media-body span {
+  display: inline-flex;
+}
+
+.el-single-addon.seller-information .list-group-item.rtcl-user-status span,
+.rtcl-listing-user-info .rtcl-contact-seller {
+  gap: 3px;
+}
+
+.el-single-addon .rtcl-listing-user-info .rtcl-user-status > span:before {
+  top: 0;
+}
+
+.rtcl-social-profile-wrap .rtcl-social-profile-label {
+  padding: 0 15px;
+}
+
+.el-single-addon.seller-information .list-group-item .btn,
+.el-single-addon.seller-information .list-group-item button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+}

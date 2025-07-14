@@ -1,0 +1,14 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"title": "Video",
+	"name": "rtcl/listing-video",
+	"category": "rtcl-single-block",
+	"description": "Listing Video block description",
+	"keywords": [
+		"listing",
+		"video",
+		"listing video"
+	],
+	"apiVersion": 2,
+	"textdomain": "rtcl-elementor-builder"
+}

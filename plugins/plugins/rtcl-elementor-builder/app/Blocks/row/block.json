@@ -1,0 +1,9 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "title": "Row",
+  "name": "rtcl/row",
+  "category": "classified-list-gb",
+  "description": "Add row and column layout and displays content in multiple columns",
+  "apiVersion": 2,
+  "textdomain": "rtcl-elementor-builder"
+}

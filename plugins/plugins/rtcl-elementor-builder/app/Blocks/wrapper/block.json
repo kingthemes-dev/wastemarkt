@@ -1,0 +1,9 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "title": "Wrapper",
+  "name": "rtcl/wrapper",
+  "category": "classified-list-gb",
+  "description": "Blocks are displayed in a wrapper",
+  "apiVersion": 2,
+  "textdomain": "rtcl-elementor-builder"
+}

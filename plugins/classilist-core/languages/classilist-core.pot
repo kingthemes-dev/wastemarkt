@@ -1,0 +1,509 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ClassiList Core\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-13 09:32+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.0; wp-5.5"
+
+#: elementor/listing-category-box/class.php:22
+#: elementor/listing-grid/class.php:22
+#: elementor/listing-store-grid/class.php:21
+msgid "1 Col"
+msgstr ""
+
+#: elementor/listing-category-box/class.php:23
+#: elementor/listing-grid/class.php:23
+#: elementor/listing-store-grid/class.php:22
+msgid "2 Col"
+msgstr ""
+
+#: elementor/listing-category-box/class.php:24
+#: elementor/listing-grid/class.php:24
+#: elementor/listing-store-grid/class.php:23
+msgid "3 Col"
+msgstr ""
+
+#: elementor/listing-category-box/class.php:25
+#: elementor/listing-grid/class.php:25
+#: elementor/listing-store-grid/class.php:24
+msgid "4 Col"
+msgstr ""
+
+#: elementor/listing-category-box/class.php:26
+#: elementor/listing-grid/class.php:26
+#: elementor/listing-store-grid/class.php:25
+msgid "6 Col"
+msgstr ""
+
+#: elementor/accordian/class.php:17
+msgid "Accordian"
+msgstr ""
+
+#: elementor/accordian/class.php:32
+msgid "Add as many items as you want"
+msgstr ""
+
+#: elementor/listing-grid/class.php:51 elementor/listing-list/class.php:42
+msgid "All"
+msgstr ""
+
+#: elementor/listing-grid/class.php:34 elementor/listing-list/class.php:25
+msgid "All Categories"
+msgstr ""
+
+#: inc/post-meta.php:84
+msgid "Breadcrumb"
+msgstr ""
+
+#: elementor/cta-2/class.php:80
+msgid "Button 1"
+msgstr ""
+
+#: elementor/cta-2/class.php:106
+msgid "Button 2"
+msgstr ""
+
+#: elementor/cta-2/class.php:91 elementor/cta-2/class.php:117
+msgid "Button Icon"
+msgstr ""
+
+#: elementor/cta-1/class.php:54 elementor/cta-2/class.php:85
+#: elementor/cta-2/class.php:111 elementor/text-button/class.php:44
+msgid "Button Text"
+msgstr ""
+
+#: elementor/cta-1/class.php:60 elementor/cta-2/class.php:97
+#: elementor/cta-2/class.php:123 elementor/text-button/class.php:50
+msgid "Button URL"
+msgstr ""
+
+#: elementor/cta-1/class.php:17
+msgid "Call to Action 1"
+msgstr ""
+
+#: elementor/cta-2/class.php:17
+msgid "Call to Action 2"
+msgstr ""
+
+#: elementor/listing-category-box/class.php:49
+#: elementor/listing-grid/class.php:63 elementor/listing-list/class.php:54
+msgid "Categories"
+msgstr ""
+
+#: elementor/listing-grid/class.php:79 elementor/listing-list/class.php:70
+msgid "Category Name Display"
+msgstr ""
+
+#: elementor/listing-grid/class.php:111 elementor/listing-list/class.php:102
+msgid "Change items on every page load"
+msgstr ""
+
+#. Name of the plugin
+msgid "ClassiList Core"
+msgstr ""
+
+#. Description of the plugin
+msgid "ClassiList Core Plugin for ClassiList Theme"
+msgstr ""
+
+#: elementor/title/class.php:62 elementor/title/class.php:68
+msgid "Color"
+msgstr ""
+
+#: elementor/accordian/class.php:43 elementor/cta-1/class.php:48
+#: elementor/text-button/class.php:38
+msgid "Content"
+msgstr ""
+
+#: elementor/listing-store-grid/class.php:121
+#: elementor/listing-store-grid/class.php:144
+msgid "Counter"
+msgstr ""
+
+#: elementor/listing-grid/class.php:56 elementor/listing-list/class.php:47
+msgid "Custom"
+msgstr ""
+
+#: elementor/info-box/class.php:35
+msgid "Custom Image"
+msgstr ""
+
+#: inc/post-meta.php:48
+msgid "Custom Sidebar"
+msgstr ""
+
+#: elementor/cta-1/class.php:35 elementor/cta-2/class.php:58
+msgid "Dark Background"
+msgstr ""
+
+#: elementor/listing-grid/class.php:130 elementor/listing-list/class.php:121
+#: elementor/listing-store-grid/class.php:50
+msgid "Date (Recents comes first)"
+msgstr ""
+
+#: inc/post-meta.php:27 inc/post-meta.php:28 inc/post-meta.php:40
+#: inc/post-meta.php:57 inc/post-meta.php:67 inc/post-meta.php:77
+#: inc/post-meta.php:87
+msgid "Default"
+msgstr ""
+
+#: elementor/listing-category-box/class.php:93
+#: elementor/listing-grid/class.php:162
+#: elementor/listing-store-grid/class.php:69
+msgid "Desktops: >1199px"
+msgstr ""
+
+#: elementor/listing-category-box/class.php:100
+#: elementor/listing-grid/class.php:169
+#: elementor/listing-store-grid/class.php:76
+msgid "Desktops: >991px"
+msgstr ""
+
+#: inc/post-meta.php:59 inc/post-meta.php:89
+msgid "Disable"
+msgstr ""
+
+#: inc/post-meta.php:79
+msgid "Disabled"
+msgstr ""
+
+#: inc/post-meta.php:58 inc/post-meta.php:88
+msgid "Enable"
+msgstr ""
+
+#: inc/post-meta.php:78
+msgid "Enabled"
+msgstr ""
+
+#: elementor/listing-grid/class.php:52 elementor/listing-list/class.php:43
+msgid "Featured"
+msgstr ""
+
+#: elementor/title/class.php:56
+msgid "Font size in px number eg. 16"
+msgstr ""
+
+#: elementor/title/class.php:47
+msgid "Font size in px number eg. 36"
+msgstr ""
+
+#: inc/post-meta.php:41
+msgid "Full Width"
+msgstr ""
+
+#: elementor/accordian/class.php:27 elementor/cta-1/class.php:27
+#: elementor/cta-2/class.php:50 elementor/google-map/class.php:27
+#: elementor/info-box/class.php:27 elementor/listing-category-box/class.php:44
+#: elementor/listing-grid/class.php:44 elementor/listing-list/class.php:35
+#: elementor/listing-store-grid/class.php:36 elementor/text-button/class.php:27
+#: elementor/title/class.php:27
+msgid "General"
+msgstr ""
+
+#: elementor/google-map/class.php:17
+msgid "Google Map"
+msgstr ""
+
+#: elementor/google-map/class.php:32
+msgid "Google Map Code"
+msgstr ""
+
+#: inc/post-meta.php:64
+msgid "Header Layout"
+msgstr ""
+
+#: inc/post-meta.php:74
+msgid "Header Search"
+msgstr ""
+
+#: elementor/google-map/class.php:39
+msgid "Height"
+msgstr ""
+
+#: elementor/listing-category-box/class.php:61
+msgid "Hide Categories that has no listings. Default: On"
+msgstr ""
+
+#: elementor/listing-category-box/class.php:57
+msgid "Hide Empty"
+msgstr ""
+
+#: inc/demo-importer.php:42
+msgid "Home 1"
+msgstr ""
+
+#: inc/demo-importer.php:47
+msgid "Home 2"
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.radiustheme.com"
+msgstr ""
+
+#: elementor/info-box/class.php:34 elementor/info-box/class.php:42
+#: elementor/listing-category-box/class.php:66
+msgid "Icon"
+msgstr ""
+
+#: elementor/info-box/class.php:32
+msgid "Icon Type"
+msgstr ""
+
+#: elementor/info-box/class.php:49
+msgid "Image"
+msgstr ""
+
+#: elementor/info-box/class.php:17
+msgid "Info Box"
+msgstr ""
+
+#: inc/demo-importer.php:27
+msgid "Install Demo Contents"
+msgstr ""
+
+#: elementor/listing-grid/class.php:49 elementor/listing-list/class.php:40
+msgid "Items to Show"
+msgstr ""
+
+#: inc/post-meta.php:37
+msgid "Layout"
+msgstr ""
+
+#: inc/post-meta.php:68
+msgid "Layout 1"
+msgstr ""
+
+#: inc/post-meta.php:69
+msgid "Layout 2"
+msgstr ""
+
+#: inc/post-meta.php:30
+msgid "Layout Settings"
+msgstr ""
+
+#: inc/post-meta.php:33
+msgid "Layouts"
+msgstr ""
+
+#: inc/post-meta.php:42
+msgid "Left Sidebar"
+msgstr ""
+
+#: elementor/cta-1/class.php:34 elementor/cta-2/class.php:57
+msgid "Light Background"
+msgstr ""
+
+#: elementor/info-box/class.php:62
+msgid "Link (Optional)"
+msgstr ""
+
+#: elementor/listing-category-box/class.php:18
+msgid "Listing Category Box"
+msgstr ""
+
+#: elementor/listing-category-box/class.php:75
+msgid "Listing Counts"
+msgstr ""
+
+#: elementor/listing-grid/class.php:18
+msgid "Listing Grid"
+msgstr ""
+
+#: elementor/listing-grid/class.php:103 elementor/listing-list/class.php:94
+msgid "Listing ID's, seperated by commas"
+msgstr ""
+
+#: elementor/listing-list/class.php:18
+msgid "Listing List"
+msgstr ""
+
+#: elementor/listing-search/class.php:18
+msgid "Listing Search"
+msgstr ""
+
+#: elementor/listing-store-grid/class.php:17
+msgid "Listing Store Grid"
+msgstr ""
+
+#: elementor/listing-grid/class.php:53 elementor/listing-list/class.php:44
+msgid "New"
+msgstr ""
+
+#: elementor/listing-store-grid/view.php:15
+#, php-format
+msgctxt "Number of Ads"
+msgid "%s ad"
+msgid_plural "%s ads"
+msgstr[0] ""
+msgstr[1] ""
+
+#: elementor/listing-grid/class.php:87 elementor/listing-list/class.php:78
+#: elementor/listing-store-grid/class.php:41
+msgid "Number of Items"
+msgstr ""
+
+#: elementor/listing-category-box/class.php:88
+#: elementor/listing-grid/class.php:157
+#: elementor/listing-store-grid/class.php:64
+msgid "Number of Responsive Columns"
+msgstr ""
+
+#: elementor/listing-category-box/class.php:59
+#: elementor/listing-category-box/class.php:68
+#: elementor/listing-category-box/class.php:77
+#: elementor/listing-grid/class.php:81 elementor/listing-grid/class.php:113
+#: elementor/listing-list/class.php:72 elementor/listing-list/class.php:104
+msgid "Off"
+msgstr ""
+
+#: elementor/listing-category-box/class.php:58
+#: elementor/listing-category-box/class.php:67
+#: elementor/listing-category-box/class.php:76
+#: elementor/listing-grid/class.php:80 elementor/listing-grid/class.php:112
+#: elementor/listing-list/class.php:71 elementor/listing-list/class.php:103
+msgid "On"
+msgstr ""
+
+#: elementor/listing-grid/class.php:128 elementor/listing-list/class.php:119
+#: elementor/listing-store-grid/class.php:48
+msgid "Order By"
+msgstr ""
+
+#: elementor/listing-category-box/class.php:114
+#: elementor/listing-grid/class.php:183
+#: elementor/listing-store-grid/class.php:90
+msgid "Phones: >575px"
+msgstr ""
+
+#: elementor/listing-grid/class.php:54 elementor/listing-list/class.php:45
+msgid "Popular"
+msgstr ""
+
+#: elementor/listing-grid/class.php:106 elementor/listing-list/class.php:97
+msgid "Put the comma seperated ID's here eg. 23,26,89"
+msgstr ""
+
+#. Author of the plugin
+msgid "RadiusTheme"
+msgstr ""
+
+#: elementor/init.php:77
+msgid "RadiusTheme Elements"
+msgstr ""
+
+#: elementor/info-box/class.php:51
+msgid "Recommended image size is 160x160 px"
+msgstr ""
+
+#: inc/post-meta.php:43
+msgid "Right Sidebar"
+msgstr ""
+
+#: elementor/title/class.php:17
+msgid "Section Title"
+msgstr ""
+
+#: elementor/listing-category-box/class.php:70
+msgid "Show or Hide Category Icons/Images. Default: On"
+msgstr ""
+
+#: elementor/listing-category-box/class.php:79
+msgid "Show or Hide Listing Counts. Default: On"
+msgstr ""
+
+#: elementor/listing-category-box/class.php:121
+#: elementor/listing-grid/class.php:190
+#: elementor/listing-store-grid/class.php:97
+msgid "Small Phones: <576px"
+msgstr ""
+
+#: elementor/listing-category-box/class.php:52
+msgid ""
+"Start typing category names. If empty then all parent categories will be "
+"displayed"
+msgstr ""
+
+#: elementor/listing-store-grid/class.php:110
+msgid "Style"
+msgstr ""
+
+#: elementor/cta-2/class.php:71 elementor/title/class.php:38
+msgid "Subtitle"
+msgstr ""
+
+#: elementor/title/class.php:54
+msgid "Subtitle Font Size"
+msgstr ""
+
+#: elementor/listing-category-box/class.php:107
+#: elementor/listing-grid/class.php:176
+#: elementor/listing-store-grid/class.php:83
+msgid "Tablets: >767px"
+msgstr ""
+
+#: elementor/text-button/class.php:17
+msgid "Text With Button"
+msgstr ""
+
+#: elementor/cta-1/class.php:32 elementor/cta-2/class.php:55
+msgid "Theme"
+msgstr ""
+
+#: elementor/accordian/class.php:37 elementor/cta-1/class.php:42
+#: elementor/cta-2/class.php:65 elementor/info-box/class.php:56
+#: elementor/listing-grid/class.php:131 elementor/listing-list/class.php:122
+#: elementor/listing-store-grid/class.php:51
+#: elementor/listing-store-grid/class.php:115
+#: elementor/listing-store-grid/class.php:137
+#: elementor/text-button/class.php:32 elementor/title/class.php:32
+msgid "Title"
+msgstr ""
+
+#: elementor/title/class.php:45
+msgid "Title Font Size"
+msgstr ""
+
+#: elementor/google-map/class.php:34
+#, php-format
+msgid ""
+"To create your own google map, follow the steps below:<br/>Step 1: Visit "
+"%s<br/>Step 2: Search for a location using the search bar of the top-left "
+"corner<br/>Step 3: After you find the location, click on the \"Share\" icon "
+"from the left panel<br/>Step 4: A popup will come up. From there go to the "
+"\"Embed map\" tab. You will find your Google Map code. Copy and paste this "
+"code in here"
+msgstr ""
+
+#: elementor/listing-grid/class.php:55 elementor/listing-list/class.php:46
+msgid "Top"
+msgstr ""
+
+#: inc/post-meta.php:54
+msgid "Top Bar"
+msgstr ""
+
+#: elementor/listing-store-grid/class.php:131
+msgid "Typography"
+msgstr ""
+
+#: inc/demo-importer.php:34
+msgid ""
+"Warning: All your old data will be lost if you install One Click demo data "
+"from here, so it is suitable only for a new website."
+msgstr ""
+
+#: elementor/listing-grid/class.php:89 elementor/listing-list/class.php:80
+#: elementor/listing-store-grid/class.php:43
+msgid "Write -1 to show all"
+msgstr ""

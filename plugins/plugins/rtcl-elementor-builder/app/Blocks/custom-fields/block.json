@@ -1,0 +1,14 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "title": "Custom Fields",
+  "name": "rtcl/custom-fields",
+  "category": "rtcl-single-block",
+  "description": "Custom fields block description",
+  "keywords": [
+	"listing",
+	"Custom",
+	"Custom fields"
+   ],
+  "apiVersion": 2,
+  "textdomain": "rtcl-elementor-builder"
+}

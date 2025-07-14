@@ -1,0 +1,725 @@
+# Copyright (C) 2025 Classified Listing - Marketplace
+# This file is distributed under the same license as the Classified Listing - Marketplace package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Classified Listing - Marketplace\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-05-15 03:58+0000\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../app/Admin/AdminHooks.php:33, ../app/Admin/AdminHooks.php:34
+msgid "Commission"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:43, ../app/Admin/AdminHooks.php:44
+msgid "Payouts"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:58
+msgid "All Commission"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:129
+msgid "All Payout Request"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:83
+msgid "Payout request from"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:91, ../templates/myaccount/seller-orders.php:34, ../templates/myaccount/seller-payout.php:75
+msgid "Status"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:102
+msgid "Update Status"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:113
+msgid "Amount: "
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:117
+msgid "Method: "
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:121
+msgid "Information: "
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:150, ../app/Admin/AdminHooks.php:243, ../app/Admin/AdminHooks.php:260, ../templates/listing-form/marketplace.php:51
+msgid "Marketplace"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:261, ../app/Admin/AdminHooks.php:290, ../app/Admin/AdminHooks.php:296, ../app/Admin/AdminHooks.php:358, ../app/Admin/AdminHooks.php:450, ../app/Admin/AdminHooks.php:456
+msgid "Enable"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:263
+msgid "Enable marketplace option."
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:266
+msgid "Select Categories"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:269
+msgid "Enable marketplace only for specific categories."
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:272
+msgid "Select categories"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:284
+msgid "Listing Archive options"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:289, ../app/Admin/AdminHooks.php:327
+msgid "Add to cart button"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:291
+msgid "Enable add to cart button in listing archive page."
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:295, ../app/Admin/AdminHooks.php:333
+msgid "Quantity field"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:297
+msgid "Enable quantity field in listing archive page."
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:309, ../app/Admin/AdminHooks.php:339
+msgid "Add to cart button text"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:311, ../app/Admin/AdminHooks.php:341, ../app/Helpers/Functions.php:62
+msgid "Buy Now"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:322
+msgid "Listing details options"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:328, ../app/Admin/AdminHooks.php:334
+msgid "Disable"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:329
+msgid "Disable add to cart button in details page."
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:335
+msgid "Disable quantity field in details page."
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:352
+msgid "Commission & Payout"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:357
+msgid "Enable payout & commission"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:362
+msgid "Commission Rate"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:364
+msgid "Add commission rate in %"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:367
+msgid "Minimum payout amount"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:369
+msgid "User able to send payout request if earn the amount minimum"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:372
+msgid "Allow payout method for seller amount withdraw"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:378, ../app/Helpers/Functions.php:553
+msgid "Direct Bank Transfer"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:391, ../app/Admin/AdminHooks.php:413, ../app/Admin/AdminHooks.php:435
+msgid "Title"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:392
+msgid "Direct bank transfer"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:396, ../app/Admin/AdminHooks.php:418, ../app/Admin/AdminHooks.php:440
+msgid "Description"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:400, ../app/Admin/AdminHooks.php:414, ../app/Helpers/Functions.php:554
+msgid "Paypal"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:422, ../app/Admin/AdminHooks.php:436
+msgid "Offline"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:444
+msgid "Other options"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:449, ../templates/listing-form/marketplace.php:58
+msgid "Stock management"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:451, ../app/Admin/AdminHooks.php:457
+msgid "Manage stock for listings."
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:455
+msgid "Downloadable Product"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:462
+msgid "My Download Endpoint"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:467
+msgid "Orders Endpoint"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:472
+msgid "Payout Endpoint"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:477
+msgid "Maximum Download File Size"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:480
+msgid "Enter maximum file size by KB (1024 KB equal 1MB)"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:483
+msgid "Allow File format for downloadable porduct"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:487
+msgid "PDF (.pdf)"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:488
+msgid "Text (.txt)"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:489
+msgid "Image (.jpeg)"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:490
+msgid "Image (.jpg)"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:491
+msgid "Image (.png)"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:492
+msgid "Video (.mp4)"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:493
+msgid "Audio (.mp3)"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:521
+msgid "Marketplace license key"
+msgstr ""
+
+#: ../app/Emails/ListingOwnerOrderEmail.php:31
+msgid "[{site_title}] New customer order ({order_number}) - {order_date}"
+msgstr ""
+
+#: ../app/Emails/ListingOwnerOrderEmail.php:40
+msgid "New Customer Order: #{order_number}"
+msgstr ""
+
+#: ../app/Emails/OrderNoteEmail.php:32
+msgid "[{site_title}] A note has been added to order"
+msgstr ""
+
+#: ../app/Emails/OrderNoteEmail.php:41
+msgid "New note from: {seller_name}"
+msgstr ""
+
+#: ../app/Emails/PayoutPaidEmail.php:31
+msgid "[{site_title}] Payment sent"
+msgstr ""
+
+#: ../app/Emails/PayoutPaidEmail.php:40
+msgid "Your payment has been cleared"
+msgstr ""
+
+#: ../app/Emails/PayoutRequestEmail.php:31
+msgid "[{site_title}] Payout request from {seller_name}"
+msgstr ""
+
+#: ../app/Emails/PayoutRequestEmail.php:40
+msgid "Payout request from: {seller_name}"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:60
+msgid "Add to cart"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:214
+msgid "Order not found"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:450
+msgid "Please, enter description."
+msgstr ""
+
+#: ../app/Helpers/Functions.php:446
+msgid "Added payout method successfully."
+msgstr ""
+
+#: ../app/Helpers/Functions.php:443
+msgid "Error to insert information."
+msgstr ""
+
+#: ../app/Helpers/Functions.php:432
+msgid "Updated payout method successfully."
+msgstr ""
+
+#: ../app/Helpers/Functions.php:429
+msgid "Error during update information."
+msgstr ""
+
+#: ../app/Helpers/Functions.php:504
+msgid "Something wrong!."
+msgstr ""
+
+#: ../app/Helpers/Functions.php:508
+msgid "Updated payout status successfully."
+msgstr ""
+
+#: ../app/Helpers/Functions.php:555
+msgid "Offline Payment"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:577
+msgid "Processing"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:578
+msgid "On hold"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:579
+msgid "Pending"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:580
+msgid "Paid"
+msgstr ""
+
+#: ../app/Hooks/ActionHooks.php:90
+msgid "Enter email"
+msgstr ""
+
+#: ../app/Hooks/ActionHooks.php:101, ../templates/myaccount/seller-payout.php:40
+msgid "Set payout method"
+msgstr ""
+
+#: ../app/Hooks/ActionHooks.php:321
+msgid "Parent order: "
+msgstr ""
+
+#: ../app/Hooks/ActionHooks.php:308
+msgid "Sub order: "
+msgstr ""
+
+#: ../app/Hooks/ActionHooks.php:368
+msgid "You need to be logged in to see your purchased products."
+msgstr ""
+
+#: ../app/Hooks/ActionHooks.php:380
+msgid "You have not purchased any products yet."
+msgstr ""
+
+#: ../app/Hooks/ActionHooks.php:684
+msgid "See Ad"
+msgstr ""
+
+#: ../app/Hooks/AjaxHooks.php:22, ../app/Hooks/AjaxHooks.php:69, ../app/Hooks/AjaxHooks.php:102
+msgid "Session expired!!"
+msgstr ""
+
+#: ../app/Hooks/AjaxHooks.php:33, ../app/Hooks/AjaxHooks.php:113
+msgid "Unauthorized access!!"
+msgstr ""
+
+#: ../app/Hooks/AjaxHooks.php:55
+msgid "Added note successfully!"
+msgstr ""
+
+#: ../app/Hooks/AjaxHooks.php:81
+msgid "Access denied!!"
+msgstr ""
+
+#: ../app/Hooks/AjaxHooks.php:125
+msgid "You have less amount!!"
+msgstr ""
+
+#: ../app/Hooks/AjaxHooks.php:136
+msgid "Please, set payout method!!"
+msgstr ""
+
+#: ../app/Hooks/AjaxHooks.php:145
+msgid "Please, set payout information properly."
+msgstr ""
+
+#: ../app/Hooks/AjaxHooks.php:153
+msgid "Error to insert data!!"
+msgstr ""
+
+#: ../app/Hooks/AjaxHooks.php:157
+msgid "Added withdraw request successfully."
+msgstr ""
+
+#: ../app/Hooks/FilterHooks.php:60
+msgid "Listing owner order email"
+msgstr ""
+
+#: ../app/Hooks/FilterHooks.php:61
+msgid "Payout paid email to seller"
+msgstr ""
+
+#: ../app/Hooks/FilterHooks.php:72
+msgid "Payout request email to admin"
+msgstr ""
+
+#: ../app/Hooks/FilterHooks.php:108
+msgid "Orders"
+msgstr ""
+
+#: ../app/Hooks/FilterHooks.php:109
+msgid "Payout"
+msgstr ""
+
+#: ../app/Hooks/FilterHooks.php:186
+msgid "My Download"
+msgstr ""
+
+#: ../app/Hooks/FilterHooks.php:236
+msgid "Cant have more than %1$s x %2$s in cart."
+msgstr ""
+
+#: ../app/Models/CommissionTable.php:25
+msgid "# Order"
+msgstr ""
+
+#: ../app/Models/CommissionTable.php:26, ../templates/myaccount/seller-orders.php:31
+msgid "Total"
+msgstr ""
+
+#: ../app/Models/CommissionTable.php:27
+msgid "Payable"
+msgstr ""
+
+#: ../app/Models/CommissionTable.php:28
+msgid "My Earning"
+msgstr ""
+
+#: ../app/Models/CommissionTable.php:29, ../templates/myaccount/seller-orders.php:33, ../templates/myaccount/seller-payout.php:71
+msgid "Date"
+msgstr ""
+
+#: ../app/Models/CommissionTable.php:30
+msgid "Order Status"
+msgstr ""
+
+#: ../app/Models/DataStore.php:15
+msgid "Invalid product."
+msgstr ""
+
+#: ../app/Models/Dependencies.php:93
+msgid "and"
+msgstr ""
+
+#: ../app/Models/Dependencies.php:106
+msgid "<strong>Classified Listing - Marketplace</strong> is enabled but not effective. It requires %s in order to work."
+msgstr ""
+
+#: ../app/Models/PayoutTable.php:28
+msgid "Seller"
+msgstr ""
+
+#: ../app/Models/PayoutTable.php:29, ../templates/myaccount/seller-payout.php:72
+msgid "Amount"
+msgstr ""
+
+#: ../app/Models/PayoutTable.php:30
+msgid "Request Date"
+msgstr ""
+
+#: ../app/Models/PayoutTable.php:31, ../templates/myaccount/seller-payout.php:74
+msgid "Paid Date"
+msgstr ""
+
+#: ../app/Models/PayoutTable.php:32, ../templates/myaccount/seller-payout.php:73
+msgid "Payout Method"
+msgstr ""
+
+#: ../app/Models/PayoutTable.php:33
+msgid "Payout Status"
+msgstr ""
+
+#. translators: 1) order formatted billing full name
+#: ../templates/emails/listing-order-email-to-owner.php:31
+msgid "You have received an order from %s."
+msgstr ""
+
+#. translators: %s: Order ID.
+#: ../templates/emails/listing-order-email-to-owner.php:40
+msgid "[Order #%s]"
+msgstr ""
+
+#: ../templates/emails/listing-order-email-to-owner.php:49
+msgid "Product"
+msgstr ""
+
+#: ../templates/emails/listing-order-email-to-owner.php:50, ../templates/listing-form/marketplace.php:73
+msgid "Quantity"
+msgstr ""
+
+#: ../templates/emails/listing-order-email-to-owner.php:51
+msgid "Price"
+msgstr ""
+
+#: ../templates/emails/listing-order-email-to-owner.php:138
+msgid "Note:"
+msgstr ""
+
+#: ../templates/emails/payout-paid-email-to-seller.php:21
+msgid "Hi %s,"
+msgstr ""
+
+#: ../templates/emails/payout-paid-email-to-seller.php:22
+msgid "You’ve received a payment %s"
+msgstr ""
+
+#: ../templates/emails/payout-request-email-to-admin.php:21, ../templates/emails/vendor-note-email-to-admin.php:22
+msgid "Hi Administrator,"
+msgstr ""
+
+#: ../templates/emails/payout-request-email-to-admin.php:22
+msgid "You’ve received a payout request from %s for %s"
+msgstr ""
+
+#: ../templates/emails/vendor-note-email-to-admin.php:23
+msgid "The following note has been added to sub-order %s%s"
+msgstr ""
+
+#: ../templates/emails/vendor-note-email-to-admin.php:24
+msgid " which main order is %s"
+msgstr ""
+
+#: ../templates/listing-form/marketplace.php:65
+msgid "Track stock quantity for this item."
+msgstr ""
+
+#: ../templates/listing-form/marketplace.php:91
+msgid "Downloadable"
+msgstr ""
+
+#: ../templates/listing-form/marketplace.php:98
+msgid "Enable Download Products"
+msgstr ""
+
+#: ../templates/listing-form/marketplace.php:104
+msgid "Downloadable files"
+msgstr ""
+
+#: ../templates/listing-form/marketplace.php:109
+msgid "Name"
+msgstr ""
+
+#: ../templates/listing-form/marketplace.php:110
+msgid "File URL"
+msgstr ""
+
+#: ../templates/listing-form/marketplace.php:152, ../templates/listing-form/marketplace.php:125
+msgid "File name"
+msgstr ""
+
+#: ../templates/listing-form/marketplace.php:157, ../templates/listing-form/marketplace.php:130
+msgid "http://"
+msgstr ""
+
+#: ../templates/listing-form/marketplace.php:161, ../templates/listing-form/marketplace.php:134
+msgid "Choose file"
+msgstr ""
+
+#: ../templates/listing-form/marketplace.php:167, ../templates/listing-form/marketplace.php:140
+msgid "Delete"
+msgstr ""
+
+#: ../templates/listing-form/marketplace.php:179
+msgid "Add File"
+msgstr ""
+
+#: ../templates/myaccount/my-download.php:32
+msgid "Product Name"
+msgstr ""
+
+#: ../templates/myaccount/my-download.php:33
+msgid "File Name"
+msgstr ""
+
+#: ../templates/myaccount/my-download.php:34, ../templates/myaccount/my-download.php:55
+msgid "Download"
+msgstr ""
+
+#: ../templates/myaccount/my-download.php:73
+msgid "There is nothing to download."
+msgstr ""
+
+#: ../templates/myaccount/payout-method.php:19
+msgid "Select payout method"
+msgstr ""
+
+#: ../templates/myaccount/seller-orders-details.php:184
+msgid "No data found."
+msgstr ""
+
+#: ../templates/myaccount/seller-orders-details.php:29
+msgid "Order #%1$s was placed on %2$s and is currently %3$s."
+msgstr ""
+
+#: ../templates/myaccount/seller-orders-details.php:39
+msgid "Order details"
+msgstr ""
+
+#: ../templates/myaccount/seller-orders-details.php:96
+msgid "Billing Address"
+msgstr ""
+
+#: ../templates/myaccount/seller-orders-details.php:102
+msgid "No billing address set."
+msgstr ""
+
+#: ../templates/myaccount/seller-orders-details.php:108
+msgid "Shipping Address"
+msgstr ""
+
+#: ../templates/myaccount/seller-orders-details.php:114
+msgid "No shipping address set."
+msgstr ""
+
+#: ../templates/myaccount/seller-orders-details.php:120
+msgid "Order Notes"
+msgstr ""
+
+#: ../templates/myaccount/seller-orders-details.php:148
+msgid "Added %s ago"
+msgstr ""
+
+#: ../templates/myaccount/seller-orders-details.php:162, ../templates/myaccount/seller-orders-details.php:175
+msgid "Add Note"
+msgstr ""
+
+#: ../templates/myaccount/seller-orders-details.php:169
+msgid "Note to Customer"
+msgstr ""
+
+#: ../templates/myaccount/seller-orders-details.php:170
+msgid "Note to Admin"
+msgstr ""
+
+#: ../templates/myaccount/seller-orders.php:76
+msgid "No Results Found."
+msgstr ""
+
+#: ../templates/myaccount/seller-orders.php:25
+msgid "Order History"
+msgstr ""
+
+#: ../templates/myaccount/seller-orders.php:30
+msgid "#"
+msgstr ""
+
+#: ../templates/myaccount/seller-orders.php:32
+msgid "Earning"
+msgstr ""
+
+#: ../templates/myaccount/seller-orders.php:44
+msgid "Order ID:"
+msgstr ""
+
+#: ../templates/myaccount/seller-orders.php:49
+msgid "Total:"
+msgstr ""
+
+#: ../templates/myaccount/seller-orders.php:52
+msgid "Earning:"
+msgstr ""
+
+#: ../templates/myaccount/seller-orders.php:55, ../templates/myaccount/seller-payout.php:82
+msgid "Date:"
+msgstr ""
+
+#: ../templates/myaccount/seller-orders.php:58, ../templates/myaccount/seller-payout.php:94
+msgid "Status:"
+msgstr ""
+
+#: ../templates/myaccount/seller-payout.php:33
+msgid "Selected Payout Method:"
+msgstr ""
+
+#: ../templates/myaccount/seller-payout.php:41
+msgid "Update payout method"
+msgstr ""
+
+#: ../templates/myaccount/seller-payout.php:48
+msgid "Available Balance"
+msgstr ""
+
+#: ../templates/myaccount/seller-payout.php:51
+msgid "Send a withdraw request"
+msgstr ""
+
+#: ../templates/myaccount/seller-payout.php:57
+msgid "Total Earning"
+msgstr ""
+
+#: ../templates/myaccount/seller-payout.php:62
+msgid "Total Withdraw"
+msgstr ""
+
+#: ../templates/myaccount/seller-payout.php:67
+msgid "Withdraw History"
+msgstr ""
+
+#: ../templates/myaccount/seller-payout.php:85
+msgid "Amount:"
+msgstr ""
+
+#: ../templates/myaccount/seller-payout.php:88
+msgid "Payout Method:"
+msgstr ""
+
+#: ../templates/myaccount/seller-payout.php:91
+msgid "Paid Date:"
+msgstr ""

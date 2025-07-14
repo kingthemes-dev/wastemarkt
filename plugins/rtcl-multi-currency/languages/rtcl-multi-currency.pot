@@ -1,0 +1,194 @@
+# Copyright (C) 2024 Classified Listing - Multi Currency
+# This file is distributed under the same license as the Classified Listing - Multi Currency package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Classified Listing - Multi Currency\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Transfer-Econdig: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"MIME-Version: 1.0\n"
+"Project-Id-Version: Classified Listing - Multi Currency\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../inc/admin/RtclMc_Admin.php:39
+msgid "Multi Currency plugin license key"
+msgstr ""
+
+#: ../inc/admin/RtclMc_Admin.php:64
+msgid "Settings not found"
+msgstr ""
+
+#: ../inc/admin/RtclMc_Admin.php:206
+msgid "Classified Listing - Multi Currency"
+msgstr ""
+
+#: ../inc/admin/RtclMc_Admin.php:207
+msgid "Multi Currency"
+msgstr ""
+
+#: ../inc/frontend/RtclMc_Frontend_Switcher.php:60
+msgid "Currency changed"
+msgstr ""
+
+#: ../inc/frontend/RtclMc_Frontend_Update.php:128, ../templates/multi-currency/price-currency.php:20
+msgid "Currency"
+msgstr ""
+
+#: ../inc/frontend/RtclMc_Frontend_Update.php:129
+msgid "Rate"
+msgstr ""
+
+#: ../inc/frontend/RtclMc_Frontend_Update.php:146
+msgid "Exchange rate is updated"
+msgstr ""
+
+#: ../inc/frontend/RtclMc_Frontend_Update.php:146
+msgid "You can check at "
+msgstr ""
+
+#: ../inc/helpers/functions.php:40
+msgid "Select one"
+msgstr ""
+
+#: ../inc/helpers/functions.php:41
+msgid "Google Finance"
+msgstr ""
+
+#: ../inc/helpers/functions.php:42
+msgid "Yahoo Finance"
+msgstr ""
+
+#: ../inc/helpers/functions.php:43
+msgid "Cuex"
+msgstr ""
+
+#: ../inc/helpers/functions.php:44
+msgid "Wise (TransferWise)"
+msgstr ""
+
+#: ../inc/helpers/functions.php:52, ../inc/helpers/functions.php:89
+msgid "No"
+msgstr ""
+
+#: ../inc/helpers/functions.php:53
+msgid "30 Minutes"
+msgstr ""
+
+#: ../inc/helpers/functions.php:54
+msgid "1 Hour"
+msgstr ""
+
+#: ../inc/helpers/functions.php:55
+msgid "6 Hours"
+msgstr ""
+
+#: ../inc/helpers/functions.php:56
+msgid "1 Day"
+msgstr ""
+
+#: ../inc/helpers/functions.php:57
+msgid "2 Days"
+msgstr ""
+
+#: ../inc/helpers/functions.php:58
+msgid "3 Days"
+msgstr ""
+
+#: ../inc/helpers/functions.php:59
+msgid "4 Days"
+msgstr ""
+
+#: ../inc/helpers/functions.php:60
+msgid "5 Days"
+msgstr ""
+
+#: ../inc/helpers/functions.php:61
+msgid "6 Days"
+msgstr ""
+
+#: ../inc/helpers/functions.php:62
+msgid "1 Week"
+msgstr ""
+
+#: ../inc/helpers/functions.php:63
+msgid "2 Weeks"
+msgstr ""
+
+#: ../inc/helpers/functions.php:70
+msgid "Default"
+msgstr ""
+
+#: ../inc/helpers/functions.php:71
+msgid "Symbol"
+msgstr ""
+
+#: ../inc/helpers/functions.php:72
+msgid "Flag"
+msgstr ""
+
+#: ../inc/helpers/functions.php:73
+msgid "Flag + Currency code"
+msgstr ""
+
+#: ../inc/helpers/functions.php:74
+msgid "Flag + Currency symbol"
+msgstr ""
+
+#: ../inc/helpers/functions.php:81
+msgid "Left"
+msgstr ""
+
+#: ../inc/helpers/functions.php:82
+msgid "Right"
+msgstr ""
+
+#: ../inc/helpers/functions.php:90
+msgid "Auto select currency"
+msgstr ""
+
+#: ../inc/helpers/functions.php:91
+msgid "Approximate Price"
+msgstr ""
+
+#: ../inc/helpers/functions.php:92
+msgid "Language Polylang"
+msgstr ""
+
+#: ../inc/helpers/functions.php:93
+msgid "TranslatePress Multilingual"
+msgstr ""
+
+#: ../inc/Models/RtclMc_Data.php:68
+msgid "Top - Left"
+msgstr ""
+
+#: ../inc/Models/RtclMc_Data.php:69
+msgid "Top - Right"
+msgstr ""
+
+#: ../inc/Models/RtclMc_Data.php:70
+msgid "Bottom - Left"
+msgstr ""
+
+#: ../inc/Models/RtclMc_Data.php:71
+msgid "Bottom - Right"
+msgstr ""
+
+#: ../inc/Models/RtclMc_Dependencies.php:82
+msgid "and"
+msgstr ""
+
+#: ../inc/Models/RtclMc_Dependencies.php:95
+msgid "<strong>Classified Listing – Multi Currency</strong> is enabled but not effective. It requires %s in order to work."
+msgstr ""
+
+#: ../inc/admin/views/html-admin-settings.php:2
+msgid "Classified listing Multi currency"
+msgstr ""

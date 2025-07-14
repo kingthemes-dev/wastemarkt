@@ -1,0 +1,551 @@
+# Copyright (C) 2025 Classified Listing - Job Manager
+# This file is distributed under the same license as the Classified Listing - Job Manager package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Classified Listing - Job Manager\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-04-07 06:48+0000\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../app/App.php:112
+msgid "Classified Listing - Job Archive Sidebar"
+msgstr ""
+
+#: ../app/App.php:114
+msgid "Add widgets on job archive page"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:39
+msgid "Job Applications"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:58
+msgid "Application Information"
+msgstr ""
+
+#: ../app/Admin/AdminHooks.php:109
+msgid "Job Manager license key"
+msgstr ""
+
+#: ../app/Admin/ApplicationTable.php:44
+msgid "Delete"
+msgstr ""
+
+#: ../app/Admin/ApplicationTable.php:191
+msgid "ID"
+msgstr ""
+
+#: ../app/Admin/ApplicationTable.php:193, ../app/Hooks/AjaxHooks.php:120, ../templates/job/listing/c-fields.php:78
+msgid "Job Title"
+msgstr ""
+
+#: ../app/Admin/ApplicationTable.php:194, ../app/Widgets/JobFilter.php:195
+msgid "Category"
+msgstr ""
+
+#: ../app/Admin/ApplicationTable.php:195, ../app/Admin/Settings.php:346, ../app/Hooks/AjaxHooks.php:145, ../templates/job/application-form.php:128
+msgid "Address"
+msgstr ""
+
+#: ../app/Admin/ApplicationTable.php:196, ../templates/myaccount/my-jobs.php:42
+msgid "Status"
+msgstr ""
+
+#: ../app/Admin/ApplicationTable.php:197, ../templates/myaccount/my-jobs.php:152
+msgid "Application Date"
+msgstr ""
+
+#: ../app/Admin/ApplicationTable.php:284
+msgid "This job is no longer available."
+msgstr ""
+
+#: ../app/Admin/Settings.php:66, ../app/Admin/Settings.php:88
+msgid "Job Manager"
+msgstr ""
+
+#: ../app/Admin/Settings.php:83
+msgid "Job Manager Settings"
+msgstr ""
+
+#: ../app/Admin/Settings.php:89, ../app/Admin/Settings.php:102
+msgid "Enable"
+msgstr ""
+
+#: ../app/Admin/Settings.php:91
+msgid "Enable Job Manager."
+msgstr ""
+
+#: ../app/Admin/Settings.php:95
+msgid "General Settings"
+msgstr ""
+
+#: ../app/Admin/Settings.php:101
+msgid "Separate Job Archive"
+msgstr ""
+
+#: ../app/Admin/Settings.php:105
+msgid "If you're focusing exclusively on job listings, you can skip this field. However, if your site includes various types of listings, be sure to use this field to differentiate job postings from others."
+msgstr ""
+
+#: ../app/Admin/Settings.php:109
+msgid "Job Archive page title"
+msgstr ""
+
+#: ../app/Admin/Settings.php:110
+msgid "Enable Archive page title"
+msgstr ""
+
+#: ../app/Admin/Settings.php:116
+msgid "Breadcrumb?"
+msgstr ""
+
+#: ../app/Admin/Settings.php:117
+msgid "Enable Job Details Breadcrumb"
+msgstr ""
+
+#: ../app/Admin/Settings.php:123
+msgid "User Restriction"
+msgstr ""
+
+#: ../app/Admin/Settings.php:124
+msgid "Only allow registered users to apply"
+msgstr ""
+
+#: ../app/Admin/Settings.php:129
+msgid "Enable top job on the archive page"
+msgstr ""
+
+#: ../app/Admin/Settings.php:130
+msgid "Enable top job"
+msgstr ""
+
+#: ../app/Admin/Settings.php:135
+msgid "Job Details Style"
+msgstr ""
+
+#: ../app/Admin/Settings.php:137
+msgid "With Sidebar"
+msgstr ""
+
+#: ../app/Admin/Settings.php:138
+msgid "No Sidebar"
+msgstr ""
+
+#: ../app/Admin/Settings.php:141
+msgid "You may change job details page style."
+msgstr ""
+
+#: ../app/Admin/Settings.php:143
+msgid "Choose Details Style"
+msgstr ""
+
+#: ../app/Admin/Settings.php:148
+msgid "Sidebar Position"
+msgstr ""
+
+#: ../app/Admin/Settings.php:150
+msgid "Left Sidebar"
+msgstr ""
+
+#: ../app/Admin/Settings.php:151
+msgid "Right Sidebar"
+msgstr ""
+
+#: ../app/Admin/Settings.php:154
+msgid "Select the position of the Job Archive Sidebar. Please choose a widget from the Widgets section to place in the sidebar."
+msgstr ""
+
+#: ../app/Admin/Settings.php:156
+msgid "Choose Job Archive Sidebar"
+msgstr ""
+
+#: ../app/Admin/Settings.php:161
+msgid "Select Job Archive page"
+msgstr ""
+
+#: ../app/Admin/Settings.php:164
+msgid "Choose a page as job archive page."
+msgstr ""
+
+#: ../app/Admin/Settings.php:166
+msgid "Select a page"
+msgstr ""
+
+#: ../app/Admin/Settings.php:171
+msgid "Job Submission Form and Meta Settings"
+msgstr ""
+
+#: ../app/Admin/Settings.php:173
+msgid "To manage job meta fields such as 'External Link' or 'Enable Job Submission' on the listing details page, ensure the relevant fields are configured here. If you modify the Job Form using the form builder, remember to update these field settings accordingly."
+msgstr ""
+
+#: ../app/Admin/Settings.php:186
+msgid "Select Job Submission Form"
+msgstr ""
+
+#: ../app/Admin/Settings.php:189
+msgid "Choose a Form first to select job fields"
+msgstr ""
+
+#: ../app/Admin/Settings.php:190
+msgid "Select a Form"
+msgstr ""
+
+#: ../app/Admin/Settings.php:228
+msgid "These fields are dynamic and are generated by the form builder."
+msgstr ""
+
+#: ../app/Admin/Settings.php:231
+msgid "There is no dropdown/select fields in the form you choose from the above."
+msgstr ""
+
+#: ../app/Admin/Settings.php:235
+msgid "Choose Fields for Search Filter (Archive Page)"
+msgstr ""
+
+#: ../app/Admin/Settings.php:250
+msgid "Job Submission Switch"
+msgstr ""
+
+#: ../app/Admin/Settings.php:252
+msgid "What custom fields from the form-builder will control the Job Submission Form visibility? NB. switch and radio fields are available here."
+msgstr ""
+
+#: ../app/Admin/Settings.php:266
+msgid "External Link"
+msgstr ""
+
+#: ../app/Admin/Settings.php:268
+msgid "As we use a dynamic meta field for job so you need to specify a field as External Link. NB. URL field are available here."
+msgstr ""
+
+#: ../app/Admin/Settings.php:282
+msgid "Apply Now button text"
+msgstr ""
+
+#: ../app/Admin/Settings.php:284
+msgid "Choose a option as \"Apply Now\" button change meta field for job submitter. NB. Text fields are available here."
+msgstr ""
+
+#: ../app/Admin/Settings.php:299
+msgid "Job Application Form Settings"
+msgstr ""
+
+#: ../app/Admin/Settings.php:304
+msgid "Enable Job Application Form"
+msgstr ""
+
+#: ../app/Admin/Settings.php:305
+msgid "You can enable job application from from the job details page."
+msgstr ""
+
+#: ../app/Admin/Settings.php:311, ../app/Hooks/AjaxHooks.php:150, ../templates/job/application-form.php:61
+msgid "Date of Birth"
+msgstr ""
+
+#: ../app/Admin/Settings.php:312
+msgid "Enable Date of Birth field"
+msgstr ""
+
+#: ../app/Admin/Settings.php:318, ../app/Hooks/AjaxHooks.php:156, ../templates/job/application-form.php:83
+msgid "Whatsapp number"
+msgstr ""
+
+#: ../app/Admin/Settings.php:319
+msgid "Enable Whatsapp number field"
+msgstr ""
+
+#: ../app/Admin/Settings.php:325, ../app/Hooks/AjaxHooks.php:84, ../templates/job/application-form.php:95
+msgid "Phone"
+msgstr ""
+
+#: ../app/Admin/Settings.php:326
+msgid "Enable Phone field"
+msgstr ""
+
+#: ../app/Admin/Settings.php:332, ../app/Hooks/AjaxHooks.php:161, ../templates/job/application-form.php:108
+msgid "Website"
+msgstr ""
+
+#: ../app/Admin/Settings.php:333
+msgid "Enable Website field"
+msgstr ""
+
+#: ../app/Admin/Settings.php:339, ../app/Widgets/JobFilter.php:239, ../templates/job/listing/c-fields.php:106
+msgid "Location"
+msgstr ""
+
+#: ../app/Admin/Settings.php:340
+msgid "Enable Location field. Included State, City, Zip"
+msgstr ""
+
+#: ../app/Admin/Settings.php:347
+msgid "Enable Address field"
+msgstr ""
+
+#: ../app/Admin/Settings.php:353, ../app/Hooks/ActionHooks.php:431
+msgid "Social Profile"
+msgstr ""
+
+#: ../app/Admin/Settings.php:354
+msgid "Enable Social Profile field"
+msgstr ""
+
+#: ../app/Admin/Settings.php:360, ../templates/job/application-form.php:141
+msgid "Upload your CV"
+msgstr ""
+
+#: ../app/Admin/Settings.php:361
+msgid "Enable Upload you CV field"
+msgstr ""
+
+#: ../app/Admin/Settings.php:367, ../templates/job/application-form.php:155
+msgid "Cover Letter"
+msgstr ""
+
+#: ../app/Admin/Settings.php:368
+msgid "Enable Cover Letter field"
+msgstr ""
+
+#: ../app/Controller/JobForm.php:89, ../app/Hooks/AjaxHooks.php:292
+msgid "You have already submitted an application for this position."
+msgstr ""
+
+#: ../app/Controller/Scripts.php:47
+msgid "Please enter your name"
+msgstr ""
+
+#: ../app/Controller/Scripts.php:50
+msgid "Please enter your date of birth"
+msgstr ""
+
+#: ../app/Controller/Scripts.php:51
+msgid "You must meet the minimum age requirement (15 years) to apply for this job."
+msgstr ""
+
+#: ../app/Controller/Scripts.php:52
+msgid "You must meet the maximum age requirement (45 years) to apply for this job."
+msgstr ""
+
+#: ../app/Controller/Scripts.php:55
+msgid "Please enter your email address"
+msgstr ""
+
+#: ../app/Controller/Scripts.php:56
+msgid "Please enter a valid email address"
+msgstr ""
+
+#: ../app/Controller/Scripts.php:59
+msgid "Please enter your phone number"
+msgstr ""
+
+#: ../app/Controller/Scripts.php:60
+msgid "Please enter a valid phone number"
+msgstr ""
+
+#: ../app/Controller/Scripts.php:63
+msgid "Please enter a valid website URL"
+msgstr ""
+
+#: ../app/Controller/Scripts.php:66
+msgid "Please upload your CV"
+msgstr ""
+
+#: ../app/Controller/Scripts.php:67
+msgid "Only pdf files are allowed"
+msgstr ""
+
+#: ../app/Hooks/ActionHooks.php:334
+msgid "Select state"
+msgstr ""
+
+#: ../app/Hooks/ActionHooks.php:364, ../app/Hooks/ActionHooks.php:395, ../app/Widgets/JobFilter.php:241
+msgid "Select location"
+msgstr ""
+
+#: ../app/Hooks/ActionHooks.php:413
+msgid "Zip Code"
+msgstr ""
+
+#: ../app/Hooks/AjaxHooks.php:36
+msgid "Select Location"
+msgstr ""
+
+#: ../app/Hooks/AjaxHooks.php:74
+msgid "Name"
+msgstr ""
+
+#: ../app/Hooks/AjaxHooks.php:79
+msgid "Email"
+msgstr ""
+
+#: ../app/Hooks/AjaxHooks.php:89
+msgid "Social"
+msgstr ""
+
+#: ../app/Hooks/AjaxHooks.php:125
+msgid "Job Status"
+msgstr ""
+
+#: ../app/Hooks/AjaxHooks.php:128
+msgid "Change Status"
+msgstr ""
+
+#: ../app/Hooks/AjaxHooks.php:166
+msgid "Cover letter"
+msgstr ""
+
+#: ../app/Hooks/AjaxHooks.php:204
+msgid "Authentication error!!"
+msgstr ""
+
+#: ../app/Hooks/AjaxHooks.php:208, ../app/Hooks/AjaxHooks.php:215
+msgid "You are not authorized to apply for the job."
+msgstr ""
+
+#: ../app/Hooks/AjaxHooks.php:321
+msgid "Your application submitted successfully."
+msgstr ""
+
+#: ../app/Hooks/AjaxHooks.php:317
+msgid "Failed to submit your application into the database."
+msgstr ""
+
+#: ../app/Models/Dependencies.php:75
+msgid "and"
+msgstr ""
+
+#: ../app/Models/Dependencies.php:88
+msgid "<strong>Classified Listing - Job Manager</strong> is enabled but not effective. It requires %s in order to work."
+msgstr ""
+
+#: ../app/Widgets/JobFilter.php:28
+msgid "Classified Listing Job Filter"
+msgstr ""
+
+#: ../app/Widgets/JobFilter.php:31
+msgid "Classified listing job filter widget."
+msgstr ""
+
+#: ../app/Widgets/JobFilter.php:94
+msgid "Apply Filter"
+msgstr ""
+
+#: ../app/Widgets/JobFilter.php:95
+msgid "Reset"
+msgstr ""
+
+#: ../app/Widgets/JobFilter.php:152, ../templates/myaccount/my-jobs.php:40
+msgid "Title"
+msgstr ""
+
+#: ../app/Widgets/JobFilter.php:156
+msgid "Category?"
+msgstr ""
+
+#: ../app/Widgets/JobFilter.php:160
+msgid "Location?"
+msgstr ""
+
+#: ../app/Widgets/JobFilter.php:164
+msgid "Salary?"
+msgstr ""
+
+#: ../app/Widgets/JobFilter.php:168
+msgid "Custom Fields? - Choose available custom fields from Job Settings."
+msgstr ""
+
+#: ../app/Widgets/JobFilter.php:179
+msgid "Filter"
+msgstr ""
+
+#: ../app/Widgets/JobFilter.php:197
+msgid "Select Category"
+msgstr ""
+
+#: ../app/Widgets/JobFilter.php:266
+msgid "Select sub location"
+msgstr ""
+
+#: ../app/Widgets/JobFilter.php:354
+msgid "Search by Salary"
+msgstr ""
+
+#: ../app/Widgets/JobFilter.php:355
+msgid "Minimum salary"
+msgstr ""
+
+#: ../templates/archive-rtcl_job.php:153
+msgid "No Job were found matching your selection."
+msgstr ""
+
+#: ../templates/job/application-form.php:38
+msgid "First Name"
+msgstr ""
+
+#: ../templates/job/application-form.php:49
+msgid "Last Name"
+msgstr ""
+
+#: ../templates/job/application-form.php:72
+msgid "E-mail"
+msgstr ""
+
+#: ../templates/job/application-form.php:114
+msgid "e.g. https://example.com"
+msgstr ""
+
+#: ../templates/job/application-form.php:147
+msgid "Upload only PDF file"
+msgstr ""
+
+#: ../templates/job/application-form.php:168
+msgid "Submit"
+msgstr ""
+
+#: ../templates/myaccount/my-jobs.php:183, ../templates/myaccount/my-jobs.php:27
+msgid "No Application found."
+msgstr ""
+
+#: ../templates/myaccount/my-jobs.php:41
+msgid "Informations"
+msgstr ""
+
+#: ../templates/myaccount/my-jobs.php:127
+msgid "Expire"
+msgstr ""
+
+#: ../templates/myaccount/my-jobs.php:133, ../templates/myaccount/my-jobs.php:169
+msgid "Status:"
+msgstr ""
+
+#: ../templates/myaccount/my-jobs.php:143
+msgid "Information:"
+msgstr ""
+
+#: ../templates/myaccount/my-jobs.php:146
+msgid "Application Id"
+msgstr ""
+
+#: ../templates/myaccount/my-jobs.php:161, ../templates/job/listing/c-fields.php:93
+msgid "Salary"
+msgstr ""
+
+#: ../templates/job/listing/actions.php:62
+msgid "Apply Now"
+msgstr ""
+
+#: ../templates/job/listing/actions.php:75
+msgid "Login to Apply"
+msgstr ""
+
+#: ../templates/job/listing/c-fields.php:58
+msgid "Company Logo"
+msgstr ""

@@ -1,0 +1,14 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"title": "Review",
+	"name": "rtcl/listing-review",
+	"category": "rtcl-single-block",
+	"description": "Listing review block description",
+	"keywords": [
+		"listing",
+		"review",
+		"listing review"
+	],
+	"apiVersion": 2,
+	"textdomain": "rtcl-elementor-builder"
+}

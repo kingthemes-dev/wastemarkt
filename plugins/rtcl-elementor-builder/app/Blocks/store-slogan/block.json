@@ -1,0 +1,14 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"title": "Slogan",
+	"name": "rtcl/store-slogan",
+	"category": "rtcl-store-single-block",
+	"description": "Store slogan block description",
+	"keywords": [
+		"listing",
+		"store",
+		"store slogan"
+	],
+	"apiVersion": 2,
+	"textdomain": "rtcl-elementor-builder"
+}

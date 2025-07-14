@@ -1,0 +1,13 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"title": "Page Header",
+	"name": "rtcl/listing-page-header",
+	"description": "Listing page header block description",
+	"keywords": [
+		"listing",
+		"header",
+		"page header"
+	],
+	"apiVersion": 2,
+	"textdomain": "rtcl-elementor-builder"
+}
